@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-06T20:26:46.870519+00:00",
+  "reaction": "Reaction_001",
+  "product_files": [
+    "reacted_product.mol2",
+    "reacted_product_minimized.mol2"
+  ],
+  "atoms": {
+    "28": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "1:28",
+        "roles": [
+          "transfer_hydrogen"
+        ]
+      }
+    ],
+    "8": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "1:8",
+        "roles": [
+          "nucleophile"
+        ]
+      }
+    ],
+    "64": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "2:35",
+        "roles": [
+          "oxygen"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "2:41",
+        "roles": [
+          "electrophile"
+        ]
+      }
+    ]
+  }
+}

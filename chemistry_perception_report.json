@@ -1,0 +1,1543 @@
+{
+  "schema_version": 1,
+  "rdkit_version": "2025.09.3",
+  "library": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/Reaction_generation/Automated_Reaction_Workflow/chemistry_library.json",
+  "monomers": [
+    {
+      "number": 1,
+      "path": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/Reaction_generation/Automated_Reaction_Workflow/detda.mol2",
+      "name": "detda.mol2",
+      "atom_count": 31,
+      "bond_count": 31,
+      "formal_charge": 0,
+      "matches": [
+        {
+          "group_id": "primary_amine",
+          "group_name": "Primary amine",
+          "match_number": 1,
+          "atom_ids": [
+            5
+          ],
+          "reactive_atoms": {
+            "nucleophile": [
+              5
+            ],
+            "transfer_hydrogen": [
+              10,
+              24
+            ]
+          },
+          "monomer": 1
+        },
+        {
+          "group_id": "primary_amine",
+          "group_name": "Primary amine",
+          "match_number": 2,
+          "atom_ids": [
+            8
+          ],
+          "reactive_atoms": {
+            "nucleophile": [
+              8
+            ],
+            "transfer_hydrogen": [
+              4,
+              22
+            ]
+          },
+          "monomer": 1
+        }
+      ],
+      "atoms": [
+        {
+          "source_atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 3,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 4,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 5,
+          "element": "N",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 7,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 8,
+          "element": "N",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 10,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 11,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 12,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 3,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 15,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 17,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 3,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 18,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 19,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 20,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 22,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 23,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 24,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 25,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 3,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 27,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 28,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 29,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 30,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 31,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "path": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/Reaction_generation/Automated_Reaction_Workflow/epon862.mol2",
+      "name": "epon862.mol2",
+      "atom_count": 43,
+      "bond_count": 46,
+      "formal_charge": 0,
+      "matches": [
+        {
+          "group_id": "epoxide",
+          "group_name": "Epoxide",
+          "match_number": 1,
+          "atom_ids": [
+            28,
+            30,
+            37
+          ],
+          "reactive_atoms": {
+            "oxygen": [
+              28
+            ],
+            "electrophile": [
+              30,
+              37
+            ]
+          },
+          "monomer": 2
+        },
+        {
+          "group_id": "epoxide",
+          "group_name": "Epoxide",
+          "match_number": 2,
+          "atom_ids": [
+            34,
+            31,
+            42
+          ],
+          "reactive_atoms": {
+            "oxygen": [
+              34
+            ],
+            "electrophile": [
+              31,
+              42
+            ]
+          },
+          "monomer": 2
+        }
+      ],
+      "atoms": [
+        {
+          "source_atom_id": 1,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 2,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 3,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 4,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 5,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 6,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 7,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 8,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 9,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 10,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 11,
+          "element": "O",
+          "formal_charge": 0,
+          "degree": 2,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 12,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 13,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 14,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 15,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 16,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 17,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 18,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 19,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 20,
+          "element": "O",
+          "formal_charge": 0,
+          "degree": 2,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 21,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 22,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 0,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 23,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 3,
+          "total_hydrogens": 1,
+          "aromatic": true,
+          "hybridization": "SP2"
+        },
+        {
+          "source_atom_id": 24,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 25,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 26,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 27,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 28,
+          "element": "O",
+          "formal_charge": 0,
+          "degree": 2,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 29,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 30,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 1,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 31,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 1,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 32,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 33,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 34,
+          "element": "O",
+          "formal_charge": 0,
+          "degree": 2,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 35,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 36,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 37,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 38,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 39,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 40,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 41,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        },
+        {
+          "source_atom_id": 42,
+          "element": "C",
+          "formal_charge": 0,
+          "degree": 4,
+          "total_hydrogens": 2,
+          "aromatic": false,
+          "hybridization": "SP3"
+        },
+        {
+          "source_atom_id": 43,
+          "element": "H",
+          "formal_charge": 0,
+          "degree": 1,
+          "total_hydrogens": 0,
+          "aromatic": false,
+          "hybridization": "S"
+        }
+      ]
+    }
+  ],
+  "reaction_candidates": [
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:30",
+        "nucleophile": "1:5",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:10"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:30"
+      ],
+      "commands": [
+        "remove 1:5 1:10",
+        "remove 2:28 2:30",
+        "add 1:5 2:30 1",
+        "add 2:28 1:10 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:10",
+        "remove 2:28\u20132:30",
+        "add 1:5\u20132:30 (1)",
+        "add 2:28\u20131:10 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:30",
+        "nucleophile": "1:5",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:24"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:30"
+      ],
+      "commands": [
+        "remove 1:5 1:24",
+        "remove 2:28 2:30",
+        "add 1:5 2:30 1",
+        "add 2:28 1:24 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:24",
+        "remove 2:28\u20132:30",
+        "add 1:5\u20132:30 (1)",
+        "add 2:28\u20131:24 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:37",
+        "nucleophile": "1:5",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:10"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:37"
+      ],
+      "commands": [
+        "remove 1:5 1:10",
+        "remove 2:28 2:37",
+        "add 1:5 2:37 1",
+        "add 2:28 1:10 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:10",
+        "remove 2:28\u20132:37",
+        "add 1:5\u20132:37 (1)",
+        "add 2:28\u20131:10 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:37",
+        "nucleophile": "1:5",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:24"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:37"
+      ],
+      "commands": [
+        "remove 1:5 1:24",
+        "remove 2:28 2:37",
+        "add 1:5 2:37 1",
+        "add 2:28 1:24 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:24",
+        "remove 2:28\u20132:37",
+        "add 1:5\u20132:37 (1)",
+        "add 2:28\u20131:24 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:31",
+        "nucleophile": "1:5",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:10"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:31"
+      ],
+      "commands": [
+        "remove 1:5 1:10",
+        "remove 2:34 2:31",
+        "add 1:5 2:31 1",
+        "add 2:34 1:10 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:10",
+        "remove 2:34\u20132:31",
+        "add 1:5\u20132:31 (1)",
+        "add 2:34\u20131:10 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:31",
+        "nucleophile": "1:5",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:24"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:31"
+      ],
+      "commands": [
+        "remove 1:5 1:24",
+        "remove 2:34 2:31",
+        "add 1:5 2:31 1",
+        "add 2:34 1:24 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:24",
+        "remove 2:34\u20132:31",
+        "add 1:5\u20132:31 (1)",
+        "add 2:34\u20131:24 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:42",
+        "nucleophile": "1:5",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:10"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:42"
+      ],
+      "commands": [
+        "remove 1:5 1:10",
+        "remove 2:34 2:42",
+        "add 1:5 2:42 1",
+        "add 2:34 1:10 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:10",
+        "remove 2:34\u20132:42",
+        "add 1:5\u20132:42 (1)",
+        "add 2:34\u20131:10 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 1,
+          "atom_options": [
+            "1:5"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:42",
+        "nucleophile": "1:5",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:24"
+      },
+      "initiator_source_refs": [
+        "1:5",
+        "2:42"
+      ],
+      "commands": [
+        "remove 1:5 1:24",
+        "remove 2:34 2:42",
+        "add 1:5 2:42 1",
+        "add 2:34 1:24 1"
+      ],
+      "action_summary": [
+        "remove 1:5\u20131:24",
+        "remove 2:34\u20132:42",
+        "add 1:5\u20132:42 (1)",
+        "add 2:34\u20131:24 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:30",
+        "nucleophile": "1:8",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:4"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:30"
+      ],
+      "commands": [
+        "remove 1:8 1:4",
+        "remove 2:28 2:30",
+        "add 1:8 2:30 1",
+        "add 2:28 1:4 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:4",
+        "remove 2:28\u20132:30",
+        "add 1:8\u20132:30 (1)",
+        "add 2:28\u20131:4 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:30",
+        "nucleophile": "1:8",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:22"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:30"
+      ],
+      "commands": [
+        "remove 1:8 1:22",
+        "remove 2:28 2:30",
+        "add 1:8 2:30 1",
+        "add 2:28 1:22 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:22",
+        "remove 2:28\u20132:30",
+        "add 1:8\u20132:30 (1)",
+        "add 2:28\u20131:22 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:37",
+        "nucleophile": "1:8",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:4"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:37"
+      ],
+      "commands": [
+        "remove 1:8 1:4",
+        "remove 2:28 2:37",
+        "add 1:8 2:37 1",
+        "add 2:28 1:4 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:4",
+        "remove 2:28\u20132:37",
+        "add 1:8\u20132:37 (1)",
+        "add 2:28\u20131:4 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 1,
+          "atom_options": [
+            "2:30",
+            "2:37"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:37",
+        "nucleophile": "1:8",
+        "oxygen": "2:28",
+        "transfer_hydrogen": "1:22"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:37"
+      ],
+      "commands": [
+        "remove 1:8 1:22",
+        "remove 2:28 2:37",
+        "add 1:8 2:37 1",
+        "add 2:28 1:22 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:22",
+        "remove 2:28\u20132:37",
+        "add 1:8\u20132:37 (1)",
+        "add 2:28\u20131:22 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:31",
+        "nucleophile": "1:8",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:4"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:31"
+      ],
+      "commands": [
+        "remove 1:8 1:4",
+        "remove 2:34 2:31",
+        "add 1:8 2:31 1",
+        "add 2:34 1:4 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:4",
+        "remove 2:34\u20132:31",
+        "add 1:8\u20132:31 (1)",
+        "add 2:34\u20131:4 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:31",
+        "nucleophile": "1:8",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:22"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:31"
+      ],
+      "commands": [
+        "remove 1:8 1:22",
+        "remove 2:34 2:31",
+        "add 1:8 2:31 1",
+        "add 2:34 1:22 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:22",
+        "remove 2:34\u20132:31",
+        "add 1:8\u20132:31 (1)",
+        "add 2:34\u20131:22 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:42",
+        "nucleophile": "1:8",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:4"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:42"
+      ],
+      "commands": [
+        "remove 1:8 1:4",
+        "remove 2:34 2:42",
+        "add 1:8 2:42 1",
+        "add 2:34 1:4 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:4",
+        "remove 2:34\u20132:42",
+        "add 1:8\u20132:42 (1)",
+        "add 2:34\u20131:4 (1)"
+      ]
+    },
+    {
+      "rule_id": "amine_epoxide_opening",
+      "rule_name": "Amine\u2013epoxide ring opening",
+      "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+      "sites": [
+        {
+          "role": "nucleophile",
+          "group": "Primary amine",
+          "monomer": 1,
+          "match_number": 2,
+          "atom_options": [
+            "1:8"
+          ]
+        },
+        {
+          "role": "electrophile",
+          "group": "Epoxide",
+          "monomer": 2,
+          "match_number": 2,
+          "atom_options": [
+            "2:31",
+            "2:42"
+          ]
+        }
+      ],
+      "role_atoms": {
+        "electrophile": "2:42",
+        "nucleophile": "1:8",
+        "oxygen": "2:34",
+        "transfer_hydrogen": "1:22"
+      },
+      "initiator_source_refs": [
+        "1:8",
+        "2:42"
+      ],
+      "commands": [
+        "remove 1:8 1:22",
+        "remove 2:34 2:42",
+        "add 1:8 2:42 1",
+        "add 2:34 1:22 1"
+      ],
+      "action_summary": [
+        "remove 1:8\u20131:22",
+        "remove 2:34\u20132:42",
+        "add 1:8\u20132:42 (1)",
+        "add 2:34\u20131:22 (1)"
+      ]
+    }
+  ]
+}

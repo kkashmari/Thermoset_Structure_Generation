@@ -1,0 +1,218 @@
+# Reaction-template topology search
+
+- Decision: **new template required**
+- Reason: The complete force-field-typed pre/post fix bond/react topology has not been registered before.
+- Typed template key: `9014ddac09c287db638ea7b908be83876d63cbad615cbe05c91405aa0c501220`
+
+## Library topology changes
+
+- remove 1:8–1:28
+- remove 2:35–2:41
+- add 1:8–2:41 (1)
+- add 2:35–1:28 (1)
+
+## Atom type and charge changes
+
+- Atom 2: `cp` → `c3`; charge +0.24050000 → +0.21080000
+- Atom 5: `np` → `n`; charge -0.89610000 → -0.86110000
+- Atom 6: `cp` → `c3`; charge +0.00000000 → +0.00000000
+- Atom 9: `h*` → `ho`; charge +0.32780000 → +0.42410000
+- Atom 10: `h*` → `h*`; charge +0.32780000 → +0.43950000
+- Atom 11: `n` → `n`; charge -0.42160000 → -0.63240000
+- Atom 14: `c3h` → `c1`; charge +0.08000000 → +0.08000000
+- Atom 17: `o3e` → `oh`; charge -0.26600000 → -0.55710000
+- Atom 18: `c3h` → `c2`; charge +0.02700000 → +0.10480000
+
+## Bonds changes
+
+- Remove [2, 3] type `c1         cp  via equivalence: c-cp`
+- Remove [2, 5] type `cp         np`
+- Remove [2, 7] type `c1         cp  via equivalence: c-cp`
+- Remove [3, 6] type `c1         cp  via equivalence: c-cp`
+- Remove [5, 9] type `h*         np  via equivalence: h_-np_`
+- Remove [5, 10] type `h*         np  via equivalence: h_-np_`
+- Remove [12, 14] type `c2        c3h  via equivalence: c-c`
+- Remove [13, 18] type `c3h       hpan  via equivalence: c-h`
+- Remove [14, 17] type `c3h        o3e  via equivalence: c-o`
+- Remove [14, 18] type `c3h        c3h  via equivalence: c-c`
+- Remove [14, 19] type `c3h       hpan  via equivalence: c-h`
+- Remove [17, 18] type `c3h        o3e  via equivalence: c-o`
+- Remove [18, 20] type `c3h       hpan  via equivalence: c-h`
+- Add [2, 3] type `c1         c3  via equivalence: c-c`
+- Add [2, 5] type `c3          n  via equivalence: c-n`
+- Add [2, 7] type `c1         c3  via equivalence: c-c`
+- Add [3, 6] type `c1         c3  via equivalence: c-c`
+- Add [5, 10] type `h*          n`
+- Add [5, 18] type `c2          n  via equivalence: c-n`
+- Add [9, 17] type `ho         oh  via equivalence: h*-o`
+- Add [12, 14] type `c1         c2  via equivalence: c-c`
+- Add [13, 18] type `c2       hpan  via equivalence: c-h`
+- Add [14, 17] type `c1         oh  via equivalence: c-o`
+- Add [14, 18] type `c1         c2  via equivalence: c-c`
+- Add [14, 19] type `c1       hpan  via equivalence: c-h`
+- Add [18, 20] type `c2       hpan  via equivalence: c-h`
+
+## Angles changes
+
+- Remove [1, 7, 2] type `cp         c1       hpan  via equivalence: cp-c-h`
+- Remove [2, 3, 6] type `cp         c1         cp  via equivalence: cp-c-cp`
+- Remove [2, 3, 8] type `cp         c1       hpan  via equivalence: cp-c-h`
+- Remove [2, 5, 9] type `cp         np         h*  via wildcard: *3-np_-h_`
+- Remove [2, 5, 10] type `cp         np         h*  via wildcard: *3-np_-h_`
+- Remove [2, 7, 4] type `c1         c1         cp  via equivalence: c-c-cp`
+- Remove [3, 2, 5] type `c1         cp         np  via equivalence: c-cp-np`
+- Remove [3, 2, 7] type `c1         cp         c1  via wildcard: *7-cp_-c_`
+- Remove [5, 2, 7] type `c1         cp         np  via equivalence: c-cp-np`
+- Remove [6, 3, 8] type `cp         c1       hpan  via equivalence: cp-c-h`
+- Remove [9, 5, 10] type `h*         np         h*  via wildcard: *3-np_-h_`
+- Remove [11, 12, 14] type `c3h         c2          n  via equivalence: c-c-n`
+- Remove [12, 14, 17] type `c2        c3h        o3e  via equivalence: c-c-o`
+- Remove [12, 14, 18] type `c2        c3h        c3h  via equivalence: c-c-c`
+- Remove [12, 14, 19] type `c2        c3h       hpan  via equivalence: c-c-h`
+- Remove [13, 18, 14] type `c3h        c3h       hpan  via equivalence: c-c-h`
+- Remove [13, 18, 17] type `hpan        c3h        o3e  via equivalence: h-c-o`
+- Remove [13, 18, 20] type `hpan        c3h       hpan  via equivalence: h-c-h`
+- Remove [14, 12, 15] type `c3h         c2       hpan  via equivalence: c-c-h`
+- Remove [14, 12, 16] type `c3h         c2       hpan  via equivalence: c-c-h`
+- Remove [14, 17, 18] type `c3h        o3e        c3h  via equivalence: c-o-c`
+- Remove [14, 18, 17] type `c3h        c3h        o3e  via equivalence: c-c-o`
+- Remove [14, 18, 20] type `c3h        c3h       hpan  via equivalence: c-c-h`
+- Remove [17, 14, 18] type `c3h        c3h        o3e  via equivalence: c-c-o`
+- Remove [17, 14, 19] type `hpan        c3h        o3e  via equivalence: h-c-o`
+- Remove [17, 18, 20] type `hpan        c3h        o3e  via equivalence: h-c-o`
+- Remove [18, 14, 19] type `c3h        c3h       hpan  via equivalence: c-c-h`
+- Add [1, 7, 2] type `c3         c1       hpan  via equivalence: c-c-h`
+- Add [2, 3, 6] type `c3         c1         c3  via equivalence: c-c-c`
+- Add [2, 3, 8] type `c3         c1       hpan  via equivalence: c-c-h`
+- Add [2, 5, 10] type `c3          n         h*  via equivalence: c-n-h*`
+- Add [2, 5, 18] type `c2          n         c3  via equivalence: c-n-c`
+- Add [2, 7, 4] type `c1         c1         c3  via equivalence: c-c-c`
+- Add [3, 2, 5] type `c1         c3          n  via equivalence: c-c-n`
+- Add [3, 2, 7] type `c1         c3         c1  via equivalence: c-c-c`
+- Add [5, 2, 7] type `c1         c3          n  via equivalence: c-c-n`
+- Add [5, 18, 13] type `hpan         c2          n  via equivalence: h-c-n`
+- Add [5, 18, 14] type `c1         c2          n  via equivalence: c-c-n`
+- Add [5, 18, 20] type `hpan         c2          n  via equivalence: h-c-n`
+- Add [6, 3, 8] type `c3         c1       hpan  via equivalence: c-c-h`
+- Add [9, 17, 14] type `c1         oh         ho  via equivalence: c-o-h*`
+- Add [10, 5, 18] type `c2          n         h*  via equivalence: c-n-h*`
+- Add [11, 12, 14] type `c1         c2          n  via equivalence: c-c-n`
+- Add [12, 14, 17] type `c2         c1         oh  via equivalence: c-c-o`
+- Add [12, 14, 18] type `c2         c1         c2  via equivalence: c-c-c`
+- Add [12, 14, 19] type `c2         c1       hpan  via equivalence: c-c-h`
+- Add [13, 18, 14] type `c1         c2       hpan  via equivalence: c-c-h`
+- Add [13, 18, 20] type `hpan         c2       hpan  via equivalence: h-c-h`
+- Add [14, 12, 15] type `c1         c2       hpan  via equivalence: c-c-h`
+- Add [14, 12, 16] type `c1         c2       hpan  via equivalence: c-c-h`
+- Add [14, 18, 20] type `c1         c2       hpan  via equivalence: c-c-h`
+- Add [17, 14, 18] type `c2         c1         oh  via equivalence: c-c-o`
+- Add [17, 14, 19] type `hpan         c1         oh  via equivalence: h-c-o`
+- Add [18, 14, 19] type `c2         c1       hpan  via equivalence: c-c-h`
+
+## Dihedrals changes
+
+- Remove [1, 7, 2, 3] type `c1         cp         c1       hpan  via wildcard: *-c_-cp_-*`
+- Remove [1, 7, 2, 5] type `hpan         c1         cp         np  via equivalence: h-c-cp-np`
+- Remove [3, 2, 5, 9] type `c1         cp         np         h*  via wildcard: *-cp_-np_-h_`
+- Remove [3, 2, 5, 10] type `c1         cp         np         h*  via wildcard: *-cp_-np_-h_`
+- Remove [3, 2, 7, 4] type `c1         c1         cp         c1  via wildcard: *-c_-cp_-*`
+- Remove [4, 7, 2, 5] type `c1         c1         cp         np  via equivalence: c-c-cp-np`
+- Remove [5, 2, 3, 6] type `cp         c1         cp         np  via wildcard: *-c_-cp_-*`
+- Remove [5, 2, 3, 8] type `hpan         c1         cp         np  via equivalence: h-c-cp-np`
+- Remove [6, 3, 2, 7] type `c1         cp         c1         cp  via wildcard: *-c_-cp_-*`
+- Remove [7, 2, 3, 8] type `c1         cp         c1       hpan  via wildcard: *-c_-cp_-*`
+- Remove [7, 2, 5, 9] type `c1         cp         np         h*  via wildcard: *-cp_-np_-h_`
+- Remove [7, 2, 5, 10] type `c1         cp         np         h*  via wildcard: *-cp_-np_-h_`
+- Remove [11, 12, 14, 17] type `n         c2        c3h        o3e  via equivalence: n-c-c-o`
+- Remove [11, 12, 14, 18] type `c3h        c3h         c2          n  via equivalence: c-c-c-n`
+- Remove [11, 12, 14, 19] type `hpan        c3h         c2          n  via equivalence: h-c-c-n`
+- Remove [12, 14, 17, 18] type `c2        c3h        o3e        c3h  via equivalence: c-c-o-c`
+- Remove [12, 14, 18, 13] type `c2        c3h        c3h       hpan  via equivalence: c-c-c-h`
+- Remove [12, 14, 18, 17] type `c2        c3h        c3h        o3e  via equivalence: c-c-c-o`
+- Remove [12, 14, 18, 20] type `c2        c3h        c3h       hpan  via equivalence: c-c-c-h`
+- Remove [13, 18, 14, 17] type `hpan        c3h        c3h        o3e  via equivalence: h-c-c-o`
+- Remove [13, 18, 14, 19] type `hpan        c3h        c3h       hpan  via equivalence: h-c-c-h`
+- Remove [13, 18, 17, 14] type `c3h        o3e        c3h       hpan  via equivalence: h-c-o-c`
+- Remove [14, 17, 18, 20] type `c3h        o3e        c3h       hpan  via equivalence: h-c-o-c`
+- Remove [15, 12, 14, 17] type `hpan         c2        c3h        o3e  via equivalence: h-c-c-o`
+- Remove [15, 12, 14, 18] type `c3h        c3h         c2       hpan  via equivalence: c-c-c-h`
+- Remove [15, 12, 14, 19] type `hpan         c2        c3h       hpan  via equivalence: h-c-c-h`
+- Remove [16, 12, 14, 17] type `hpan         c2        c3h        o3e  via equivalence: h-c-c-o`
+- Remove [16, 12, 14, 18] type `c3h        c3h         c2       hpan  via equivalence: c-c-c-h`
+- Remove [16, 12, 14, 19] type `hpan         c2        c3h       hpan  via equivalence: h-c-c-h`
+- Remove [17, 14, 18, 20] type `hpan        c3h        c3h        o3e  via equivalence: h-c-c-o`
+- Remove [17, 18, 14, 19] type `hpan        c3h        c3h        o3e  via equivalence: h-c-c-o`
+- Remove [18, 17, 14, 19] type `c3h        o3e        c3h       hpan  via equivalence: h-c-o-c`
+- Remove [19, 14, 18, 20] type `hpan        c3h        c3h       hpan  via equivalence: h-c-c-h`
+- Add [1, 7, 2, 3] type `c1         c3         c1       hpan  via equivalence: c-c-c-h`
+- Add [1, 7, 2, 5] type `hpan         c1         c3          n  via equivalence: h-c-c-n`
+- Add [2, 5, 18, 13] type `c3          n         c2       hpan  via equivalence: h-c-n-c`
+- Add [2, 5, 18, 14] type `c1         c2          n         c3  via equivalence: c-c-n-c`
+- Add [2, 5, 18, 20] type `c3          n         c2       hpan  via equivalence: h-c-n-c`
+- Add [3, 2, 5, 10] type `c1         c3          n         h*  via equivalence: c-c-n-h*`
+- Add [3, 2, 5, 18] type `c1         c3          n         c2  via equivalence: c-c-n-c`
+- Add [3, 2, 7, 4] type `c1         c1         c3         c1  via equivalence: c-c-c-c`
+- Add [4, 7, 2, 5] type `c1         c1         c3          n  via equivalence: c-c-c-n`
+- Add [5, 2, 3, 6] type `c3         c1         c3          n  via equivalence: c-c-c-n`
+- Add [5, 2, 3, 8] type `hpan         c1         c3          n  via equivalence: h-c-c-n`
+- Add [5, 18, 14, 12] type `c2         c1         c2          n  via equivalence: c-c-c-n`
+- Add [5, 18, 14, 17] type `n         c2         c1         oh  via equivalence: n-c-c-o`
+- Add [5, 18, 14, 19] type `hpan         c1         c2          n  via equivalence: h-c-c-n`
+- Add [6, 3, 2, 7] type `c1         c3         c1         c3  via equivalence: c-c-c-c`
+- Add [7, 2, 3, 8] type `c1         c3         c1       hpan  via equivalence: c-c-c-h`
+- Add [7, 2, 5, 10] type `c1         c3          n         h*  via equivalence: c-c-n-h*`
+- Add [7, 2, 5, 18] type `c1         c3          n         c2  via equivalence: c-c-n-c`
+- Add [9, 17, 14, 12] type `c2         c1         oh         ho  via equivalence: c-c-o-h*`
+- Add [9, 17, 14, 18] type `c2         c1         oh         ho  via equivalence: c-c-o-h*`
+- Add [9, 17, 14, 19] type `ho         oh         c1       hpan  via equivalence: h-c-o-h*`
+- Add [10, 5, 18, 13] type `h*          n         c2       hpan  via equivalence: h-c-n-h*`
+- Add [10, 5, 18, 14] type `c1         c2          n         h*  via equivalence: c-c-n-h*`
+- Add [10, 5, 18, 20] type `h*          n         c2       hpan  via equivalence: h-c-n-h*`
+- Add [11, 12, 14, 17] type `n         c2         c1         oh  via equivalence: n-c-c-o`
+- Add [11, 12, 14, 18] type `c2         c1         c2          n  via equivalence: c-c-c-n`
+- Add [11, 12, 14, 19] type `hpan         c1         c2          n  via equivalence: h-c-c-n`
+- Add [12, 14, 18, 13] type `c2         c1         c2       hpan  via equivalence: c-c-c-h`
+- Add [12, 14, 18, 20] type `c2         c1         c2       hpan  via equivalence: c-c-c-h`
+- Add [13, 18, 14, 17] type `hpan         c2         c1         oh  via equivalence: h-c-c-o`
+- Add [13, 18, 14, 19] type `hpan         c1         c2       hpan  via equivalence: h-c-c-h`
+- Add [15, 12, 14, 17] type `hpan         c2         c1         oh  via equivalence: h-c-c-o`
+- Add [15, 12, 14, 18] type `c2         c1         c2       hpan  via equivalence: c-c-c-h`
+- Add [15, 12, 14, 19] type `hpan         c1         c2       hpan  via equivalence: h-c-c-h`
+- Add [16, 12, 14, 17] type `hpan         c2         c1         oh  via equivalence: h-c-c-o`
+- Add [16, 12, 14, 18] type `c2         c1         c2       hpan  via equivalence: c-c-c-h`
+- Add [16, 12, 14, 19] type `hpan         c1         c2       hpan  via equivalence: h-c-c-h`
+- Add [17, 14, 18, 20] type `hpan         c2         c1         oh  via equivalence: h-c-c-o`
+- Add [19, 14, 18, 20] type `hpan         c1         c2       hpan  via equivalence: h-c-c-h`
+
+## Impropers changes
+
+- Remove [1, 2, 4, 7] type `c1         c1         cp       hpan  WARNING: zero fallback`
+- Remove [2, 3, 5, 7] type `c1         cp         c1         np  via wildcard: *-cp_-*-*`
+- Remove [2, 3, 6, 8] type `cp         c1         cp       hpan  WARNING: zero fallback`
+- Remove [2, 5, 9, 10] type `cp         np         h*         h*  via wildcard: *-np_-*-*`
+- Remove [11, 12, 14, 15] type `c3h         c2       hpan          n  WARNING: zero fallback`
+- Remove [11, 12, 14, 16] type `c3h         c2       hpan          n  WARNING: zero fallback`
+- Remove [12, 14, 15, 16] type `c3h         c2       hpan       hpan  WARNING: zero fallback`
+- Remove [12, 14, 17, 18] type `c2        c3h        c3h        o3e  WARNING: zero fallback`
+- Remove [12, 14, 17, 19] type `c2        c3h       hpan        o3e  WARNING: zero fallback`
+- Remove [12, 14, 18, 19] type `c2        c3h        c3h       hpan  WARNING: zero fallback`
+- Remove [13, 14, 17, 18] type `c3h        c3h       hpan        o3e  WARNING: zero fallback`
+- Remove [13, 14, 18, 20] type `c3h        c3h       hpan       hpan  WARNING: zero fallback`
+- Remove [13, 17, 18, 20] type `hpan        c3h       hpan        o3e  WARNING: zero fallback`
+- Remove [14, 17, 18, 19] type `c3h        c3h       hpan        o3e  WARNING: zero fallback`
+- Remove [14, 17, 18, 20] type `c3h        c3h       hpan        o3e  WARNING: zero fallback`
+- Add [1, 2, 4, 7] type `c1         c1         c3       hpan  WARNING: zero fallback`
+- Add [2, 3, 5, 7] type `c1         c3         c1          n  WARNING: zero fallback`
+- Add [2, 3, 6, 8] type `c3         c1         c3       hpan  WARNING: zero fallback`
+- Add [2, 5, 10, 18] type `c2          n         c3         h*  via wildcard: *-n_-*-*`
+- Add [5, 13, 14, 18] type `c1         c2       hpan          n  WARNING: zero fallback`
+- Add [5, 13, 18, 20] type `hpan         c2       hpan          n  WARNING: zero fallback`
+- Add [5, 14, 18, 20] type `c1         c2       hpan          n  WARNING: zero fallback`
+- Add [11, 12, 14, 15] type `c1         c2       hpan          n  WARNING: zero fallback`
+- Add [11, 12, 14, 16] type `c1         c2       hpan          n  WARNING: zero fallback`
+- Add [12, 14, 15, 16] type `c1         c2       hpan       hpan  WARNING: zero fallback`
+- Add [12, 14, 17, 18] type `c2         c1         c2         oh  WARNING: zero fallback`
+- Add [12, 14, 17, 19] type `c2         c1       hpan         oh  WARNING: zero fallback`
+- Add [12, 14, 18, 19] type `c2         c1         c2       hpan  WARNING: zero fallback`
+- Add [13, 14, 18, 20] type `c1         c2       hpan       hpan  WARNING: zero fallback`
+- Add [14, 17, 18, 19] type `c2         c1       hpan         oh  WARNING: zero fallback`

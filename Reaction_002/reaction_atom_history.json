@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-06T20:28:19.638421+00:00",
+  "reaction": "Reaction_002",
+  "product_files": [
+    "reacted_product.mol2",
+    "reacted_product_minimized.mol2"
+  ],
+  "atoms": {
+    "28": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "1:28",
+        "roles": [
+          "transfer_hydrogen"
+        ]
+      }
+    ],
+    "8": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "1:8",
+        "roles": [
+          "nucleophile"
+        ]
+      },
+      {
+        "reaction": "Reaction_002",
+        "source_ref": "1:8",
+        "roles": [
+          "nucleophile"
+        ]
+      }
+    ],
+    "64": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "2:35",
+        "roles": [
+          "oxygen"
+        ]
+      }
+    ],
+    "70": [
+      {
+        "reaction": "Reaction_001",
+        "source_ref": "2:41",
+        "roles": [
+          "electrophile"
+        ]
+      }
+    ],
+    "29": [
+      {
+        "reaction": "Reaction_002",
+        "source_ref": "1:29",
+        "roles": [
+          "transfer_hydrogen"
+        ]
+      }
+    ],
+    "124": [
+      {
+        "reaction": "Reaction_002",
+        "source_ref": "2:35",
+        "roles": [
+          "oxygen"
+        ]
+      }
+    ],
+    "130": [
+      {
+        "reaction": "Reaction_002",
+        "source_ref": "2:41",
+        "roles": [
+          "electrophile"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "forcefield": "pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod",
+  "status": "incomplete",
+  "input": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/reacted_product_minimized.mol2",
+  "charge_method": "bond_increments",
+  "typing_assignments_changed_for_coverage": 6,
+  "nta_file": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/reacted_product_parameterized_artifacts_yx9yfa5l/reacted_product_minimized.nta",
+  "typing_score_report": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/reacted_product_parameterized_artifacts_yx9yfa5l/reacted_product_minimized_typing_scores.txt",
+  "typed_intermediate_data": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/reacted_product_parameterized_artifacts_yx9yfa5l/reacted_product_minimized_typed.data",
+  "lammps_data": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/reacted_product_parameterized_artifacts_yx9yfa5l/reacted_product_minimized_pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod.data",
+  "coefficient_statistics": {
+    "Pair Coeffs": {
+      "total": 13,
+      "exact": 7,
+      "fallback": 6,
+      "matched": 13,
+      "missing": 0
+    },
+    "Bond Coeffs": {
+      "total": 19,
+      "exact": 1,
+      "fallback": 17,
+      "matched": 18,
+      "missing": 1
+    },
+    "Angle Coeffs": {
+      "total": 43,
+      "exact": 1,
+      "fallback": 39,
+      "matched": 40,
+      "missing": 3
+    },
+    "Dihedral Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 57,
+      "matched": 57,
+      "missing": 2
+    },
+    "Improper Coeffs": {
+      "total": 29,
+      "exact": 0,
+      "fallback": 4,
+      "matched": 4,
+      "missing": 25
+    },
+    "BondBond Coeffs": {
+      "total": 43,
+      "exact": 1,
+      "fallback": 37,
+      "matched": 38,
+      "missing": 5
+    },
+    "BondAngle Coeffs": {
+      "total": 43,
+      "exact": 1,
+      "fallback": 34,
+      "matched": 35,
+      "missing": 8
+    },
+    "AngleAngleTorsion Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 52,
+      "matched": 52,
+      "missing": 7
+    },
+    "EndBondTorsion Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 52,
+      "matched": 52,
+      "missing": 7
+    },
+    "MiddleBondTorsion Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 52,
+      "matched": 52,
+      "missing": 7
+    },
+    "BondBond13 Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 0,
+      "matched": 0,
+      "missing": 59
+    },
+    "AngleTorsion Coeffs": {
+      "total": 59,
+      "exact": 0,
+      "fallback": 52,
+      "matched": 52,
+      "missing": 7
+    },
+    "AngleAngle Coeffs": {
+      "total": 29,
+      "exact": 0,
+      "fallback": 23,
+      "matched": 23,
+      "missing": 6
+    }
+  },
+  "total_coverage_percent": 76.09075043630017,
+  "missing_coefficients": {
+    "Bond Coeffs": [
+      "o_1-s_m"
+    ],
+    "Angle Coeffs": [
+      "c3-s_m-c3",
+      "c3-s_m-o_1",
+      "o_1-s_m-o_1"
+    ],
+    "Dihedral Coeffs": [
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1"
+    ],
+    "Improper Coeffs": [
+      "c1-c1-c3-hpan",
+      "c3-c1-c3-hpan",
+      "c1-c3-c1-n",
+      "c1-c3-c1-s_m",
+      "c1-c2-hpan-n",
+      "hpan-c2-hpan-n",
+      "c3-s_m-c3-o_1",
+      "c1-c1-c1-hpan",
+      "c1-c3-c_0-n",
+      "c1-c3-c1-c2",
+      "c3-c1-c_0-hpan",
+      "c3-c2-c3-hpan",
+      "c3-c2-hpan-hpan",
+      "c3h-c2-hpan-n",
+      "c3h-c3h-hpan-hpan",
+      "c3h-c3h-hpan-o3e",
+      "hpan-c3h-hpan-o3e",
+      "c2-c3h-c3h-o3e",
+      "c2-c3h-hpan-o3e",
+      "c2-c3h-c3h-hpan",
+      "c2-c1-c2-oh",
+      "c2-c1-hpan-oh",
+      "c2-c1-c2-hpan",
+      "c1-c2-hpan-hpan",
+      "c3h-c2-hpan-hpan"
+    ],
+    "BondBond Coeffs": [
+      "c1-c3-s_m",
+      "c3-s_m-c3",
+      "c3-s_m-o_1",
+      "o_1-s_m-o_1",
+      "c_0-c3-n"
+    ],
+    "BondAngle Coeffs": [
+      "c1-c3-s_m",
+      "c3-s_m-c3",
+      "c3-s_m-o_1",
+      "o_1-s_m-o_1",
+      "c1-c3-c_0",
+      "c_0-c3-n",
+      "c_0-c1-hpan",
+      "c3-c1-c_0"
+    ],
+    "AngleAngleTorsion Coeffs": [
+      "c3-c1-c3-s_m",
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1",
+      "c1-c1-c3-s_m",
+      "hpan-c1-c3-s_m",
+      "c2-n-c3-c_0",
+      "c1-c_0-c3-n"
+    ],
+    "EndBondTorsion Coeffs": [
+      "c3-c1-c3-s_m",
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1",
+      "c1-c1-c3-s_m",
+      "hpan-c1-c3-s_m",
+      "c2-n-c3-c_0",
+      "c1-c_0-c3-n"
+    ],
+    "MiddleBondTorsion Coeffs": [
+      "c3-c1-c3-s_m",
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1",
+      "c1-c1-c3-s_m",
+      "hpan-c1-c3-s_m",
+      "c2-n-c3-c_0",
+      "c1-c_0-c3-n"
+    ],
+    "BondBond13 Coeffs": [
+      "c1-c3-n-h*",
+      "c1-c3-c1-hpan",
+      "hpan-c1-c3-n",
+      "c1-c1-c1-hpan",
+      "hpan-c1-c1-hpan",
+      "c1-c3-c1-c3",
+      "c3-c1-c3-s_m",
+      "c3-n-c2-hpan",
+      "c1-c2-n-c3",
+      "c1-c1-c1-c3",
+      "c3-c1-c1-hpan",
+      "c1-c3-n-c2",
+      "c1-c1-c3-c1",
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1",
+      "c1-c1-c3-n",
+      "c1-c1-c3-s_m",
+      "hpan-c1-c3-s_m",
+      "c3-c1-c3-n",
+      "c2-c1-c2-n",
+      "n-c2-c1-oh",
+      "hpan-c1-c2-n",
+      "c2-c1-oh-ho",
+      "ho-oh-c1-hpan",
+      "h*-n-c2-hpan",
+      "c1-c2-n-h*",
+      "c1-c1-c3-c2",
+      "c1-c3-c_0-c1",
+      "c1-c1-c3-c_0",
+      "c1-c3-c1-c_0",
+      "c1-c3-c2-c3",
+      "c1-c3-c2-hpan",
+      "c_0-c3-c1-hpan",
+      "c2-n-c3-c_0",
+      "c2-c3-c1-c_0",
+      "c3-c_0-c1-hpan",
+      "c2-c3-c1-hpan",
+      "c3-c1-c1-c3",
+      "c3-c1-c_0-c3",
+      "c3-n-c2-c3h",
+      "c1-c_0-c3-n",
+      "n-c2-c3h-o3e",
+      "c3h-c3h-c2-n",
+      "hpan-c3h-c2-n",
+      "c2-c3h-c3h-hpan",
+      "hpan-c3h-c3h-o3e",
+      "hpan-c3h-c3h-hpan",
+      "c3h-o3e-c3h-hpan",
+      "c2-n-c2-c3h",
+      "c2-n-c2-hpan",
+      "c2-c3h-o3e-c3h",
+      "c2-c3h-c3h-o3e",
+      "c2-c1-c2-hpan",
+      "hpan-c2-c1-oh",
+      "hpan-c1-c2-hpan",
+      "c1-c2-n-c2",
+      "hpan-c2-c3h-o3e",
+      "c3h-c3h-c2-hpan",
+      "hpan-c2-c3h-hpan"
+    ],
+    "AngleTorsion Coeffs": [
+      "c3-c1-c3-s_m",
+      "c1-c3-s_m-c3",
+      "c1-c3-s_m-o_1",
+      "c1-c1-c3-s_m",
+      "hpan-c1-c3-s_m",
+      "c2-n-c3-c_0",
+      "c1-c_0-c3-n"
+    ],
+    "AngleAngle Coeffs": [
+      "c3-n-h*-h*",
+      "c2-n-c3-h*",
+      "c1-c3-c1-s_m",
+      "c3-s_m-c3-o_1",
+      "c3-s_m-o_1-o_1",
+      "c1-c3-c_0-n"
+    ]
+  },
+  "fallback_summary": {
+    "equivalence": {
+      "Pair Coeffs": 6,
+      "Bond Coeffs": 16,
+      "Angle Coeffs": 38,
+      "Dihedral Coeffs": 52,
+      "BondBond Coeffs": 37,
+      "BondAngle Coeffs": 34,
+      "AngleAngleTorsion Coeffs": 52,
+      "EndBondTorsion Coeffs": 52,
+      "MiddleBondTorsion Coeffs": 52,
+      "AngleTorsion Coeffs": 52,
+      "AngleAngle Coeffs": 23
+    },
+    "general_equiv": {
+      "Bond Coeffs": 1
+    },
+    "wildcard": {
+      "Angle Coeffs": 1,
+      "Dihedral Coeffs": 5,
+      "Improper Coeffs": 4
+    }
+  }
+}

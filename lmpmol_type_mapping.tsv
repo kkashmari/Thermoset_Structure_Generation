@@ -1,0 +1,327 @@
+file	category	old_type	global_type	semantic_label
+pre_reaction.data	atom	1	1	cp
+pre_reaction.data	atom	2	2	hpan
+pre_reaction.data	atom	3	3	h*
+pre_reaction.data	atom	4	4	npc
+pre_reaction.data	atom	5	5	c1
+pre_reaction.data	atom	6	6	c2
+pre_reaction.data	atom	7	7	c3
+pre_reaction.data	atom	8	5	c1
+pre_reaction.data	atom	9	1	cp
+pre_reaction.data	atom	10	2	hpan
+pre_reaction.data	atom	11	6	c2
+pre_reaction.data	atom	12	8	oc
+pre_reaction.data	atom	13	9	o3e
+pre_reaction.data	atom	14	10	c3h
+pre_reaction.data	bond	1	1	cp cp
+pre_reaction.data	bond	2	2	c-cp equivalence: via cp c3
+pre_reaction.data	bond	3	3	cp npc via equivalence: cp-nh
+pre_reaction.data	bond	4	4	c-h equivalence: via hpan c3
+pre_reaction.data	bond	5	5	h* npc via equivalence: h*-nh
+pre_reaction.data	bond	6	6	c-cp equivalence: via cp c1
+pre_reaction.data	bond	7	7	c-cp equivalence: via cp c2
+pre_reaction.data	bond	8	8	c-h equivalence: via hpan c1
+pre_reaction.data	bond	9	9	c-c equivalence: via c3 c2
+pre_reaction.data	bond	10	10	c-h equivalence: via hpan c2
+pre_reaction.data	bond	11	6	c-cp equivalence: via cp c1
+pre_reaction.data	bond	12	8	c-h equivalence: via hpan c1
+pre_reaction.data	bond	13	11	c-c equivalence: via c1 c1
+pre_reaction.data	bond	14	12	cp oc via equivalence: cp-o
+pre_reaction.data	bond	15	7	c-cp equivalence: via cp c2
+pre_reaction.data	bond	16	10	c-h equivalence: via hpan c2
+pre_reaction.data	bond	17	13	c-o equivalence: via oc c2
+pre_reaction.data	bond	18	14	c-c equivalence: via c3h c2
+pre_reaction.data	bond	19	15	c-o equivalence: via o3e c3h
+pre_reaction.data	bond	20	16	c-h equivalence: via hpan c3h
+pre_reaction.data	bond	21	17	c-c equivalence: via c3h c3h
+pre_reaction.data	angle	1	1	cp cp cp
+pre_reaction.data	angle	2	2	cp cp npc via equivalence: cp-cp-nh
+pre_reaction.data	angle	3	3	cp c3 hpan via equivalence: cp-c-h
+pre_reaction.data	angle	4	4	c-cp-cp equivalence: via cp cp c3
+pre_reaction.data	angle	5	5	c-cp-cp equivalence: via cp cp c1
+pre_reaction.data	angle	6	6	c-cp-cp equivalence: via cp cp c2
+pre_reaction.data	angle	7	7	cp npc h* via equivalence: cp-nh-h*
+pre_reaction.data	angle	8	8	c-c-h equivalence: via hpan c3 c2
+pre_reaction.data	angle	9	9	h-c-h equivalence: via hpan c3 hpan
+pre_reaction.data	angle	10	10	*3-np_-h_ wildcard: via h* npc h*
+pre_reaction.data	angle	11	11	cp c1 cp via equivalence: cp-c-cp
+pre_reaction.data	angle	12	12	cp c1 hpan via equivalence: cp-c-h
+pre_reaction.data	angle	13	13	c-c-cp equivalence: via cp c2 c3
+pre_reaction.data	angle	14	14	cp c2 hpan via equivalence: cp-c-h
+pre_reaction.data	angle	15	15	*7-cp_-c_ wildcard: via c2 cp c1
+pre_reaction.data	angle	16	16	c-c-h equivalence: via hpan c2 c3
+pre_reaction.data	angle	17	17	h-c-h equivalence: via hpan c2 hpan
+pre_reaction.data	angle	18	18	*7-cp_-c_ wildcard: via c1 cp c1
+pre_reaction.data	angle	19	19	*5-cp_-o_ wildcard: via oc cp c1
+pre_reaction.data	angle	20	20	c-c-cp equivalence: via cp c1 c1
+pre_reaction.data	angle	21	21	c-c-h equivalence: via hpan c1 c1
+pre_reaction.data	angle	22	12	cp c1 hpan via equivalence: cp-c-h
+pre_reaction.data	angle	23	22	c-o-cp equivalence: via cp oc c2
+pre_reaction.data	angle	24	23	cp c2 cp via equivalence: cp-c-cp
+pre_reaction.data	angle	25	14	cp c2 hpan via equivalence: cp-c-h
+pre_reaction.data	angle	26	15	*7-cp_-c_ wildcard: via c2 cp c1
+pre_reaction.data	angle	27	24	c-c-o equivalence: via oc c2 c3h
+pre_reaction.data	angle	28	25	h-c-o equivalence: via oc c2 hpan
+pre_reaction.data	angle	29	17	h-c-h equivalence: via hpan c2 hpan
+pre_reaction.data	angle	30	26	c-c-o equivalence: via o3e c3h c2
+pre_reaction.data	angle	31	27	c-c-c equivalence: via c3h c3h c2
+pre_reaction.data	angle	32	28	c-c-h equivalence: via hpan c3h c2
+pre_reaction.data	angle	33	29	c-c-o equivalence: via o3e c3h c3h
+pre_reaction.data	angle	34	30	h-c-o equivalence: via o3e c3h hpan
+pre_reaction.data	angle	35	31	c-c-h equivalence: via hpan c3h c3h
+pre_reaction.data	angle	36	32	h-c-h equivalence: via hpan c3h hpan
+pre_reaction.data	angle	37	33	c-c-h equivalence: via hpan c2 c3h
+pre_reaction.data	angle	38	34	c-o-c equivalence: via c3h o3e c3h
+pre_reaction.data	dihedral	1	1	c-cp-cp-cp equivalence: via cp cp cp c1
+pre_reaction.data	dihedral	2	2	c-cp-cp-cp equivalence: via cp cp cp c2
+pre_reaction.data	dihedral	3	3	cp cp npc h* via equivalence: cp-cp-nh-h*
+pre_reaction.data	dihedral	4	4	cp cp cp npc via equivalence: cp-cp-cp-nh
+pre_reaction.data	dihedral	5	5	cp cp cp cp
+pre_reaction.data	dihedral	6	6	cp cp c3 hpan via equivalence: h-c-cp-cp
+pre_reaction.data	dihedral	7	7	cp c1 cp cp via equivalence: cp-c-cp-cp
+pre_reaction.data	dihedral	8	8	cp cp c1 hpan via equivalence: h-c-cp-cp
+pre_reaction.data	dihedral	9	9	c-c-cp-cp equivalence: via cp cp c2 c3
+pre_reaction.data	dihedral	10	10	cp cp c2 hpan via equivalence: h-c-cp-cp
+pre_reaction.data	dihedral	11	11	cp c2 c3 hpan via equivalence: cp-c-c-h
+pre_reaction.data	dihedral	12	12	h-c-c-h equivalence: via hpan c3 c2 hpan
+pre_reaction.data	dihedral	13	13	c-cp-cp-nh equivalence: via npc cp cp c3
+pre_reaction.data	dihedral	14	14	c-cp-cp-nh equivalence: via npc cp cp c1
+pre_reaction.data	dihedral	15	15	c-cp-cp-nh equivalence: via npc cp cp c2
+pre_reaction.data	dihedral	16	16	c-cp-cp-cp equivalence: via cp cp cp c3
+pre_reaction.data	dihedral	17	17	*-c_-cp_-* wildcard: via cp c1 cp c2
+pre_reaction.data	dihedral	18	18	*-c_-cp_-* wildcard: via c3 c2 cp c1
+pre_reaction.data	dihedral	19	19	*-c_-cp_-* wildcard: via hpan c2 cp c1
+pre_reaction.data	dihedral	20	20	*-c_-cp_-* wildcard: via hpan c1 cp c2
+pre_reaction.data	dihedral	21	21	*-c_-cp_-* wildcard: via hpan c1 cp c1
+pre_reaction.data	dihedral	22	22	*-c_-cp_-* wildcard: via c1 cp c1 c1
+pre_reaction.data	dihedral	23	23	*-cp_-o_-* wildcard: via c2 oc cp c1
+pre_reaction.data	dihedral	24	24	*-c_-cp_-* wildcard: via c2 cp c1 c1
+pre_reaction.data	dihedral	25	25	*-c_-c_-* wildcard: via cp c1 c1 cp
+pre_reaction.data	dihedral	26	26	cp c1 c1 hpan via equivalence: cp-c-c-h
+pre_reaction.data	dihedral	27	27	*-c_-o_-* wildcard: via cp oc c2 c3h
+pre_reaction.data	dihedral	28	28	cp oc c2 hpan via equivalence: h-c-o-cp
+pre_reaction.data	dihedral	29	29	*-c_-cp_-* wildcard: via oc cp c1 hpan
+pre_reaction.data	dihedral	30	30	h-c-c-h equivalence: via hpan c1 c1 hpan
+pre_reaction.data	dihedral	31	31	*-c_-cp_-* wildcard: via cp c2 cp c1
+pre_reaction.data	dihedral	32	20	*-c_-cp_-* wildcard: via hpan c1 cp c2
+pre_reaction.data	dihedral	33	19	*-c_-cp_-* wildcard: via hpan c2 cp c1
+pre_reaction.data	dihedral	34	32	*-c_-cp_-* wildcard: via oc cp c1 c1
+pre_reaction.data	dihedral	35	33	o-c-c-o equivalence: via oc c2 c3h o3e
+pre_reaction.data	dihedral	36	34	c-c-c-o equivalence: via oc c2 c3h c3h
+pre_reaction.data	dihedral	37	35	h-c-c-o equivalence: via oc c2 c3h hpan
+pre_reaction.data	dihedral	38	36	c-c-o-c equivalence: via c3h o3e c3h c2
+pre_reaction.data	dihedral	39	37	c-c-c-o equivalence: via o3e c3h c3h c2
+pre_reaction.data	dihedral	40	38	c-c-c-h equivalence: via hpan c3h c3h c2
+pre_reaction.data	dihedral	41	39	h-c-c-o equivalence: via o3e c3h c2 hpan
+pre_reaction.data	dihedral	42	40	h-c-c-o equivalence: via o3e c3h c3h hpan
+pre_reaction.data	dihedral	43	41	c3h o3e c3h hpan via equivalence: h-c-o-c
+pre_reaction.data	dihedral	44	42	h-c-c-h equivalence: via hpan c3h c3h hpan
+pre_reaction.data	dihedral	45	43	c-c-c-h equivalence: via hpan c2 c3h c3h
+pre_reaction.data	dihedral	46	44	h-c-c-h equivalence: via hpan c3h c2 hpan
+pre_reaction.data	improper	1	1	cp cp cp npc via equivalence: cp-cp-cp-nh
+pre_reaction.data	improper	2	2	cp c3 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	3	3	c3 cp cp cp via equivalence: c-cp-cp-cp
+pre_reaction.data	improper	4	4	c1 cp c2 cp via wildcard: *-cp_-*-*
+pre_reaction.data	improper	5	5	cp npc h* h* via wildcard: *-np_-*-*
+pre_reaction.data	improper	6	6	c2 c3 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	7	7	hpan c3 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	8	8	cp c1 cp hpan WARNING: zero fallback
+pre_reaction.data	improper	9	9	c3 c2 cp hpan WARNING: zero fallback
+pre_reaction.data	improper	10	10	cp c2 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	11	11	c3 c2 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	12	12	c1 cp c1 oc via wildcard: *-cp_-*-*
+pre_reaction.data	improper	13	13	c1 c1 cp hpan WARNING: zero fallback
+pre_reaction.data	improper	14	14	cp c2 cp hpan WARNING: zero fallback
+pre_reaction.data	improper	15	10	cp c2 hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	16	15	c1 cp c1 c2 via wildcard: *-cp_-*-*
+pre_reaction.data	improper	17	16	c3h c2 hpan oc WARNING: zero fallback
+pre_reaction.data	improper	18	17	hpan c2 hpan oc WARNING: zero fallback
+pre_reaction.data	improper	19	18	c2 c3h c3h o3e WARNING: zero fallback
+pre_reaction.data	improper	20	19	c2 c3h hpan o3e WARNING: zero fallback
+pre_reaction.data	improper	21	20	c2 c3h c3h hpan WARNING: zero fallback
+pre_reaction.data	improper	22	21	c3h c3h hpan o3e WARNING: zero fallback
+pre_reaction.data	improper	23	22	hpan c3h hpan o3e WARNING: zero fallback
+pre_reaction.data	improper	24	23	c3h c3h hpan hpan WARNING: zero fallback
+pre_reaction.data	improper	25	24	c3h c2 hpan hpan WARNING: zero fallback
+post_reaction.data	atom	1	1	cp
+post_reaction.data	atom	2	2	hpan
+post_reaction.data	atom	3	3	h*
+post_reaction.data	atom	4	11	n
+post_reaction.data	atom	5	4	npc
+post_reaction.data	atom	6	5	c1
+post_reaction.data	atom	7	12	ho
+post_reaction.data	atom	8	6	c2
+post_reaction.data	atom	9	7	c3
+post_reaction.data	atom	10	8	oc
+post_reaction.data	atom	11	13	oh
+post_reaction.data	atom	12	10	c3h
+post_reaction.data	atom	13	9	o3e
+post_reaction.data	bond	1	1	cp cp
+post_reaction.data	bond	2	2	c-cp equivalence: via cp c3
+post_reaction.data	bond	3	3	cp npc via equivalence: cp-nh
+post_reaction.data	bond	4	4	c-h equivalence: via hpan c3
+post_reaction.data	bond	5	5	h* npc via equivalence: h*-nh
+post_reaction.data	bond	6	18	cp n via equivalence: cp_-n_
+post_reaction.data	bond	7	19	h* n
+post_reaction.data	bond	8	20	c-n equivalence: via n c1
+post_reaction.data	bond	9	6	c-cp equivalence: via cp c1
+post_reaction.data	bond	10	7	c-cp equivalence: via cp c2
+post_reaction.data	bond	11	8	c-h equivalence: via hpan c1
+post_reaction.data	bond	12	21	h*-o equivalence: via oh ho
+post_reaction.data	bond	13	9	c-c equivalence: via c3 c2
+post_reaction.data	bond	14	10	c-h equivalence: via hpan c2
+post_reaction.data	bond	15	11	c-c equivalence: via c1 c1
+post_reaction.data	bond	16	12	cp oc via equivalence: cp-o
+post_reaction.data	bond	17	13	c-o equivalence: via oc c2
+post_reaction.data	bond	18	22	c-c equivalence: via c2 c1
+post_reaction.data	bond	19	14	c-c equivalence: via c3h c2
+post_reaction.data	bond	20	23	c-o equivalence: via oh c2
+post_reaction.data	bond	21	15	c-o equivalence: via o3e c3h
+post_reaction.data	bond	22	17	c-c equivalence: via c3h c3h
+post_reaction.data	bond	23	16	c-h equivalence: via hpan c3h
+post_reaction.data	angle	1	1	cp cp cp
+post_reaction.data	angle	2	2	cp cp npc via equivalence: cp-cp-nh
+post_reaction.data	angle	3	35	*6-cp_-n_ wildcard: via n cp cp
+post_reaction.data	angle	4	3	cp c3 hpan via equivalence: cp-c-h
+post_reaction.data	angle	5	4	c-cp-cp equivalence: via cp cp c3
+post_reaction.data	angle	6	5	c-cp-cp equivalence: via cp cp c1
+post_reaction.data	angle	7	6	c-cp-cp equivalence: via cp cp c2
+post_reaction.data	angle	8	7	cp npc h* via equivalence: cp-nh-h*
+post_reaction.data	angle	9	8	c-c-h equivalence: via hpan c3 c2
+post_reaction.data	angle	10	9	h-c-h equivalence: via hpan c3 hpan
+post_reaction.data	angle	11	10	*3-np_-h_ wildcard: via h* npc h*
+post_reaction.data	angle	12	36	c-c-n equivalence: via n c1 c2
+post_reaction.data	angle	13	37	h-c-n equivalence: via n c1 hpan
+post_reaction.data	angle	14	11	cp c1 cp via equivalence: cp-c-cp
+post_reaction.data	angle	15	12	cp c1 hpan via equivalence: cp-c-h
+post_reaction.data	angle	16	13	c-c-cp equivalence: via cp c2 c3
+post_reaction.data	angle	17	14	cp c2 hpan via equivalence: cp-c-h
+post_reaction.data	angle	18	15	*7-cp_-c_ wildcard: via c2 cp c1
+post_reaction.data	angle	19	38	c-o-h* equivalence: via ho oh c2
+post_reaction.data	angle	20	16	c-c-h equivalence: via hpan c2 c3
+post_reaction.data	angle	21	17	h-c-h equivalence: via hpan c2 hpan
+post_reaction.data	angle	22	39	*3-n_-h_ wildcard: via h* n cp
+post_reaction.data	angle	23	40	*9-n_-c_ wildcard: via cp n c1
+post_reaction.data	angle	24	41	c-n-h* equivalence: via h* n c1
+post_reaction.data	angle	25	18	*7-cp_-c_ wildcard: via c1 cp c1
+post_reaction.data	angle	26	19	*5-cp_-o_ wildcard: via oc cp c1
+post_reaction.data	angle	27	20	c-c-cp equivalence: via cp c1 c1
+post_reaction.data	angle	28	21	c-c-h equivalence: via hpan c1 c1
+post_reaction.data	angle	29	22	c-o-cp equivalence: via cp oc c2
+post_reaction.data	angle	30	23	cp c2 cp via equivalence: cp-c-cp
+post_reaction.data	angle	31	42	c-c-o equivalence: via oc c2 c1
+post_reaction.data	angle	32	25	h-c-o equivalence: via oc c2 hpan
+post_reaction.data	angle	33	24	c-c-o equivalence: via oc c2 c3h
+post_reaction.data	angle	34	43	c-c-c equivalence: via c2 c1 c2
+post_reaction.data	angle	35	44	c-c-h equivalence: via hpan c1 c2
+post_reaction.data	angle	36	26	c-c-o equivalence: via o3e c3h c2
+post_reaction.data	angle	37	27	c-c-c equivalence: via c3h c3h c2
+post_reaction.data	angle	38	28	c-c-h equivalence: via hpan c3h c2
+post_reaction.data	angle	39	45	h-c-o equivalence: via oh c2 hpan
+post_reaction.data	angle	40	46	c-c-o equivalence: via oh c2 c1
+post_reaction.data	angle	41	47	c-c-h equivalence: via hpan c2 c1
+post_reaction.data	angle	42	33	c-c-h equivalence: via hpan c2 c3h
+post_reaction.data	angle	43	34	c-o-c equivalence: via c3h o3e c3h
+post_reaction.data	angle	44	29	c-c-o equivalence: via o3e c3h c3h
+post_reaction.data	angle	45	31	c-c-h equivalence: via hpan c3h c3h
+post_reaction.data	angle	46	30	h-c-o equivalence: via o3e c3h hpan
+post_reaction.data	angle	47	32	h-c-h equivalence: via hpan c3h hpan
+post_reaction.data	dihedral	1	1	c-cp-cp-cp equivalence: via cp cp cp c1
+post_reaction.data	dihedral	2	2	c-cp-cp-cp equivalence: via cp cp cp c2
+post_reaction.data	dihedral	3	3	cp cp npc h* via equivalence: cp-cp-nh-h*
+post_reaction.data	dihedral	4	45	*-cp_-n_-* wildcard: via h* n cp cp
+post_reaction.data	dihedral	5	46	*-cp_-n_-* wildcard: via cp cp n c1
+post_reaction.data	dihedral	6	47	*-cp_-cp_-* wildcard: via n cp cp cp
+post_reaction.data	dihedral	7	5	cp cp cp cp
+post_reaction.data	dihedral	8	6	cp cp c3 hpan via equivalence: h-c-cp-cp
+post_reaction.data	dihedral	9	7	cp c1 cp cp via equivalence: cp-c-cp-cp
+post_reaction.data	dihedral	10	8	cp cp c1 hpan via equivalence: h-c-cp-cp
+post_reaction.data	dihedral	11	9	c-c-cp-cp equivalence: via cp cp c2 c3
+post_reaction.data	dihedral	12	10	cp cp c2 hpan via equivalence: h-c-cp-cp
+post_reaction.data	dihedral	13	11	cp c2 c3 hpan via equivalence: cp-c-c-h
+post_reaction.data	dihedral	14	12	h-c-c-h equivalence: via hpan c3 c2 hpan
+post_reaction.data	dihedral	15	48	*-cp_-cp_-* wildcard: via n cp cp c3
+post_reaction.data	dihedral	16	49	*-cp_-cp_-* wildcard: via n cp cp c1
+post_reaction.data	dihedral	17	50	*-cp_-cp_-* wildcard: via n cp cp c2
+post_reaction.data	dihedral	18	51	n c1 c2 oc via equivalence: n-c-c-o
+post_reaction.data	dihedral	19	52	h-c-c-n equivalence: via n c1 c2 hpan
+post_reaction.data	dihedral	20	53	n c1 c2 oh via equivalence: n-c-c-o
+post_reaction.data	dihedral	21	16	c-cp-cp-cp equivalence: via cp cp cp c3
+post_reaction.data	dihedral	22	17	*-c_-cp_-* wildcard: via cp c1 cp c2
+post_reaction.data	dihedral	23	4	cp cp cp npc via equivalence: cp-cp-cp-nh
+post_reaction.data	dihedral	24	13	c-cp-cp-nh equivalence: via npc cp cp c3
+post_reaction.data	dihedral	25	14	c-cp-cp-nh equivalence: via npc cp cp c1
+post_reaction.data	dihedral	26	15	c-cp-cp-nh equivalence: via npc cp cp c2
+post_reaction.data	dihedral	27	18	*-c_-cp_-* wildcard: via c3 c2 cp c1
+post_reaction.data	dihedral	28	19	*-c_-cp_-* wildcard: via hpan c2 cp c1
+post_reaction.data	dihedral	29	54	h-c-o-h* equivalence: via hpan c2 oh ho
+post_reaction.data	dihedral	30	55	c-c-o-h* equivalence: via ho oh c2 c1
+post_reaction.data	dihedral	31	20	*-c_-cp_-* wildcard: via hpan c1 cp c2
+post_reaction.data	dihedral	32	56	*-c_-n_-* wildcard: via cp n c1 c2
+post_reaction.data	dihedral	33	57	*-c_-n_-* wildcard: via hpan c1 n cp
+post_reaction.data	dihedral	34	58	c-c-n-h* equivalence: via h* n c1 c2
+post_reaction.data	dihedral	35	59	h* n c1 hpan via equivalence: h-c-n-h*
+post_reaction.data	dihedral	36	21	*-c_-cp_-* wildcard: via hpan c1 cp c1
+post_reaction.data	dihedral	37	22	*-c_-cp_-* wildcard: via c1 cp c1 c1
+post_reaction.data	dihedral	38	23	*-cp_-o_-* wildcard: via c2 oc cp c1
+post_reaction.data	dihedral	39	24	*-c_-cp_-* wildcard: via c2 cp c1 c1
+post_reaction.data	dihedral	40	25	*-c_-c_-* wildcard: via cp c1 c1 cp
+post_reaction.data	dihedral	41	26	cp c1 c1 hpan via equivalence: cp-c-c-h
+post_reaction.data	dihedral	42	60	*-c_-o_-* wildcard: via cp oc c2 c1
+post_reaction.data	dihedral	43	28	cp oc c2 hpan via equivalence: h-c-o-cp
+post_reaction.data	dihedral	44	29	*-c_-cp_-* wildcard: via oc cp c1 hpan
+post_reaction.data	dihedral	45	30	h-c-c-h equivalence: via hpan c1 c1 hpan
+post_reaction.data	dihedral	46	31	*-c_-cp_-* wildcard: via cp c2 cp c1
+post_reaction.data	dihedral	47	32	*-c_-cp_-* wildcard: via oc cp c1 c1
+post_reaction.data	dihedral	48	61	c-c-c-o equivalence: via oc c2 c1 c2
+post_reaction.data	dihedral	49	62	h-c-c-o equivalence: via oc c2 c1 hpan
+post_reaction.data	dihedral	50	33	o-c-c-o equivalence: via oc c2 c3h o3e
+post_reaction.data	dihedral	51	34	c-c-c-o equivalence: via oc c2 c3h c3h
+post_reaction.data	dihedral	52	35	h-c-c-o equivalence: via oc c2 c3h hpan
+post_reaction.data	dihedral	53	27	*-c_-o_-* wildcard: via cp oc c2 c3h
+post_reaction.data	dihedral	54	63	c-c-c-o equivalence: via oh c2 c1 c2
+post_reaction.data	dihedral	55	64	c-c-c-h equivalence: via hpan c2 c1 c2
+post_reaction.data	dihedral	56	36	c-c-o-c equivalence: via c3h o3e c3h c2
+post_reaction.data	dihedral	57	37	c-c-c-o equivalence: via o3e c3h c3h c2
+post_reaction.data	dihedral	58	38	c-c-c-h equivalence: via hpan c3h c3h c2
+post_reaction.data	dihedral	59	65	h-c-c-o equivalence: via oh c2 c1 hpan
+post_reaction.data	dihedral	60	66	h-c-c-h equivalence: via hpan c2 c1 hpan
+post_reaction.data	dihedral	61	41	c3h o3e c3h hpan via equivalence: h-c-o-c
+post_reaction.data	dihedral	62	39	h-c-c-o equivalence: via o3e c3h c2 hpan
+post_reaction.data	dihedral	63	43	c-c-c-h equivalence: via hpan c2 c3h c3h
+post_reaction.data	dihedral	64	44	h-c-c-h equivalence: via hpan c3h c2 hpan
+post_reaction.data	dihedral	65	40	h-c-c-o equivalence: via o3e c3h c3h hpan
+post_reaction.data	dihedral	66	42	h-c-c-h equivalence: via hpan c3h c3h hpan
+post_reaction.data	improper	1	1	cp cp cp npc via equivalence: cp-cp-cp-nh
+post_reaction.data	improper	2	25	cp cp cp n via wildcard: *-cp_-*-*
+post_reaction.data	improper	3	2	cp c3 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	4	3	c3 cp cp cp via equivalence: c-cp-cp-cp
+post_reaction.data	improper	5	4	c1 cp c2 cp via wildcard: *-cp_-*-*
+post_reaction.data	improper	6	5	cp npc h* h* via wildcard: *-np_-*-*
+post_reaction.data	improper	7	6	c2 c3 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	8	7	hpan c3 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	9	26	c2 c1 c2 n WARNING: zero fallback
+post_reaction.data	improper	10	27	c2 c1 hpan n WARNING: zero fallback
+post_reaction.data	improper	11	8	cp c1 cp hpan WARNING: zero fallback
+post_reaction.data	improper	12	9	c3 c2 cp hpan WARNING: zero fallback
+post_reaction.data	improper	13	10	cp c2 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	14	11	c3 c2 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	15	28	c1 n cp h* via wildcard: *-n_-*-*
+post_reaction.data	improper	16	12	c1 cp c1 oc via wildcard: *-cp_-*-*
+post_reaction.data	improper	17	13	c1 c1 cp hpan WARNING: zero fallback
+post_reaction.data	improper	18	14	cp c2 cp hpan WARNING: zero fallback
+post_reaction.data	improper	19	15	c1 cp c1 c2 via wildcard: *-cp_-*-*
+post_reaction.data	improper	20	29	c1 c2 hpan oc WARNING: zero fallback
+post_reaction.data	improper	21	17	hpan c2 hpan oc WARNING: zero fallback
+post_reaction.data	improper	22	16	c3h c2 hpan oc WARNING: zero fallback
+post_reaction.data	improper	23	30	c2 c1 c2 hpan WARNING: zero fallback
+post_reaction.data	improper	24	18	c2 c3h c3h o3e WARNING: zero fallback
+post_reaction.data	improper	25	19	c2 c3h hpan o3e WARNING: zero fallback
+post_reaction.data	improper	26	20	c2 c3h c3h hpan WARNING: zero fallback
+post_reaction.data	improper	27	31	c1 c2 hpan oh WARNING: zero fallback
+post_reaction.data	improper	28	32	hpan c2 hpan oh WARNING: zero fallback
+post_reaction.data	improper	29	33	c1 c2 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	30	24	c3h c2 hpan hpan WARNING: zero fallback
+post_reaction.data	improper	31	21	c3h c3h hpan o3e WARNING: zero fallback
+post_reaction.data	improper	32	23	c3h c3h hpan hpan WARNING: zero fallback
+post_reaction.data	improper	33	22	hpan c3h hpan o3e WARNING: zero fallback

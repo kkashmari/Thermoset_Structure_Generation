@@ -1,0 +1,246 @@
+{
+  "forcefield": "pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod",
+  "status": "incomplete",
+  "input": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/33DDS.mol2",
+  "charge_method": "bond_increments",
+  "typing_assignments_changed_for_coverage": 2,
+  "nta_file": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/parameterized_monomers/monomer_01_artifacts_nln0cp79/33DDS.nta",
+  "typing_score_report": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/parameterized_monomers/monomer_01_artifacts_nln0cp79/33DDS_typing_scores.txt",
+  "typed_intermediate_data": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/parameterized_monomers/monomer_01_artifacts_nln0cp79/33DDS_typed.data",
+  "lammps_data": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_001/parameterized_monomers/monomer_01_artifacts_nln0cp79/33DDS_pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod.data",
+  "coefficient_statistics": {
+    "Pair Coeffs": {
+      "total": 7,
+      "exact": 6,
+      "fallback": 1,
+      "matched": 7,
+      "missing": 0
+    },
+    "Bond Coeffs": {
+      "total": 7,
+      "exact": 1,
+      "fallback": 5,
+      "matched": 6,
+      "missing": 1
+    },
+    "Angle Coeffs": {
+      "total": 13,
+      "exact": 0,
+      "fallback": 10,
+      "matched": 10,
+      "missing": 3
+    },
+    "Dihedral Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 14,
+      "matched": 14,
+      "missing": 2
+    },
+    "Improper Coeffs": {
+      "total": 8,
+      "exact": 0,
+      "fallback": 4,
+      "matched": 4,
+      "missing": 4
+    },
+    "BondBond Coeffs": {
+      "total": 13,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 8
+    },
+    "BondAngle Coeffs": {
+      "total": 13,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 8
+    },
+    "AngleAngleTorsion Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 11
+    },
+    "EndBondTorsion Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 11
+    },
+    "MiddleBondTorsion Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 11
+    },
+    "BondBond13 Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 0,
+      "matched": 0,
+      "missing": 16
+    },
+    "AngleTorsion Coeffs": {
+      "total": 16,
+      "exact": 0,
+      "fallback": 5,
+      "matched": 5,
+      "missing": 11
+    },
+    "AngleAngle Coeffs": {
+      "total": 8,
+      "exact": 0,
+      "fallback": 2,
+      "matched": 2,
+      "missing": 6
+    }
+  },
+  "total_coverage_percent": 44.24242424242424,
+  "missing_coefficients": {
+    "Bond Coeffs": [
+      "o_1-s_m"
+    ],
+    "Angle Coeffs": [
+      "cp-s_m-cp",
+      "cp-s_m-o_1",
+      "o_1-s_m-o_1"
+    ],
+    "Dihedral Coeffs": [
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1"
+    ],
+    "Improper Coeffs": [
+      "c1-c1-cp-hpan",
+      "cp-c1-cp-hpan",
+      "cp-s_m-cp-o_1",
+      "c1-c1-c1-hpan"
+    ],
+    "BondBond Coeffs": [
+      "h*-np-h*",
+      "cp-np-h*",
+      "cp-c1-cp",
+      "c1-cp-c1",
+      "c1-cp-s_m",
+      "cp-s_m-cp",
+      "cp-s_m-o_1",
+      "o_1-s_m-o_1"
+    ],
+    "BondAngle Coeffs": [
+      "h*-np-h*",
+      "cp-np-h*",
+      "cp-c1-cp",
+      "c1-cp-c1",
+      "c1-cp-s_m",
+      "cp-s_m-cp",
+      "cp-s_m-o_1",
+      "o_1-s_m-o_1"
+    ],
+    "AngleAngleTorsion Coeffs": [
+      "c1-cp-np-h*",
+      "c1-cp-c1-hpan",
+      "c1-cp-c1-cp",
+      "cp-c1-cp-s_m",
+      "c1-c1-c1-cp",
+      "c1-c1-cp-c1",
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1",
+      "c1-c1-cp-s_m",
+      "hpan-c1-cp-s_m",
+      "cp-c1-cp-np"
+    ],
+    "EndBondTorsion Coeffs": [
+      "c1-cp-np-h*",
+      "c1-cp-c1-hpan",
+      "c1-cp-c1-cp",
+      "cp-c1-cp-s_m",
+      "c1-c1-c1-cp",
+      "c1-c1-cp-c1",
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1",
+      "c1-c1-cp-s_m",
+      "hpan-c1-cp-s_m",
+      "cp-c1-cp-np"
+    ],
+    "MiddleBondTorsion Coeffs": [
+      "c1-cp-np-h*",
+      "c1-cp-c1-hpan",
+      "c1-cp-c1-cp",
+      "cp-c1-cp-s_m",
+      "c1-c1-c1-cp",
+      "c1-c1-cp-c1",
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1",
+      "c1-c1-cp-s_m",
+      "hpan-c1-cp-s_m",
+      "cp-c1-cp-np"
+    ],
+    "BondBond13 Coeffs": [
+      "c1-cp-np-h*",
+      "c1-cp-c1-hpan",
+      "hpan-c1-cp-np",
+      "c1-c1-c1-hpan",
+      "hpan-c1-c1-hpan",
+      "c1-cp-c1-cp",
+      "cp-c1-cp-s_m",
+      "c1-c1-c1-cp",
+      "cp-c1-c1-hpan",
+      "c1-c1-cp-c1",
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1",
+      "c1-c1-cp-np",
+      "c1-c1-cp-s_m",
+      "hpan-c1-cp-s_m",
+      "cp-c1-cp-np"
+    ],
+    "AngleTorsion Coeffs": [
+      "c1-cp-np-h*",
+      "c1-cp-c1-hpan",
+      "c1-cp-c1-cp",
+      "cp-c1-cp-s_m",
+      "c1-c1-c1-cp",
+      "c1-c1-cp-c1",
+      "c1-cp-s_m-cp",
+      "c1-cp-s_m-o_1",
+      "c1-c1-cp-s_m",
+      "hpan-c1-cp-s_m",
+      "cp-c1-cp-np"
+    ],
+    "AngleAngle Coeffs": [
+      "cp-np-h*-h*",
+      "cp-c1-cp-hpan",
+      "c1-cp-c1-np",
+      "c1-cp-c1-s_m",
+      "cp-s_m-cp-o_1",
+      "cp-s_m-o_1-o_1"
+    ]
+  },
+  "fallback_summary": {
+    "equivalence": {
+      "Pair Coeffs": 1,
+      "Bond Coeffs": 4,
+      "Angle Coeffs": 6,
+      "Dihedral Coeffs": 5,
+      "BondBond Coeffs": 5,
+      "BondAngle Coeffs": 5,
+      "AngleAngleTorsion Coeffs": 5,
+      "EndBondTorsion Coeffs": 5,
+      "MiddleBondTorsion Coeffs": 5,
+      "AngleTorsion Coeffs": 5,
+      "AngleAngle Coeffs": 2
+    },
+    "general_equiv": {
+      "Bond Coeffs": 1
+    },
+    "wildcard": {
+      "Angle Coeffs": 4,
+      "Dihedral Coeffs": 9,
+      "Improper Coeffs": 4
+    }
+  }
+}

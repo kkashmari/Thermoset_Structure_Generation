@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "description": "Editable SMARTS library for thermoset functional-group perception. Rules propose candidates but never apply a reaction without user approval.",
+  "functional_groups": [
+    {
+      "id": "epoxide",
+      "name": "Epoxide",
+      "smarts": "[O;r3]1[C;r3][C;r3]1",
+      "reactive_query_atoms": {"oxygen": [0], "electrophile": [1, 2]},
+      "role_selection": {
+        "electrophile": {"method": "minimum_heavy_atom_degree"}
+      }
+    },
+    {
+      "id": "primary_amine",
+      "name": "Primary amine",
+      "smarts": "[N;X3;H2;!$(N-C=O)]",
+      "reactive_query_atoms": {"nucleophile": [0]},
+      "neighbor_roles": {
+        "transfer_hydrogen": {"anchor_role": "nucleophile", "element": "H"}
+      }
+    },
+    {
+      "id": "secondary_amine",
+      "name": "Secondary amine",
+      "smarts": "[N;X3;H1;!$(N-C=O)]",
+      "reactive_query_atoms": {"nucleophile": [0]},
+      "neighbor_roles": {
+        "transfer_hydrogen": {"anchor_role": "nucleophile", "element": "H"}
+      }
+    },
+    {
+      "id": "hydroxyl",
+      "name": "Hydroxyl",
+      "smarts": "[O;X2;H1]",
+      "reactive_query_atoms": {"oxygen": [0]}
+    },
+    {
+      "id": "thiol",
+      "name": "Thiol",
+      "smarts": "[S;X2;H1]",
+      "reactive_query_atoms": {"sulfur": [0]}
+    },
+    {
+      "id": "isocyanate",
+      "name": "Isocyanate",
+      "smarts": "[N:1]=[C:2]=[O:3]",
+      "reactive_query_atoms": {"electrophile": [1]}
+    },
+    {
+      "id": "cyanate_ester",
+      "name": "Cyanate ester",
+      "smarts": "[O:1][C:2]#[N:3]",
+      "reactive_query_atoms": {
+        "cyanate_oxygen": [0],
+        "cyanate_carbon": [1],
+        "cyanate_nitrogen": [2]
+      }
+    },
+    {
+      "id": "cyanate_dimer_intermediate",
+      "name": "Cyanate linear dimer intermediate",
+      "smarts": "[O:1][C:2](=[N:3][C:4](=[N:5])[O:6])",
+      "reactive_query_atoms": {
+        "open_carbon": [1],
+        "terminal_nitrogen": [4]
+      }
+    },
+    {
+      "id": "cyanate_linear_trimer",
+      "name": "Cyanate linear trimer intermediate",
+      "smarts": "[O:1][C:2](=[N:3][C:4](=[N:5][C:6](=[N:7])[O:8])[O:9])",
+      "reactive_query_atoms": {
+        "open_carbon": [1],
+        "terminal_nitrogen": [6]
+      }
+    },
+    {
+      "id": "acrylate_alkene",
+      "name": "Acrylate-family alkene",
+      "smarts": "[C:1]=[C:2][C:3](=[O:4])[O:5]",
+      "reactive_query_atoms": {"alkene_carbon": [0, 1]}
+    }
+  ],
+  "reaction_rules": [
+    {
+      "id": "amine_epoxide_opening",
+      "name": "Amine–epoxide ring opening",
+      "participants": [
+        {"group": "primary_amine", "role": "nucleophile"},
+        {"group": "epoxide", "role": "electrophile"}
+      ],
+      "allow_intramolecular": false,
+      "initiator_roles": ["nucleophile", "electrophile"],
+      "topology_changes": {
+        "remove": [
+          {"atoms": ["nucleophile", "transfer_hydrogen"]},
+          {"atoms": ["oxygen", "electrophile"]}
+        ],
+        "add": [
+          {"atoms": ["nucleophile", "electrophile"], "order": "1"},
+          {"atoms": ["oxygen", "transfer_hydrogen"], "order": "1"}
+        ]
+      },
+      "description": "Opens the selected epoxide C–O bond, forms N–C, and transfers one explicit N–H hydrogen to oxygen."
+    },
+    {
+      "id": "secondary_amine_epoxide_opening",
+      "name": "Secondary-amine–epoxide ring opening",
+      "participants": [
+        {"group": "secondary_amine", "role": "nucleophile"},
+        {"group": "epoxide", "role": "electrophile"}
+      ],
+      "allow_intramolecular": false,
+      "initiator_roles": ["nucleophile", "electrophile"],
+      "topology_changes": {
+        "remove": [
+          {"atoms": ["nucleophile", "transfer_hydrogen"]},
+          {"atoms": ["oxygen", "electrophile"]}
+        ],
+        "add": [
+          {"atoms": ["nucleophile", "electrophile"], "order": "1"},
+          {"atoms": ["oxygen", "transfer_hydrogen"], "order": "1"}
+        ]
+      },
+      "description": "Opens the selected epoxide C–O bond, forms N–C, and transfers the explicit N–H hydrogen to oxygen."
+    },
+    {
+      "id": "cyanate_first_link",
+      "name": "Cyanate cyclotrimerization — first link",
+      "participants": [
+        {
+          "group": "cyanate_ester",
+          "site_role": "cyanate_nitrogen",
+          "role_map": {
+            "cyanate_carbon": "carbon_a",
+            "cyanate_nitrogen": "nitrogen_a"
+          }
+        },
+        {
+          "group": "cyanate_ester",
+          "site_role": "cyanate_carbon",
+          "role_map": {
+            "cyanate_carbon": "carbon_b",
+            "cyanate_nitrogen": "nitrogen_b"
+          }
+        }
+      ],
+      "allow_intramolecular": false,
+      "initiator_roles": ["nitrogen_a", "carbon_b"],
+      "topology_changes": {
+        "change_order": [
+          {"atoms": ["carbon_a", "nitrogen_a"], "from": "3", "order": "2"},
+          {"atoms": ["carbon_b", "nitrogen_b"], "from": "3", "order": "2"}
+        ],
+        "retype": [
+          {"atoms": ["carbon_a"], "atom_type": "C.2"},
+          {"atoms": ["nitrogen_a"], "atom_type": "N.2"},
+          {"atoms": ["carbon_b"], "atom_type": "C.2"},
+          {"atoms": ["nitrogen_b"], "atom_type": "N.2"}
+        ],
+        "formal_charge": [
+          {"atoms": ["nitrogen_a"], "charge": 0},
+          {"atoms": ["nitrogen_b"], "charge": -1}
+        ],
+        "add": [
+          {"atoms": ["nitrogen_a", "carbon_b"], "order": "1"}
+        ]
+      },
+      "description": "Forms the first intermolecular C–N link between two cyanate groups and converts both participating C≡N bonds to C=N."
+    },
+    {
+      "id": "cyanate_third_group_addition",
+      "name": "Cyanate cyclotrimerization — third-group addition",
+      "participants": [
+        {
+          "group": "cyanate_dimer_intermediate",
+          "site_role": "terminal_nitrogen",
+          "role_map": {
+            "open_carbon": "open_carbon",
+            "terminal_nitrogen": "chain_nitrogen"
+          }
+        },
+        {
+          "group": "cyanate_ester",
+          "site_role": "cyanate_carbon",
+          "role_map": {
+            "cyanate_carbon": "new_carbon",
+            "cyanate_nitrogen": "new_nitrogen"
+          }
+        }
+      ],
+      "allow_intramolecular": false,
+      "initiator_roles": ["chain_nitrogen", "new_carbon"],
+      "topology_changes": {
+        "change_order": [
+          {"atoms": ["new_carbon", "new_nitrogen"], "from": "3", "order": "2"}
+        ],
+        "retype": [
+          {"atoms": ["new_carbon"], "atom_type": "C.2"},
+          {"atoms": ["new_nitrogen"], "atom_type": "N.2"}
+        ],
+        "formal_charge": [
+          {"atoms": ["chain_nitrogen"], "charge": 0},
+          {"atoms": ["new_nitrogen"], "charge": -1}
+        ],
+        "add": [
+          {"atoms": ["chain_nitrogen", "new_carbon"], "order": "1"}
+        ]
+      },
+      "description": "Adds a third cyanate group to the linear dimer and converts the incoming C≡N bond to C=N."
+    },
+    {
+      "id": "cyanate_triazine_ring_closure",
+      "name": "Cyanate cyclotrimerization — triazine ring closure",
+      "participants": [
+        {
+          "group": "cyanate_linear_trimer",
+          "site_role": "terminal_nitrogen",
+          "role_map": {
+            "open_carbon": "open_carbon",
+            "terminal_nitrogen": "terminal_nitrogen"
+          }
+        }
+      ],
+      "allow_intramolecular": true,
+      "initiator_roles": ["terminal_nitrogen", "open_carbon"],
+      "topology_changes": {
+        "formal_charge": [
+          {"atoms": ["terminal_nitrogen"], "charge": 0}
+        ],
+        "add": [
+          {"atoms": ["terminal_nitrogen", "open_carbon"], "order": "1"}
+        ]
+      },
+      "description": "Closes the linear trimer intramolecularly to form the six-membered 1,3,5-triazine ring."
+    }
+  ]
+}

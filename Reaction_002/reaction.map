@@ -1,0 +1,46 @@
+LAMMPS fix bond/react map file generated from pre_reaction.data and post_reaction.data
+
+5 edgeIDs
+26 equivalences
+
+InitiatorIDs
+
+5
+24
+
+EdgeIDs
+
+4
+6
+10
+13
+17
+
+Equivalences
+
+1        1
+2        2
+3        3
+4        4
+5        5
+6        6
+7        7
+8        8
+9        9
+10       10
+11       11
+12       12
+13       13
+14       14
+15       15
+16       16
+17       17
+18       18
+19       19
+20       20
+21       21
+22       22
+23       23
+24       24
+25       25
+26       26

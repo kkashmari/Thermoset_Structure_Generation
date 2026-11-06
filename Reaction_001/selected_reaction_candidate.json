@@ -1,0 +1,78 @@
+{
+  "rule_id": "amine_epoxide_opening",
+  "rule_name": "Amine\u2013epoxide ring opening",
+  "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers one explicit N\u2013H hydrogen to oxygen.",
+  "sites": [
+    {
+      "role": "nucleophile",
+      "group": "Primary amine",
+      "monomer": 1,
+      "match_number": 1,
+      "atom_options": [
+        "1:8"
+      ]
+    },
+    {
+      "role": "electrophile",
+      "group": "Epoxide",
+      "monomer": 2,
+      "match_number": 1,
+      "atom_options": [
+        "2:41"
+      ]
+    }
+  ],
+  "role_atoms": {
+    "electrophile": "2:41",
+    "nucleophile": "1:8",
+    "oxygen": "2:35",
+    "transfer_hydrogen": "1:28"
+  },
+  "initiator_source_refs": [
+    "1:8",
+    "2:41"
+  ],
+  "commands": [
+    "remove 1:8 1:28",
+    "remove 2:35 2:41",
+    "add 1:8 2:41 1",
+    "add 2:35 1:28 1"
+  ],
+  "action_summary": [
+    "remove 1:8\u20131:28",
+    "remove 2:35\u20132:41",
+    "add 1:8\u20132:41 (1)",
+    "add 2:35\u20131:28 (1)"
+  ],
+  "topology_identity": {
+    "preliminary_key": "4352a50e89958bc869e5",
+    "radius": 3,
+    "pre_signature": "[H]-[c](:[c]):[c](-[N:2](-[H])-[H:4]):[c](-[H]):[c].[H]-[C](-[H])(-[N])-[C@@]1(-[H])-[C:1](-[H])(-[H])-[O:3]-1",
+    "post_signature": "[H]-[c](:[c]):[c](-[N:2](-[H])-[C:1](-[H])(-[H])-[C@](-[H])(-[C](-[H])(-[H])-[N])-[O:3]-[H:4]):[c](-[H]):[c]",
+    "removed_bonds": [
+      [
+        "1:8",
+        "1:28"
+      ],
+      [
+        "2:35",
+        "2:41"
+      ]
+    ],
+    "added_bonds": [
+      [
+        "1:8",
+        "2:41",
+        "1"
+      ],
+      [
+        "2:35",
+        "1:28",
+        "1"
+      ]
+    ],
+    "bond_order_changes": [],
+    "formal_charge_changes": []
+  },
+  "prior_reaction_participation": []
+}

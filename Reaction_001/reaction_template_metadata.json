@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "monomer_count": 2,
+  "template_radius": 3,
+  "initiator_candidates": [
+    {
+      "source_refs": [
+        "1:8",
+        "2:41"
+      ],
+      "template_ids": [
+        5,
+        18
+      ],
+      "product_atom_ids": [
+        8,
+        70
+      ]
+    },
+    {
+      "source_refs": [
+        "1:28",
+        "2:35"
+      ],
+      "template_ids": [
+        9,
+        17
+      ],
+      "product_atom_ids": [
+        28,
+        64
+      ]
+    }
+  ],
+  "selected_source_refs": [
+    "1:8",
+    "2:41"
+  ],
+  "removed_template_bonds": [
+    [
+      5,
+      9
+    ],
+    [
+      17,
+      18
+    ]
+  ],
+  "added_template_bonds": [
+    [
+      5,
+      18
+    ],
+    [
+      9,
+      17
+    ]
+  ]
+}

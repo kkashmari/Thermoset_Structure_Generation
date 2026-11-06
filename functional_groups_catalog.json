@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "description": "Broad functional-group detection is separate from validated reaction mechanisms. Add custom SMARTS here without changing Python code.",
+  "sources": [
+    {
+      "type": "rdkit_functional_group_hierarchy",
+      "enabled": true,
+      "description": "Load the functional-group hierarchy shipped with the installed RDKit version."
+    }
+  ],
+  "functional_groups": []
+}
