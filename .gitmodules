@@ -1,0 +1,3 @@
+[submodule "Force_Field_Parametrization"]
+	path = Force_Field_Parametrization
+	url = https://github.com/kkashmari/Force_Field_Parametrization.git
