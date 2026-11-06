@@ -1,0 +1,33 @@
+New type assignment file for monomer_02_from_smiles.data > atom_typing v3.0 / pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod / charges: Bond increments
+style id
+1      c3              #  Correctly found
+2      c2              #  Correctly found
+3      cp              #  Correctly found
+4      cp              #  Correctly found
+5      cp              #  Correctly found
+6      cp              #  Correctly found
+7      cp              #  Correctly found
+8      c1              #  Correctly found
+9      c3              #  Correctly found
+10     npc             #  Correctly found
+11     c2              #  Correctly found
+12     c3              #  Correctly found
+13     npc             #  Correctly found
+14     hc              #  Correctly found
+15     hc              #  Correctly found
+16     hc              #  Correctly found
+17     hc              #  Correctly found
+18     hc              #  Correctly found
+19     hc              #  Correctly found
+20     hc              #  Correctly found
+21     hc              #  Correctly found
+22     hc              #  Correctly found
+23     h*              #  Correctly found
+24     h*              #  Correctly found
+25     hc              #  Correctly found
+26     hc              #  Correctly found
+27     hc              #  Correctly found
+28     hc              #  Correctly found
+29     hc              #  Correctly found
+30     h*              #  Correctly found
+31     h*              #  Correctly found

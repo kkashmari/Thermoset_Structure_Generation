@@ -1,0 +1,1230 @@
+{
+  "schema_version": 1,
+  "reaction_folder": "Reaction_004",
+  "registered_at": "2026-11-06T21:33:55.441160+00:00",
+  "rule_id": "secondary_amine_epoxide_opening",
+  "preliminary_key": "22d4e6889267630d82f8",
+  "typed_template_key": "d08a2e44080466a01a85fea5c058b5cb34b587da82261a963062b88e9047928a",
+  "pre_typed_hash": "084285e895c78f2913c1c41249c9d3937f434e2e80b7ec08c76a619672f6b62c",
+  "post_typed_hash": "071735d7f4ff7b6b431a2d73dde81f83813fd3a35f7bfceadb65fc475c4c1404",
+  "topology_changes": [
+    "remove 1:53\u20131:67",
+    "remove 2:28\u20132:37",
+    "add 1:53\u20132:37 (1)",
+    "add 2:28\u20131:67 (1)"
+  ],
+  "typed_delta": {
+    "atom_changes": [
+      {
+        "atom_id": 14,
+        "before_type": "n",
+        "after_type": "n",
+        "before_charge": -0.6503,
+        "after_charge": -0.4216
+      },
+      {
+        "atom_id": 16,
+        "before_type": "h*",
+        "after_type": "ho",
+        "before_charge": 0.4395,
+        "after_charge": 0.4241
+      },
+      {
+        "atom_id": 19,
+        "before_type": "o3e",
+        "after_type": "oh",
+        "before_charge": -0.266,
+        "after_charge": -0.5571
+      },
+      {
+        "atom_id": 21,
+        "before_type": "c3h",
+        "after_type": "c1",
+        "before_charge": 0.08,
+        "after_charge": 0.08
+      },
+      {
+        "atom_id": 24,
+        "before_type": "c3h",
+        "after_type": "c2",
+        "before_charge": 0.027,
+        "after_charge": 0.1048
+      }
+    ],
+    "interactions": {
+      "Bonds": {
+        "removed": [
+          {
+            "atoms": [
+              14,
+              16
+            ],
+            "type": "h*          n"
+          },
+          {
+            "atoms": [
+              18,
+              21
+            ],
+            "type": "c2        c3h  via equivalence: c-c"
+          },
+          {
+            "atoms": [
+              19,
+              21
+            ],
+            "type": "c3h        o3e  via equivalence: c-o"
+          },
+          {
+            "atoms": [
+              19,
+              24
+            ],
+            "type": "c3h        o3e  via equivalence: c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24
+            ],
+            "type": "c3h       hpan  via equivalence: c-h"
+          },
+          {
+            "atoms": [
+              21,
+              24
+            ],
+            "type": "c3h        c3h  via equivalence: c-c"
+          },
+          {
+            "atoms": [
+              21,
+              26
+            ],
+            "type": "c3h       hpan  via equivalence: c-h"
+          },
+          {
+            "atoms": [
+              24,
+              25
+            ],
+            "type": "c3h       hpan  via equivalence: c-h"
+          }
+        ],
+        "added": [
+          {
+            "atoms": [
+              14,
+              24
+            ],
+            "type": "c2          n  via equivalence: c-n"
+          },
+          {
+            "atoms": [
+              16,
+              19
+            ],
+            "type": "ho         oh  via equivalence: h*-o"
+          },
+          {
+            "atoms": [
+              18,
+              21
+            ],
+            "type": "c1         c2  via equivalence: c-c"
+          },
+          {
+            "atoms": [
+              19,
+              21
+            ],
+            "type": "c1         oh  via equivalence: c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24
+            ],
+            "type": "c2       hpan  via equivalence: c-h"
+          },
+          {
+            "atoms": [
+              21,
+              24
+            ],
+            "type": "c1         c2  via equivalence: c-c"
+          },
+          {
+            "atoms": [
+              21,
+              26
+            ],
+            "type": "c1       hpan  via equivalence: c-h"
+          },
+          {
+            "atoms": [
+              24,
+              25
+            ],
+            "type": "c2       hpan  via equivalence: c-h"
+          }
+        ]
+      },
+      "Angles": {
+        "removed": [
+          {
+            "atoms": [
+              1,
+              14,
+              16
+            ],
+            "type": "c2          n         h*  via equivalence: c-n-h*"
+          },
+          {
+            "atoms": [
+              10,
+              14,
+              16
+            ],
+            "type": "cp          n         h*  via wildcard: *3-n_-h_"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21
+            ],
+            "type": "c3h         c2         oc  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              19
+            ],
+            "type": "c2        c3h        o3e  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24
+            ],
+            "type": "c2        c3h        c3h  via equivalence: c-c-c"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              26
+            ],
+            "type": "c2        c3h       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24
+            ],
+            "type": "c3h        c3h        o3e  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              26
+            ],
+            "type": "hpan        c3h        o3e  via equivalence: h-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              24,
+              20
+            ],
+            "type": "hpan        c3h        o3e  via equivalence: h-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              24,
+              21
+            ],
+            "type": "c3h        c3h        o3e  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              24,
+              25
+            ],
+            "type": "hpan        c3h        o3e  via equivalence: h-c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              21
+            ],
+            "type": "c3h        c3h       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              25
+            ],
+            "type": "hpan        c3h       hpan  via equivalence: h-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              18,
+              22
+            ],
+            "type": "c3h         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              18,
+              23
+            ],
+            "type": "c3h         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              19,
+              24
+            ],
+            "type": "c3h        o3e        c3h  via equivalence: c-o-c"
+          },
+          {
+            "atoms": [
+              21,
+              24,
+              25
+            ],
+            "type": "c3h        c3h       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              24,
+              21,
+              26
+            ],
+            "type": "c3h        c3h       hpan  via equivalence: c-c-h"
+          }
+        ],
+        "added": [
+          {
+            "atoms": [
+              1,
+              14,
+              24
+            ],
+            "type": "c2          n         c2  via equivalence: c-n-c"
+          },
+          {
+            "atoms": [
+              10,
+              14,
+              24
+            ],
+            "type": "c2          n         cp  via wildcard: *9-n_-c_"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              20
+            ],
+            "type": "hpan         c2          n  via equivalence: h-c-n"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              21
+            ],
+            "type": "c1         c2          n  via equivalence: c-c-n"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              25
+            ],
+            "type": "hpan         c2          n  via equivalence: h-c-n"
+          },
+          {
+            "atoms": [
+              16,
+              19,
+              21
+            ],
+            "type": "c1         oh         ho  via equivalence: c-o-h*"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21
+            ],
+            "type": "c1         c2         oc  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              19
+            ],
+            "type": "c2         c1         oh  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24
+            ],
+            "type": "c2         c1         c2  via equivalence: c-c-c"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              26
+            ],
+            "type": "c2         c1       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24
+            ],
+            "type": "c2         c1         oh  via equivalence: c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              26
+            ],
+            "type": "hpan         c1         oh  via equivalence: h-c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              21
+            ],
+            "type": "c1         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              25
+            ],
+            "type": "hpan         c2       hpan  via equivalence: h-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              18,
+              22
+            ],
+            "type": "c1         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              18,
+              23
+            ],
+            "type": "c1         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              24,
+              25
+            ],
+            "type": "c1         c2       hpan  via equivalence: c-c-h"
+          },
+          {
+            "atoms": [
+              24,
+              21,
+              26
+            ],
+            "type": "c2         c1       hpan  via equivalence: c-c-h"
+          }
+        ]
+      },
+      "Dihedrals": {
+        "removed": [
+          {
+            "atoms": [
+              2,
+              1,
+              14,
+              16
+            ],
+            "type": "c1         c2          n         h*  via equivalence: c-c-n-h*"
+          },
+          {
+            "atoms": [
+              5,
+              1,
+              14,
+              16
+            ],
+            "type": "h*          n         c2       hpan  via equivalence: h-c-n-h*"
+          },
+          {
+            "atoms": [
+              6,
+              1,
+              14,
+              16
+            ],
+            "type": "h*          n         c2       hpan  via equivalence: h-c-n-h*"
+          },
+          {
+            "atoms": [
+              9,
+              10,
+              14,
+              16
+            ],
+            "type": "cp         cp          n         h*  via wildcard: *-cp_-n_-*"
+          },
+          {
+            "atoms": [
+              11,
+              10,
+              14,
+              16
+            ],
+            "type": "cp         cp          n         h*  via wildcard: *-cp_-n_-*"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              19
+            ],
+            "type": "o3e        c3h         c2         oc  via equivalence: o-c-c-o"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              24
+            ],
+            "type": "c3h        c3h         c2         oc  via equivalence: c-c-c-o"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan        c3h         c2         oc  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              19,
+              24
+            ],
+            "type": "c2        c3h        o3e        c3h  via equivalence: c-c-o-c"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              19
+            ],
+            "type": "c2        c3h        c3h        o3e  via equivalence: c-c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              20
+            ],
+            "type": "c2        c3h        c3h       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              25
+            ],
+            "type": "c2        c3h        c3h       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              18,
+              22
+            ],
+            "type": "hpan         c2        c3h        o3e  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              18,
+              23
+            ],
+            "type": "hpan         c2        c3h        o3e  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              20
+            ],
+            "type": "hpan        c3h        c3h        o3e  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              25
+            ],
+            "type": "hpan        c3h        c3h        o3e  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan        c3h        c3h        o3e  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              19,
+              21
+            ],
+            "type": "c3h        o3e        c3h       hpan  via equivalence: h-c-o-c"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan        c3h        c3h       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              21,
+              19,
+              24,
+              25
+            ],
+            "type": "c3h        o3e        c3h       hpan  via equivalence: h-c-o-c"
+          },
+          {
+            "atoms": [
+              22,
+              18,
+              21,
+              24
+            ],
+            "type": "c3h        c3h         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              22,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan         c2        c3h       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              23,
+              18,
+              21,
+              24
+            ],
+            "type": "c3h        c3h         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              23,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan         c2        c3h       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              24,
+              19,
+              21,
+              26
+            ],
+            "type": "c3h        o3e        c3h       hpan  via equivalence: h-c-o-c"
+          },
+          {
+            "atoms": [
+              25,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan        c3h        c3h       hpan  via equivalence: h-c-c-h"
+          }
+        ],
+        "added": [
+          {
+            "atoms": [
+              1,
+              14,
+              24,
+              20
+            ],
+            "type": "c2          n         c2       hpan  via equivalence: h-c-n-c"
+          },
+          {
+            "atoms": [
+              1,
+              14,
+              24,
+              21
+            ],
+            "type": "c1         c2          n         c2  via equivalence: c-c-n-c"
+          },
+          {
+            "atoms": [
+              1,
+              14,
+              24,
+              25
+            ],
+            "type": "c2          n         c2       hpan  via equivalence: h-c-n-c"
+          },
+          {
+            "atoms": [
+              2,
+              1,
+              14,
+              24
+            ],
+            "type": "c1         c2          n         c2  via equivalence: c-c-n-c"
+          },
+          {
+            "atoms": [
+              5,
+              1,
+              14,
+              24
+            ],
+            "type": "c2          n         c2       hpan  via equivalence: h-c-n-c"
+          },
+          {
+            "atoms": [
+              6,
+              1,
+              14,
+              24
+            ],
+            "type": "c2          n         c2       hpan  via equivalence: h-c-n-c"
+          },
+          {
+            "atoms": [
+              9,
+              10,
+              14,
+              24
+            ],
+            "type": "c2          n         cp         cp  via wildcard: *-cp_-n_-*"
+          },
+          {
+            "atoms": [
+              10,
+              14,
+              24,
+              20
+            ],
+            "type": "cp          n         c2       hpan  via wildcard: *-c_-n_-*"
+          },
+          {
+            "atoms": [
+              10,
+              14,
+              24,
+              21
+            ],
+            "type": "c1         c2          n         cp  via wildcard: *-c_-n_-*"
+          },
+          {
+            "atoms": [
+              10,
+              14,
+              24,
+              25
+            ],
+            "type": "cp          n         c2       hpan  via wildcard: *-c_-n_-*"
+          },
+          {
+            "atoms": [
+              11,
+              10,
+              14,
+              24
+            ],
+            "type": "c2          n         cp         cp  via wildcard: *-cp_-n_-*"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              21,
+              18
+            ],
+            "type": "c2         c1         c2          n  via equivalence: c-c-c-n"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              21,
+              19
+            ],
+            "type": "n         c2         c1         oh  via equivalence: n-c-c-o"
+          },
+          {
+            "atoms": [
+              14,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2          n  via equivalence: h-c-c-n"
+          },
+          {
+            "atoms": [
+              16,
+              19,
+              21,
+              18
+            ],
+            "type": "c2         c1         oh         ho  via equivalence: c-c-o-h*"
+          },
+          {
+            "atoms": [
+              16,
+              19,
+              21,
+              24
+            ],
+            "type": "c2         c1         oh         ho  via equivalence: c-c-o-h*"
+          },
+          {
+            "atoms": [
+              16,
+              19,
+              21,
+              26
+            ],
+            "type": "ho         oh         c1       hpan  via equivalence: h-c-o-h*"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              19
+            ],
+            "type": "oc         c2         c1         oh  via equivalence: o-c-c-o"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              24
+            ],
+            "type": "c2         c1         c2         oc  via equivalence: c-c-c-o"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2         oc  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              20
+            ],
+            "type": "c2         c1         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              25
+            ],
+            "type": "c2         c1         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              18,
+              22
+            ],
+            "type": "hpan         c2         c1         oh  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              18,
+              23
+            ],
+            "type": "hpan         c2         c1         oh  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              20
+            ],
+            "type": "hpan         c2         c1         oh  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              25
+            ],
+            "type": "hpan         c2         c1         oh  via equivalence: h-c-c-o"
+          },
+          {
+            "atoms": [
+              20,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              22,
+              18,
+              21,
+              24
+            ],
+            "type": "c2         c1         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              22,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              23,
+              18,
+              21,
+              24
+            ],
+            "type": "c2         c1         c2       hpan  via equivalence: c-c-c-h"
+          },
+          {
+            "atoms": [
+              23,
+              18,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2       hpan  via equivalence: h-c-c-h"
+          },
+          {
+            "atoms": [
+              25,
+              24,
+              21,
+              26
+            ],
+            "type": "hpan         c1         c2       hpan  via equivalence: h-c-c-h"
+          }
+        ]
+      },
+      "Impropers": {
+        "removed": [
+          {
+            "atoms": [
+              1,
+              10,
+              14,
+              16
+            ],
+            "type": "c2          n         cp         h*  via wildcard: *-n_-*-*"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              22
+            ],
+            "type": "c3h         c2       hpan         oc  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              23
+            ],
+            "type": "c3h         c2       hpan         oc  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              19,
+              21,
+              24
+            ],
+            "type": "c2        c3h        c3h        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              19,
+              21,
+              26
+            ],
+            "type": "c2        c3h       hpan        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              22,
+              23
+            ],
+            "type": "c3h         c2       hpan       hpan  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              26
+            ],
+            "type": "c2        c3h        c3h       hpan  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              19,
+              20,
+              21,
+              24
+            ],
+            "type": "c3h        c3h       hpan        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              19,
+              20,
+              24,
+              25
+            ],
+            "type": "hpan        c3h       hpan        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              25
+            ],
+            "type": "c3h        c3h       hpan        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              26
+            ],
+            "type": "c3h        c3h       hpan        o3e  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              20,
+              21,
+              24,
+              25
+            ],
+            "type": "c3h        c3h       hpan       hpan  WARNING: zero fallback"
+          }
+        ],
+        "added": [
+          {
+            "atoms": [
+              1,
+              10,
+              14,
+              24
+            ],
+            "type": "c2          n         c2         cp  via wildcard: *-n_-*-*"
+          },
+          {
+            "atoms": [
+              14,
+              20,
+              21,
+              24
+            ],
+            "type": "c1         c2       hpan          n  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              14,
+              20,
+              24,
+              25
+            ],
+            "type": "hpan         c2       hpan          n  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              14,
+              21,
+              24,
+              25
+            ],
+            "type": "c1         c2       hpan          n  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              22
+            ],
+            "type": "c1         c2       hpan         oc  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              17,
+              18,
+              21,
+              23
+            ],
+            "type": "c1         c2       hpan         oc  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              19,
+              21,
+              24
+            ],
+            "type": "c2         c1         c2         oh  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              19,
+              21,
+              26
+            ],
+            "type": "c2         c1       hpan         oh  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              22,
+              23
+            ],
+            "type": "c1         c2       hpan       hpan  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              18,
+              21,
+              24,
+              26
+            ],
+            "type": "c2         c1         c2       hpan  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              19,
+              21,
+              24,
+              26
+            ],
+            "type": "c2         c1       hpan         oh  WARNING: zero fallback"
+          },
+          {
+            "atoms": [
+              20,
+              21,
+              24,
+              25
+            ],
+            "type": "c1         c2       hpan       hpan  WARNING: zero fallback"
+          }
+        ]
+      }
+    }
+  },
+  "recommendation": {
+    "status": "new_template_required",
+    "reason": "The complete force-field-typed pre/post fix bond/react topology has not been registered before.",
+    "matching_reactions": [],
+    "authoritative": true
+  },
+  "files": {
+    "pre": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_004/pre_reaction.data",
+    "post": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_004/post_reaction.data",
+    "atom_map": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_004/reaction_template_atom_map.tsv"
+  }
+}

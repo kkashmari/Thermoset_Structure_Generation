@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "rdkit_version": "2025.09.3",
+  "inputs": [
+    {
+      "index": 1,
+      "kind": "mol2",
+      "original_input": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_003/reacted_product_minimized.mol2",
+      "resolved_mol2": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_003/reacted_product_minimized.mol2"
+    },
+    {
+      "index": 2,
+      "kind": "mol2",
+      "original_input": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/epon862.mol2",
+      "resolved_mol2": "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/epon862.mol2"
+    }
+  ],
+  "resolved_mol2": [
+    "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/Reaction_003/reacted_product_minimized.mol2",
+    "/Users/khatereh/Desktop/Research/Polymer_CoScientist/Thermoset/AutoReaction_generation/Automated_Reaction_Workflow/epon862.mol2"
+  ]
+}

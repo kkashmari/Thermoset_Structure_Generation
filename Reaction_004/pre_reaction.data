@@ -1,0 +1,1181 @@
+LAMMPS data: graph-derived pre-reaction template
+
+      26 atoms
+      25 bonds
+      43 angles
+      48 dihedrals
+      24 impropers
+
+      20 atom types
+      34 bond types
+      69 angle types
+      94 dihedral types
+      48 improper types
+
+     -8.4168145300       9.2135854700 xlo xhi
+     -7.8478837610       6.6521162390 ylo yhi
+     -7.3980777780       8.8229222220 zlo zhi
+
+Masses
+
+1 12.01115000 # c2
+2 12.01115000 # c1
+3 15.99940000 # oh
+4 15.99940000 # oc
+5 12.01115000 # cp
+6 12.01115000 # c3h
+7 15.99940000 # o3e
+8 1.00797000 # hpan
+9 12.01115000 # c3
+10 14.00670000 # n
+11 14.00670000 # npc
+12 1.00797000 # ho
+13 1.00797000 # h*
+14 12.01115000 # c1
+15 12.01115000 # cp
+16 1.00797000 # hpan
+17 12.01115000 # c2
+18 15.99940000 # oc
+19 15.99940000 # o3e
+20 12.01115000 # c3h
+
+Pair Coeffs
+
+1 0.05400000 4.01000000 # c2  via equivalence: c
+2 0.05400000 4.01000000 # c1  via equivalence: c
+3 0.24000000 3.53500000 # oh  via equivalence: o
+4 0.24000000 3.53500000 # oc  via equivalence: o
+5 0.06400000 4.01000000 # cp
+6 0.05400000 4.01000000 # c3h  via equivalence: c
+7 0.24000000 3.53500000 # o3e  via equivalence: o
+8 0.02000000 2.30000000 # hpan
+9 0.05400000 3.90000000 # c3
+10 0.10600000 4.07000000 # n
+11 0.13400000 4.07000000 # npc  via equivalence: nh
+12 0.01300000 1.09800000 # ho  via equivalence: h*
+13 0.01300000 1.09800000 # h*
+14 0.05400000 4.01000000 # c1  via equivalence: c
+15 0.06400000 4.01000000 # cp
+16 0.02000000 2.30000000 # hpan
+17 0.05400000 4.01000000 # c2  via equivalence: c
+18 0.24000000 3.53500000 # oc  via equivalence: o
+19 0.24000000 3.53500000 # o3e  via equivalence: o
+20 0.05400000 4.01000000 # c3h  via equivalence: c
+
+Bond Coeffs
+
+1 1.53000000 299.67000000 -501.77000000 679.81000000 # c1         c2  via equivalence: c-c
+2 1.10100000 345.00000000 -691.89000000 844.60000000 # c2       hpan  via equivalence: c-h
+3 1.45200000 327.16570000 -547.89900000 526.50000000 # c2          n  via equivalence: c-n
+4 1.42000000 400.39540000 -835.19510000 1313.01420000 # c1         oh  via equivalence: c-o
+5 1.10100000 345.00000000 -691.89000000 844.60000000 # c1       hpan  via equivalence: c-h
+6 0.96500000 532.50620000 -1282.90500000 2004.76580000 # ho         oh  via equivalence: h*-o
+7 1.42000000 400.39540000 -835.19510000 1313.01420000 # c2         oc  via equivalence: c-o
+8 1.37680000 428.87980000 -738.23510000 1114.96550000 # cp         oc  via equivalence: cp-o
+9 1.50100000 321.90210000 -521.82080000 572.16280000 # c1         cp  via equivalence: c-cp
+10 1.53000000 299.67000000 -501.77000000 679.81000000 # c1         c1  via equivalence: c-c
+11 1.50100000 321.90210000 -521.82080000 572.16280000 # c2         cp  via equivalence: c-cp
+12 1.53000000 299.67000000 -501.77000000 679.81000000 # c2        c3h  via equivalence: c-c
+13 1.53000000 299.67000000 -501.77000000 679.81000000 # c3h        c3h  via equivalence: c-c
+14 1.42000000 400.39540000 -835.19510000 1313.01420000 # c3h        o3e  via equivalence: c-o
+15 1.10100000 345.00000000 -691.89000000 844.60000000 # c3h       hpan  via equivalence: c-h
+16 1.53000000 299.67000000 -501.77000000 679.81000000 # c2         c3  via equivalence: c-c
+17 1.10100000 345.00000000 -691.89000000 844.60000000 # c3       hpan  via equivalence: c-h
+18 1.41700000 470.83610000 -627.61790000 1327.63450000 # cp         cp
+19 1.37490000 477.52020000 -848.55920000 1022.39090000 # cp        npc  via equivalence: cp-nh
+20 1.42000000 280.00000000 0.00000000 0.00000000 # cp          n  via equivalence: cp_-n_
+21 1.50100000 321.90210000 -521.82080000 572.16280000 # c3         cp  via equivalence: c-cp
+22 1.01000000 462.75000000 -1053.63000000 1545.75700000 # h*          n
+23 1.00530000 463.92300000 -1050.80700000 1284.72620000 # h*        npc  via equivalence: h*-nh
+24 1.50100000 321.90210000 -521.82080000 572.16280000 # c1         cp  via equivalence: c-cp
+25 1.10100000 345.00000000 -691.89000000 844.60000000 # c1       hpan  via equivalence: c-h
+26 1.53000000 299.67000000 -501.77000000 679.81000000 # c1         c1  via equivalence: c-c
+27 1.37680000 428.87980000 -738.23510000 1114.96550000 # cp         oc  via equivalence: cp-o
+28 1.50100000 321.90210000 -521.82080000 572.16280000 # c2         cp  via equivalence: c-cp
+29 1.10100000 345.00000000 -691.89000000 844.60000000 # c2       hpan  via equivalence: c-h
+30 1.42000000 400.39540000 -835.19510000 1313.01420000 # c2         oc  via equivalence: c-o
+31 1.53000000 299.67000000 -501.77000000 679.81000000 # c2        c3h  via equivalence: c-c
+32 1.42000000 400.39540000 -835.19510000 1313.01420000 # c3h        o3e  via equivalence: c-o
+33 1.10100000 345.00000000 -691.89000000 844.60000000 # c3h       hpan  via equivalence: c-h
+34 1.53000000 299.67000000 -501.77000000 679.81000000 # c3h        c3h  via equivalence: c-c
+
+Angle Coeffs
+
+1 111.27000000 54.53810000 -8.36420000 -13.08380000 # c2         c1         oh  via equivalence: c-c-o
+2 112.67000000 39.51600000 -7.44300000 -9.55830000 # c2         c1         c2  via equivalence: c-c-c
+3 110.77000000 41.45300000 -10.60400000 5.12900000 # c2         c1       hpan  via equivalence: c-c-h
+4 120.00000000 50.00000000 0.00000000 0.00000000 # c2          n         cp  via wildcard: *9-n_-c_
+5 113.86830000 45.92710000 -20.08240000 0.00000000 # c2          n         h*  via equivalence: c-n-h*
+6 110.77000000 41.45300000 -10.60400000 5.12900000 # c1         c2       hpan  via equivalence: c-c-h
+7 114.30180000 42.65890000 -10.54640000 -9.32430000 # c1         c2          n  via equivalence: c-c-n
+8 105.80000000 52.70610000 -12.10900000 -9.86810000 # c1         oh         ho  via equivalence: c-o-h*
+9 111.27000000 54.53810000 -8.36420000 -13.08380000 # c1         c2         oc  via equivalence: c-c-o
+10 108.72800000 58.54460000 -10.80880000 -12.40060000 # hpan         c1         oh  via equivalence: h-c-o
+11 102.96950000 38.97390000 -6.25950000 -8.17100000 # c2         oc         cp  via equivalence: c-o-cp
+12 108.72800000 58.54460000 -10.80880000 -12.40060000 # hpan         c2         oc  via equivalence: h-c-o
+13 120.00000000 60.00000000 0.00000000 0.00000000 # c1         cp         oc  via wildcard: *5-cp_-o_
+14 108.40000000 43.95940000 -8.39240000 -9.33790000 # c1         c1         cp  via equivalence: c-c-cp
+15 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c1       hpan  via equivalence: cp-c-h
+16 120.00000000 80.00000000 0.00000000 0.00000000 # c1         cp         c1  via wildcard: *7-cp_-c_
+17 110.77000000 41.45300000 -10.60400000 5.12900000 # c1         c1       hpan  via equivalence: c-c-h
+18 120.00000000 80.00000000 0.00000000 0.00000000 # c1         cp         c2  via wildcard: *7-cp_-c_
+19 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c2         cp  via equivalence: cp-c-cp
+20 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c2       hpan  via equivalence: cp-c-h
+21 111.27000000 54.53810000 -8.36420000 -13.08380000 # c3h         c2         oc  via equivalence: c-c-o
+22 112.67000000 39.51600000 -7.44300000 -9.55830000 # c2        c3h        c3h  via equivalence: c-c-c
+23 111.27000000 54.53810000 -8.36420000 -13.08380000 # c2        c3h        o3e  via equivalence: c-c-o
+24 110.77000000 41.45300000 -10.60400000 5.12900000 # c2        c3h       hpan  via equivalence: c-c-h
+25 110.77000000 41.45300000 -10.60400000 5.12900000 # c3h         c2       hpan  via equivalence: c-c-h
+26 111.27000000 54.53810000 -8.36420000 -13.08380000 # c3h        c3h        o3e  via equivalence: c-c-o
+27 110.77000000 41.45300000 -10.60400000 5.12900000 # c3h        c3h       hpan  via equivalence: c-c-h
+28 104.50000000 35.74540000 -10.00670000 -6.27290000 # c3h        o3e        c3h  via equivalence: c-o-c
+29 108.72800000 58.54460000 -10.80880000 -12.40060000 # hpan        c3h        o3e  via equivalence: h-c-o
+30 107.66000000 39.64100000 -12.92100000 -2.43180000 # hpan         c2       hpan  via equivalence: h-c-h
+31 108.93720000 57.40100000 2.93740000 0.00000000 # hpan         c2          n  via equivalence: h-c-n
+32 107.66000000 39.64100000 -12.92100000 -2.43180000 # hpan        c3h       hpan  via equivalence: h-c-h
+33 108.40000000 43.95940000 -8.39240000 -9.33790000 # c3         c2         cp  via equivalence: c-c-cp
+34 110.77000000 41.45300000 -10.60400000 5.12900000 # c3         c2       hpan  via equivalence: c-c-h
+35 110.77000000 41.45300000 -10.60400000 5.12900000 # c2         c3       hpan  via equivalence: c-c-h
+36 120.05000000 44.71480000 -22.73520000 0.00000000 # c2         cp         cp  via equivalence: c-cp-cp
+37 118.90000000 61.02260000 -34.99310000 0.00000000 # cp         cp         cp
+38 112.59000000 78.64180000 -16.38880000 0.00000000 # cp         cp        npc  via equivalence: cp-cp-nh
+39 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c1         cp  via equivalence: cp-c-cp
+40 120.05000000 44.71480000 -22.73520000 0.00000000 # c1         cp         cp  via equivalence: c-cp-cp
+41 109.38000000 47.01200000 -17.35560000 0.00000000 # cp        npc         h*  via equivalence: cp-nh-h*
+42 120.00000000 102.00000000 0.00000000 0.00000000 # cp         cp          n  via wildcard: *6-cp_-n_
+43 120.05000000 44.71480000 -22.73520000 0.00000000 # c3         cp         cp  via equivalence: c-cp-cp
+44 122.00000000 35.00000000 0.00000000 0.00000000 # cp          n         h*  via wildcard: *3-n_-h_
+45 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c3       hpan  via equivalence: cp-c-h
+46 120.00000000 80.00000000 0.00000000 0.00000000 # c1         cp         c3  via wildcard: *7-cp_-c_
+47 107.66000000 39.64100000 -12.92100000 -2.43180000 # hpan         c3       hpan  via equivalence: h-c-h
+48 120.00000000 27.50000000 0.00000000 0.00000000 # h*        npc         h*  via wildcard: *3-np_-h_
+49 120.00000000 80.00000000 0.00000000 0.00000000 # c1         cp         c1  via wildcard: *7-cp_-c_
+50 120.00000000 60.00000000 0.00000000 0.00000000 # c1         cp         oc  via wildcard: *5-cp_-o_
+51 108.40000000 43.95940000 -8.39240000 -9.33790000 # c1         c1         cp  via equivalence: c-c-cp
+52 110.77000000 41.45300000 -10.60400000 5.12900000 # c1         c1       hpan  via equivalence: c-c-h
+53 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c1       hpan  via equivalence: cp-c-h
+54 102.96950000 38.97390000 -6.25950000 -8.17100000 # c2         oc         cp  via equivalence: c-o-cp
+55 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c2         cp  via equivalence: cp-c-cp
+56 111.00000000 44.32340000 -9.44540000 0.00000000 # cp         c2       hpan  via equivalence: cp-c-h
+57 120.00000000 80.00000000 0.00000000 0.00000000 # c1         cp         c2  via wildcard: *7-cp_-c_
+58 111.27000000 54.53810000 -8.36420000 -13.08380000 # c3h         c2         oc  via equivalence: c-c-o
+59 108.72800000 58.54460000 -10.80880000 -12.40060000 # hpan         c2         oc  via equivalence: h-c-o
+60 107.66000000 39.64100000 -12.92100000 -2.43180000 # hpan         c2       hpan  via equivalence: h-c-h
+61 111.27000000 54.53810000 -8.36420000 -13.08380000 # c2        c3h        o3e  via equivalence: c-c-o
+62 112.67000000 39.51600000 -7.44300000 -9.55830000 # c2        c3h        c3h  via equivalence: c-c-c
+63 110.77000000 41.45300000 -10.60400000 5.12900000 # c2        c3h       hpan  via equivalence: c-c-h
+64 111.27000000 54.53810000 -8.36420000 -13.08380000 # c3h        c3h        o3e  via equivalence: c-c-o
+65 108.72800000 58.54460000 -10.80880000 -12.40060000 # hpan        c3h        o3e  via equivalence: h-c-o
+66 110.77000000 41.45300000 -10.60400000 5.12900000 # c3h        c3h       hpan  via equivalence: c-c-h
+67 107.66000000 39.64100000 -12.92100000 -2.43180000 # hpan        c3h       hpan  via equivalence: h-c-h
+68 110.77000000 41.45300000 -10.60400000 5.12900000 # c3h         c2       hpan  via equivalence: c-c-h
+69 104.50000000 35.74540000 -10.00670000 -6.27290000 # c3h        o3e        c3h  via equivalence: c-o-c
+
+Dihedral Coeffs
+
+1 -0.67320000 0.00000000 -0.47780000 0.00000000 -0.16700000 0.00000000 # c2         c1         oh         ho  via equivalence: c-c-o-h*
+2 0.71370000 0.00000000 0.26600000 0.00000000 -0.25450000 0.00000000 # c2         c1         c2         oc  via equivalence: c-c-c-o
+3 0.00000000 0.00000000 0.03160000 0.00000000 -0.16810000 0.00000000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 2.25000000 0.00000000 0.00000000 0.00000000 # c2          n         cp         cp  via wildcard: *-cp_-n_-*
+5 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c2          n         cp  via wildcard: *-c_-n_-*
+6 -0.04830000 0.00000000 -0.00770000 0.00000000 -0.00140000 0.00000000 # c1         c2          n         h*  via equivalence: c-c-n-h*
+7 0.00000000 0.00000000 0.00000000 0.00000000 0.13000000 0.00000000 # c1         c2         oc         cp  via wildcard: *-c_-o_-*
+8 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan         c2         c1         oh  via equivalence: h-c-c-o
+9 -0.18200000 0.00000000 -0.10840000 0.00000000 -0.70470000 0.00000000 # n         c2         c1         oh  via equivalence: n-c-c-o
+10 -0.18200000 0.00000000 -0.10840000 0.00000000 -0.70470000 0.00000000 # oc         c2         c1         oh  via equivalence: o-c-c-o
+11 0.09720000 0.00000000 0.07220000 0.00000000 -0.25810000 0.00000000 # c2         c1         c2          n  via equivalence: c-c-c-n
+12 0.00000000 0.00000000 1.80000000 0.00000000 0.00000000 0.00000000 # c1         cp         oc         c2  via wildcard: *-cp_-o_-*
+13 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan         c1         c2         oc  via equivalence: h-c-c-o
+14 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         oc  via wildcard: *-c_-cp_-*
+15 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # hpan         c1         cp         oc  via wildcard: *-c_-cp_-*
+16 0.95130000 0.00000000 0.11550000 0.00000000 0.07200000 0.00000000 # cp         oc         c2       hpan  via equivalence: h-c-o-cp
+17 0.00000000 0.00000000 0.00000000 0.00000000 0.15800000 0.00000000 # cp         c1         c1         cp  via wildcard: *-c_-c_-*
+18 -0.02280000 0.00000000 0.02800000 0.00000000 -0.18630000 0.00000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+19 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         c1  via wildcard: *-c_-cp_-*
+20 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1       hpan  via wildcard: *-c_-cp_-*
+21 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         c2  via wildcard: *-c_-cp_-*
+22 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c2         cp  via wildcard: *-c_-cp_-*
+23 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c2       hpan  via wildcard: *-c_-cp_-*
+24 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c2         cp         c1       hpan  via wildcard: *-c_-cp_-*
+25 0.00000000 0.00000000 0.00000000 0.00000000 0.13000000 0.00000000 # c3h         c2         oc         cp  via wildcard: *-c_-o_-*
+26 0.71370000 0.00000000 0.26600000 0.00000000 -0.25450000 0.00000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+27 -0.18200000 0.00000000 -0.10840000 0.00000000 -0.70470000 0.00000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+28 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+29 0.71370000 0.00000000 0.26600000 0.00000000 -0.25450000 0.00000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+30 0.00000000 0.00000000 0.03160000 0.00000000 -0.16810000 0.00000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+31 -0.52030000 0.00000000 -0.30280000 0.00000000 -0.34500000 0.00000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+32 0.53020000 0.00000000 0.00000000 0.00000000 -0.39660000 0.00000000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+33 0.00000000 0.00000000 0.03160000 0.00000000 -0.16810000 0.00000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+34 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+35 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+36 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c1         c2       hpan  via equivalence: h-c-c-h
+37 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # cp          n         c2       hpan  via wildcard: *-c_-n_-*
+38 -0.01480000 0.00000000 -0.07910000 0.00000000 -0.01480000 0.00000000 # h*          n         c2       hpan  via equivalence: h-c-n-h*
+39 -0.02280000 0.00000000 0.02800000 0.00000000 -0.18630000 0.00000000 # hpan         c1         c2          n  via equivalence: h-c-c-n
+40 0.18630000 0.00000000 -0.43380000 0.00000000 -0.21210000 0.00000000 # ho         oh         c1       hpan  via equivalence: h-c-o-h*
+41 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+42 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+43 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+44 -0.28020000 0.00000000 -0.06780000 0.00000000 -0.01220000 0.00000000 # c3         c2         cp         cp  via equivalence: c-c-cp-cp
+45 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c2         c3  via wildcard: *-c_-cp_-*
+46 0.00000000 0.00000000 4.40720000 0.00000000 0.00000000 0.00000000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 0.00000000 3.02020000 0.00000000 0.00000000 0.00000000 # c2         cp         cp        npc  via equivalence: c-cp-cp-nh
+48 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c2         cp         c1         cp  via wildcard: *-c_-cp_-*
+49 -0.02280000 0.00000000 0.02800000 0.00000000 -0.18630000 0.00000000 # cp         c2         c3       hpan  via equivalence: cp-c-c-h
+50 8.36670000 0.00000000 1.19320000 0.00000000 0.00000000 0.00000000 # cp         cp         cp         cp
+51 0.00000000 0.00000000 1.82020000 0.00000000 0.00000000 0.00000000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 -0.28020000 0.00000000 -0.06780000 0.00000000 -0.01220000 0.00000000 # cp         c1         cp         cp  via equivalence: cp-c-cp-cp
+53 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c3         cp         c1         cp  via wildcard: *-c_-cp_-*
+54 -0.28010000 0.00000000 -0.06780000 0.00000000 -0.01220000 0.00000000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 -0.28010000 0.00000000 -0.06780000 0.00000000 -0.01220000 0.00000000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 0.00000000 3.00000000 0.00000000 0.00000000 0.00000000 # cp         cp         cp          n  via wildcard: *-cp_-cp_-*
+57 0.00000000 0.00000000 4.40720000 0.00000000 0.00000000 0.00000000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 0.00000000 0.00000000 4.40720000 0.00000000 0.00000000 0.00000000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 0.00000000 2.25000000 0.00000000 0.00000000 0.00000000 # cp         cp          n         h*  via wildcard: *-cp_-n_-*
+60 11.52700000 0.00000000 2.71830000 0.00000000 0.00000000 0.00000000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 -0.28010000 0.00000000 -0.06780000 0.00000000 -0.01220000 0.00000000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 0.00000000 3.02020000 0.00000000 0.00000000 0.00000000 # c1         cp         cp        npc  via equivalence: c-cp-cp-nh
+63 0.00000000 0.00000000 3.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         cp          n  via wildcard: *-cp_-cp_-*
+64 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c3       hpan  via wildcard: *-c_-cp_-*
+65 0.00000000 0.00000000 3.00000000 0.00000000 0.00000000 0.00000000 # c3         cp         cp          n  via wildcard: *-cp_-cp_-*
+66 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c3         cp         c1       hpan  via wildcard: *-c_-cp_-*
+67 0.00000000 0.00000000 3.00000000 0.00000000 0.00000000 0.00000000 # c2         cp         cp          n  via wildcard: *-cp_-cp_-*
+68 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c2         c3       hpan  via equivalence: h-c-c-h
+69 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1       hpan  via wildcard: *-c_-cp_-*
+70 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         c1  via wildcard: *-c_-cp_-*
+71 0.00000000 0.00000000 1.80000000 0.00000000 0.00000000 0.00000000 # c1         cp         oc         c2  via wildcard: *-cp_-o_-*
+72 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         c2  via wildcard: *-c_-cp_-*
+73 0.00000000 0.00000000 0.00000000 0.00000000 0.15800000 0.00000000 # cp         c1         c1         cp  via wildcard: *-c_-c_-*
+74 -0.02280000 0.00000000 0.02800000 0.00000000 -0.18630000 0.00000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+75 0.00000000 0.00000000 0.00000000 0.00000000 0.13000000 0.00000000 # c3h         c2         oc         cp  via wildcard: *-c_-o_-*
+76 0.95130000 0.00000000 0.11550000 0.00000000 0.07200000 0.00000000 # cp         oc         c2       hpan  via equivalence: h-c-o-cp
+77 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # hpan         c1         cp         oc  via wildcard: *-c_-cp_-*
+78 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+79 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c2         cp  via wildcard: *-c_-cp_-*
+80 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c2         cp         c1       hpan  via wildcard: *-c_-cp_-*
+81 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c2       hpan  via wildcard: *-c_-cp_-*
+82 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         c1         cp         oc  via wildcard: *-c_-cp_-*
+83 -0.18200000 0.00000000 -0.10840000 0.00000000 -0.70470000 0.00000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+84 0.71370000 0.00000000 0.26600000 0.00000000 -0.25450000 0.00000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+85 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+86 -0.52030000 0.00000000 -0.30280000 0.00000000 -0.34500000 0.00000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+87 0.71370000 0.00000000 0.26600000 0.00000000 -0.25450000 0.00000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+88 0.00000000 0.00000000 0.03160000 0.00000000 -0.16810000 0.00000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+89 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+90 -0.14350000 0.00000000 0.25300000 0.00000000 -0.09050000 0.00000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+91 0.53020000 0.00000000 0.00000000 0.00000000 -0.39660000 0.00000000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+92 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+93 0.00000000 0.00000000 0.03160000 0.00000000 -0.16810000 0.00000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+94 -0.14320000 0.00000000 0.06170000 0.00000000 -0.10830000 0.00000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+
+Improper Coeffs
+
+1 0.00000000 0.00000000 # c2         c1         c2         oh  WARNING: zero fallback
+2 0.00000000 0.00000000 # c2         c1       hpan         oh  WARNING: zero fallback
+3 0.00000000 0.00000000 # c2         c1         c2       hpan  WARNING: zero fallback
+4 0.10000000 0.00000000 # c2          n         cp         h*  via wildcard: *-n_-*-*
+5 0.00000000 0.00000000 # c1         c2       hpan       hpan  WARNING: zero fallback
+6 0.00000000 0.00000000 # c1         c2       hpan          n  WARNING: zero fallback
+7 0.00000000 0.00000000 # c1         c2       hpan         oc  WARNING: zero fallback
+8 0.00000000 0.00000000 # hpan         c2       hpan         oc  WARNING: zero fallback
+9 10.00000000 0.00000000 # c1         cp         c1         oc  via wildcard: *-cp_-*-*
+10 0.00000000 0.00000000 # c1         c1         cp       hpan  WARNING: zero fallback
+11 10.00000000 0.00000000 # c1         cp         c1         c2  via wildcard: *-cp_-*-*
+12 0.00000000 0.00000000 # cp         c2         cp       hpan  WARNING: zero fallback
+13 0.00000000 0.00000000 # cp         c2       hpan       hpan  WARNING: zero fallback
+14 0.00000000 0.00000000 # c3h         c2       hpan         oc  WARNING: zero fallback
+15 0.00000000 0.00000000 # c2        c3h        c3h        o3e  WARNING: zero fallback
+16 0.00000000 0.00000000 # c2        c3h        c3h       hpan  WARNING: zero fallback
+17 0.00000000 0.00000000 # c2        c3h       hpan        o3e  WARNING: zero fallback
+18 0.00000000 0.00000000 # c3h         c2       hpan       hpan  WARNING: zero fallback
+19 0.00000000 0.00000000 # c3h        c3h       hpan        o3e  WARNING: zero fallback
+20 0.00000000 0.00000000 # c3h        c3h       hpan       hpan  WARNING: zero fallback
+21 0.00000000 0.00000000 # hpan        c3h       hpan        o3e  WARNING: zero fallback
+22 0.00000000 0.00000000 # hpan         c2       hpan          n  WARNING: zero fallback
+23 0.00000000 0.00000000 # c3         c2         cp       hpan  WARNING: zero fallback
+24 0.00000000 0.00000000 # c3         c2       hpan       hpan  WARNING: zero fallback
+25 0.00000000 0.00000000 # c2         c3       hpan       hpan  WARNING: zero fallback
+26 10.00000000 0.00000000 # c1         cp         c2         cp  via wildcard: *-cp_-*-*
+27 8.32060000 0.00000000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+28 0.00000000 0.00000000 # cp         c1         cp       hpan  WARNING: zero fallback
+29 7.81530000 0.00000000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+30 5.50000000 0.00000000 # cp        npc         h*         h*  via wildcard: *-np_-*-*
+31 10.00000000 0.00000000 # cp         cp         cp          n  via wildcard: *-cp_-*-*
+32 10.00000000 0.00000000 # c1         cp         c3         cp  via wildcard: *-cp_-*-*
+33 0.00000000 0.00000000 # cp         c3       hpan       hpan  WARNING: zero fallback
+34 0.00000000 0.00000000 # hpan         c3       hpan       hpan  WARNING: zero fallback
+35 10.00000000 0.00000000 # c1         cp         c1         oc  via wildcard: *-cp_-*-*
+36 0.00000000 0.00000000 # c1         c1         cp       hpan  WARNING: zero fallback
+37 0.00000000 0.00000000 # cp         c2         cp       hpan  WARNING: zero fallback
+38 0.00000000 0.00000000 # cp         c2       hpan       hpan  WARNING: zero fallback
+39 10.00000000 0.00000000 # c1         cp         c1         c2  via wildcard: *-cp_-*-*
+40 0.00000000 0.00000000 # c3h         c2       hpan         oc  WARNING: zero fallback
+41 0.00000000 0.00000000 # hpan         c2       hpan         oc  WARNING: zero fallback
+42 0.00000000 0.00000000 # c2        c3h        c3h        o3e  WARNING: zero fallback
+43 0.00000000 0.00000000 # c2        c3h       hpan        o3e  WARNING: zero fallback
+44 0.00000000 0.00000000 # c2        c3h        c3h       hpan  WARNING: zero fallback
+45 0.00000000 0.00000000 # c3h        c3h       hpan        o3e  WARNING: zero fallback
+46 0.00000000 0.00000000 # hpan        c3h       hpan        o3e  WARNING: zero fallback
+47 0.00000000 0.00000000 # c3h        c3h       hpan       hpan  WARNING: zero fallback
+48 0.00000000 0.00000000 # c3h         c2       hpan       hpan  WARNING: zero fallback
+
+BondBond Coeffs
+
+1 11.43180000 1.53000000 1.42000000 # c2         c1         oh  via equivalence: c-c-o
+2 0.00000000 1.53000000 1.53000000 # c2         c1         c2  via equivalence: c-c-c
+3 3.38720000 1.53000000 1.10100000 # c2         c1       hpan  via equivalence: c-c-h
+4 0.00000000 1.45200000 0.00000000 # c2          n         cp  WARNING: zero fallback
+5 -3.47100000 1.45200000 1.01000000 # c2          n         h*  via equivalence: c-n-h*
+6 3.38720000 1.53000000 1.10100000 # c1         c2       hpan  via equivalence: c-c-h
+7 3.54460000 1.53000000 1.45200000 # c1         c2          n  via equivalence: c-c-n
+8 -9.68790000 1.42000000 0.96500000 # c1         oh         ho  via equivalence: c-o-h*
+9 11.43180000 1.53000000 1.42000000 # c1         c2         oc  via equivalence: c-c-o
+10 23.19790000 1.10100000 1.42000000 # hpan         c1         oh  via equivalence: h-c-o
+11 0.00000000 1.42000000 1.37680000 # c2         oc         cp  WARNING: zero fallback
+12 23.19790000 1.10100000 1.42000000 # hpan         c2         oc  via equivalence: h-c-o
+13 0.00000000 1.50100000 1.37680000 # c1         cp         oc  WARNING: zero fallback
+14 0.00000000 1.53000000 1.50100000 # c1         c1         cp  via equivalence: c-c-cp
+15 2.91680000 1.50100000 1.10100000 # cp         c1       hpan  via equivalence: cp-c-h
+16 0.00000000 1.50100000 1.50100000 # c1         cp         c1  WARNING: zero fallback
+17 3.38720000 1.53000000 1.10100000 # c1         c1       hpan  via equivalence: c-c-h
+18 0.00000000 1.50100000 1.50100000 # c1         cp         c2  WARNING: zero fallback
+19 0.00000000 1.50100000 1.50100000 # cp         c2         cp  WARNING: zero fallback
+20 2.91680000 1.50100000 1.10100000 # cp         c2       hpan  via equivalence: cp-c-h
+21 11.43180000 1.53000000 1.42000000 # c3h         c2         oc  via equivalence: c-c-o
+22 0.00000000 1.53000000 1.53000000 # c2        c3h        c3h  via equivalence: c-c-c
+23 11.43180000 1.53000000 1.42000000 # c2        c3h        o3e  via equivalence: c-c-o
+24 3.38720000 1.53000000 1.10100000 # c2        c3h       hpan  via equivalence: c-c-h
+25 3.38720000 1.53000000 1.10100000 # c3h         c2       hpan  via equivalence: c-c-h
+26 11.43180000 1.53000000 1.42000000 # c3h        c3h        o3e  via equivalence: c-c-o
+27 3.38720000 1.53000000 1.10100000 # c3h        c3h       hpan  via equivalence: c-c-h
+28 -7.11310000 1.42000000 1.42000000 # c3h        o3e        c3h  via equivalence: c-o-c
+29 23.19790000 1.10100000 1.42000000 # hpan        c3h        o3e  via equivalence: h-c-o
+30 5.33160000 1.10100000 1.10100000 # hpan         c2       hpan  via equivalence: h-c-h
+31 15.29940000 1.10100000 1.45200000 # hpan         c2          n  via equivalence: h-c-n
+32 5.33160000 1.10100000 1.10100000 # hpan        c3h       hpan  via equivalence: h-c-h
+33 0.00000000 1.53000000 1.50100000 # c3         c2         cp  via equivalence: c-c-cp
+34 3.38720000 1.53000000 1.10100000 # c3         c2       hpan  via equivalence: c-c-h
+35 3.38720000 1.53000000 1.10100000 # c2         c3       hpan  via equivalence: c-c-h
+36 12.06760000 1.50100000 1.41700000 # c2         cp         cp  via equivalence: c-cp-cp
+37 68.28560000 1.41700000 1.41700000 # cp         cp         cp
+38 70.04510000 1.41700000 1.37490000 # cp         cp        npc  via equivalence: cp-cp-nh
+39 0.00000000 1.50100000 1.50100000 # cp         c1         cp  WARNING: zero fallback
+40 12.06760000 1.50100000 1.41700000 # c1         cp         cp  via equivalence: c-cp-cp
+41 0.51870000 1.37490000 1.00530000 # cp        npc         h*  via equivalence: cp-nh-h*
+42 0.00000000 1.41700000 0.00000000 # cp         cp          n  WARNING: zero fallback
+43 12.06760000 1.50100000 1.41700000 # c3         cp         cp  via equivalence: c-cp-cp
+44 0.00000000 0.00000000 1.01000000 # cp          n         h*  WARNING: zero fallback
+45 2.91680000 1.50100000 1.10100000 # cp         c3       hpan  via equivalence: cp-c-h
+46 0.00000000 1.50100000 1.50100000 # c1         cp         c3  WARNING: zero fallback
+47 5.33160000 1.10100000 1.10100000 # hpan         c3       hpan  via equivalence: h-c-h
+48 0.00000000 1.00530000 1.00530000 # h*        npc         h*  WARNING: zero fallback
+49 0.00000000 1.50100000 1.50100000 # c1         cp         c1  WARNING: zero fallback
+50 0.00000000 1.50100000 1.37680000 # c1         cp         oc  WARNING: zero fallback
+51 0.00000000 1.53000000 1.50100000 # c1         c1         cp  via equivalence: c-c-cp
+52 3.38720000 1.53000000 1.10100000 # c1         c1       hpan  via equivalence: c-c-h
+53 2.91680000 1.50100000 1.10100000 # cp         c1       hpan  via equivalence: cp-c-h
+54 0.00000000 1.42000000 1.37680000 # c2         oc         cp  WARNING: zero fallback
+55 0.00000000 1.50100000 1.50100000 # cp         c2         cp  WARNING: zero fallback
+56 2.91680000 1.50100000 1.10100000 # cp         c2       hpan  via equivalence: cp-c-h
+57 0.00000000 1.50100000 1.50100000 # c1         cp         c2  WARNING: zero fallback
+58 11.43180000 1.53000000 1.42000000 # c3h         c2         oc  via equivalence: c-c-o
+59 23.19790000 1.10100000 1.42000000 # hpan         c2         oc  via equivalence: h-c-o
+60 5.33160000 1.10100000 1.10100000 # hpan         c2       hpan  via equivalence: h-c-h
+61 11.43180000 1.53000000 1.42000000 # c2        c3h        o3e  via equivalence: c-c-o
+62 0.00000000 1.53000000 1.53000000 # c2        c3h        c3h  via equivalence: c-c-c
+63 3.38720000 1.53000000 1.10100000 # c2        c3h       hpan  via equivalence: c-c-h
+64 11.43180000 1.53000000 1.42000000 # c3h        c3h        o3e  via equivalence: c-c-o
+65 23.19790000 1.10100000 1.42000000 # hpan        c3h        o3e  via equivalence: h-c-o
+66 3.38720000 1.53000000 1.10100000 # c3h        c3h       hpan  via equivalence: c-c-h
+67 5.33160000 1.10100000 1.10100000 # hpan        c3h       hpan  via equivalence: h-c-h
+68 3.38720000 1.53000000 1.10100000 # c3h         c2       hpan  via equivalence: c-c-h
+69 -7.11310000 1.42000000 1.42000000 # c3h        o3e        c3h  via equivalence: c-o-c
+
+BondAngle Coeffs
+
+1 2.68680000 20.40330000 1.53000000 1.42000000 # c2         c1         oh  via equivalence: c-c-o
+2 8.01600000 8.01600000 1.53000000 1.53000000 # c2         c1         c2  via equivalence: c-c-c
+3 20.75400000 11.42100000 1.53000000 1.10100000 # c2         c1       hpan  via equivalence: c-c-h
+4 0.00000000 0.00000000 1.45200000 0.00000000 # c2          n         cp  WARNING: zero fallback
+5 11.88280000 5.93390000 1.45200000 1.01000000 # c2          n         h*  via equivalence: c-n-h*
+6 20.75400000 11.42100000 1.53000000 1.10100000 # c1         c2       hpan  via equivalence: c-c-h
+7 -5.47900000 4.60310000 1.53000000 1.45200000 # c1         c2          n  via equivalence: c-c-n
+8 28.58000000 18.92770000 1.42000000 0.96500000 # c1         oh         ho  via equivalence: c-o-h*
+9 2.68680000 20.40330000 1.53000000 1.42000000 # c1         c2         oc  via equivalence: c-c-o
+10 4.61890000 55.32700000 1.10100000 1.42000000 # hpan         c1         oh  via equivalence: h-c-o
+11 0.00000000 0.00000000 1.42000000 1.37680000 # c2         oc         cp  WARNING: zero fallback
+12 4.61890000 55.32700000 1.10100000 1.42000000 # hpan         c2         oc  via equivalence: h-c-o
+13 0.00000000 0.00000000 1.50100000 1.37680000 # c1         cp         oc  WARNING: zero fallback
+14 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp  via equivalence: c-c-cp
+15 26.46080000 11.77170000 1.50100000 1.10100000 # cp         c1       hpan  via equivalence: cp-c-h
+16 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c1  WARNING: zero fallback
+17 20.75400000 11.42100000 1.53000000 1.10100000 # c1         c1       hpan  via equivalence: c-c-h
+18 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c2  WARNING: zero fallback
+19 0.00000000 0.00000000 1.50100000 1.50100000 # cp         c2         cp  WARNING: zero fallback
+20 26.46080000 11.77170000 1.50100000 1.10100000 # cp         c2       hpan  via equivalence: cp-c-h
+21 2.68680000 20.40330000 1.53000000 1.42000000 # c3h         c2         oc  via equivalence: c-c-o
+22 8.01600000 8.01600000 1.53000000 1.53000000 # c2        c3h        c3h  via equivalence: c-c-c
+23 2.68680000 20.40330000 1.53000000 1.42000000 # c2        c3h        o3e  via equivalence: c-c-o
+24 20.75400000 11.42100000 1.53000000 1.10100000 # c2        c3h       hpan  via equivalence: c-c-h
+25 20.75400000 11.42100000 1.53000000 1.10100000 # c3h         c2       hpan  via equivalence: c-c-h
+26 2.68680000 20.40330000 1.53000000 1.42000000 # c3h        c3h        o3e  via equivalence: c-c-o
+27 20.75400000 11.42100000 1.53000000 1.10100000 # c3h        c3h       hpan  via equivalence: c-c-h
+28 -2.81120000 -2.81120000 1.42000000 1.42000000 # c3h        o3e        c3h  via equivalence: c-o-c
+29 4.61890000 55.32700000 1.10100000 1.42000000 # hpan        c3h        o3e  via equivalence: h-c-o
+30 18.10300000 18.10300000 1.10100000 1.10100000 # hpan         c2       hpan  via equivalence: h-c-h
+31 10.69170000 34.89070000 1.10100000 1.45200000 # hpan         c2          n  via equivalence: h-c-n
+32 18.10300000 18.10300000 1.10100000 1.10100000 # hpan        c3h       hpan  via equivalence: h-c-h
+33 0.00000000 0.00000000 1.53000000 1.50100000 # c3         c2         cp  via equivalence: c-c-cp
+34 20.75400000 11.42100000 1.53000000 1.10100000 # c3         c2       hpan  via equivalence: c-c-h
+35 20.75400000 11.42100000 1.53000000 1.10100000 # c2         c3       hpan  via equivalence: c-c-h
+36 47.05790000 31.07710000 1.50100000 1.41700000 # c2         cp         cp  via equivalence: c-cp-cp
+37 28.87080000 28.87080000 1.41700000 1.41700000 # cp         cp         cp
+38 64.05220000 87.10000000 1.41700000 1.37490000 # cp         cp        npc  via equivalence: cp-cp-nh
+39 0.00000000 0.00000000 1.50100000 1.50100000 # cp         c1         cp  WARNING: zero fallback
+40 47.05790000 31.07710000 1.50100000 1.41700000 # c1         cp         cp  via equivalence: c-cp-cp
+41 7.74130000 4.86600000 1.37490000 1.00530000 # cp        npc         h*  via equivalence: cp-nh-h*
+42 0.00000000 0.00000000 1.41700000 0.00000000 # cp         cp          n  WARNING: zero fallback
+43 47.05790000 31.07710000 1.50100000 1.41700000 # c3         cp         cp  via equivalence: c-cp-cp
+44 0.00000000 0.00000000 0.00000000 1.01000000 # cp          n         h*  WARNING: zero fallback
+45 26.46080000 11.77170000 1.50100000 1.10100000 # cp         c3       hpan  via equivalence: cp-c-h
+46 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c3  WARNING: zero fallback
+47 18.10300000 18.10300000 1.10100000 1.10100000 # hpan         c3       hpan  via equivalence: h-c-h
+48 0.00000000 0.00000000 1.00530000 1.00530000 # h*        npc         h*  WARNING: zero fallback
+49 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c1  WARNING: zero fallback
+50 0.00000000 0.00000000 1.50100000 1.37680000 # c1         cp         oc  WARNING: zero fallback
+51 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp  via equivalence: c-c-cp
+52 20.75400000 11.42100000 1.53000000 1.10100000 # c1         c1       hpan  via equivalence: c-c-h
+53 26.46080000 11.77170000 1.50100000 1.10100000 # cp         c1       hpan  via equivalence: cp-c-h
+54 0.00000000 0.00000000 1.42000000 1.37680000 # c2         oc         cp  WARNING: zero fallback
+55 0.00000000 0.00000000 1.50100000 1.50100000 # cp         c2         cp  WARNING: zero fallback
+56 26.46080000 11.77170000 1.50100000 1.10100000 # cp         c2       hpan  via equivalence: cp-c-h
+57 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c2  WARNING: zero fallback
+58 2.68680000 20.40330000 1.53000000 1.42000000 # c3h         c2         oc  via equivalence: c-c-o
+59 4.61890000 55.32700000 1.10100000 1.42000000 # hpan         c2         oc  via equivalence: h-c-o
+60 18.10300000 18.10300000 1.10100000 1.10100000 # hpan         c2       hpan  via equivalence: h-c-h
+61 2.68680000 20.40330000 1.53000000 1.42000000 # c2        c3h        o3e  via equivalence: c-c-o
+62 8.01600000 8.01600000 1.53000000 1.53000000 # c2        c3h        c3h  via equivalence: c-c-c
+63 20.75400000 11.42100000 1.53000000 1.10100000 # c2        c3h       hpan  via equivalence: c-c-h
+64 2.68680000 20.40330000 1.53000000 1.42000000 # c3h        c3h        o3e  via equivalence: c-c-o
+65 4.61890000 55.32700000 1.10100000 1.42000000 # hpan        c3h        o3e  via equivalence: h-c-o
+66 20.75400000 11.42100000 1.53000000 1.10100000 # c3h        c3h       hpan  via equivalence: c-c-h
+67 18.10300000 18.10300000 1.10100000 1.10100000 # hpan        c3h       hpan  via equivalence: h-c-h
+68 20.75400000 11.42100000 1.53000000 1.10100000 # c3h         c2       hpan  via equivalence: c-c-h
+69 -2.81120000 -2.81120000 1.42000000 1.42000000 # c3h        o3e        c3h  via equivalence: c-o-c
+
+AngleAngle Coeffs
+
+1 -0.83300000 -0.83300000 -3.57440000 112.67000000 111.27000000 111.27000000 # c2         c1         c2         oh  via equivalence: c-c-c-o
+2 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c2         c1       hpan         oh  via equivalence: c-c-h-o
+3 -1.31990000 -1.31990000 0.11840000 112.67000000 110.77000000 110.77000000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 0.00000000 0.00000000 113.86830000 0.00000000 # c2          n         cp         h*  WARNING: zero fallback
+5 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c1         c2       hpan       hpan  via equivalence: c-c-h-h
+6 -0.88960000 -3.36970000 -0.69310000 110.77000000 114.30180000 108.93720000 # c1         c2       hpan          n  via equivalence: c-c-h-n
+7 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c1         c2       hpan         oc  via equivalence: c-c-h-o
+8 2.42590000 2.42590000 2.12830000 107.66000000 108.72800000 108.72800000 # hpan         c2       hpan         oc  via equivalence: h-c-h-o
+9 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1         oc  WARNING: zero fallback
+10 2.04030000 -1.82020000 1.08270000 108.40000000 110.77000000 111.00000000 # c1         c1         cp       hpan  via equivalence: c-c-cp-h
+11 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1         c2  WARNING: zero fallback
+12 0.00000000 0.00000000 0.00000000 111.00000000 111.00000000 111.00000000 # cp         c2         cp       hpan  WARNING: zero fallback
+13 2.37940000 3.01180000 2.37940000 111.00000000 111.00000000 107.66000000 # cp         c2       hpan       hpan  via equivalence: cp-c-h-h
+14 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c3h         c2       hpan         oc  via equivalence: c-c-h-o
+15 -0.83300000 -0.83300000 -3.57440000 112.67000000 111.27000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+16 -1.31990000 -1.31990000 0.11840000 112.67000000 110.77000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+17 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c2        c3h       hpan        o3e  via equivalence: c-c-h-o
+18 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c3h         c2       hpan       hpan  via equivalence: c-c-h-h
+19 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c3h        c3h       hpan        o3e  via equivalence: c-c-h-o
+20 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c3h        c3h       hpan       hpan  via equivalence: c-c-h-h
+21 2.42590000 2.42590000 2.12830000 107.66000000 108.72800000 108.72800000 # hpan        c3h       hpan        o3e  via equivalence: h-c-h-o
+22 4.26590000 4.26590000 2.56210000 107.66000000 108.93720000 108.93720000 # hpan         c2       hpan          n  via equivalence: h-c-h-n
+23 2.04030000 -1.82020000 1.08270000 108.40000000 110.77000000 111.00000000 # c3         c2         cp       hpan  via equivalence: c-c-cp-h
+24 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c3         c2       hpan       hpan  via equivalence: c-c-h-h
+25 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c2         c3       hpan       hpan  via equivalence: c-c-h-h
+26 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 120.05000000 # c1         cp         c2         cp  WARNING: zero fallback
+27 0.00000000 0.00000000 0.00000000 118.90000000 112.59000000 112.59000000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+28 0.00000000 0.00000000 0.00000000 111.00000000 111.00000000 111.00000000 # cp         c1         cp       hpan  WARNING: zero fallback
+29 0.00000000 0.00000000 0.00000000 120.05000000 120.05000000 118.90000000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+30 0.00000000 0.00000000 0.00000000 109.38000000 109.38000000 0.00000000 # cp        npc         h*         h*  WARNING: zero fallback
+31 0.00000000 0.00000000 0.00000000 118.90000000 0.00000000 0.00000000 # cp         cp         cp          n  WARNING: zero fallback
+32 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 120.05000000 # c1         cp         c3         cp  WARNING: zero fallback
+33 2.37940000 3.01180000 2.37940000 111.00000000 111.00000000 107.66000000 # cp         c3       hpan       hpan  via equivalence: cp-c-h-h
+34 -0.31570000 -0.31570000 -0.31570000 107.66000000 107.66000000 107.66000000 # hpan         c3       hpan       hpan  via equivalence: h-c-h-h
+35 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1         oc  WARNING: zero fallback
+36 2.04030000 -1.82020000 1.08270000 108.40000000 110.77000000 111.00000000 # c1         c1         cp       hpan  via equivalence: c-c-cp-h
+37 0.00000000 0.00000000 0.00000000 111.00000000 111.00000000 111.00000000 # cp         c2         cp       hpan  WARNING: zero fallback
+38 2.37940000 3.01180000 2.37940000 111.00000000 111.00000000 107.66000000 # cp         c2       hpan       hpan  via equivalence: cp-c-h-h
+39 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c1         cp         c1         c2  WARNING: zero fallback
+40 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c3h         c2       hpan         oc  via equivalence: c-c-h-o
+41 2.42590000 2.42590000 2.12830000 107.66000000 108.72800000 108.72800000 # hpan         c2       hpan         oc  via equivalence: h-c-h-o
+42 -0.83300000 -0.83300000 -3.57440000 112.67000000 111.27000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+43 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c2        c3h       hpan        o3e  via equivalence: c-c-h-o
+44 -1.31990000 -1.31990000 0.11840000 112.67000000 110.77000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+45 3.91770000 2.59260000 0.16890000 110.77000000 111.27000000 108.72800000 # c3h        c3h       hpan        o3e  via equivalence: c-c-h-o
+46 2.42590000 2.42590000 2.12830000 107.66000000 108.72800000 108.72800000 # hpan        c3h       hpan        o3e  via equivalence: h-c-h-o
+47 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c3h        c3h       hpan       hpan  via equivalence: c-c-h-h
+48 0.27380000 -0.48250000 0.27380000 110.77000000 110.77000000 107.66000000 # c3h         c2       hpan       hpan  via equivalence: c-c-h-h
+
+AngleAngleTorsion Coeffs
+
+1 -12.10380000 111.27000000 105.80000000 # c2         c1         oh         ho  via equivalence: c-c-o-h*
+2 -29.04200000 112.67000000 111.27000000 # c2         c1         c2         oc  via equivalence: c-c-c-o
+3 -16.16400000 112.67000000 110.77000000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 0.00000000 # c2          n         cp         cp  WARNING: zero fallback
+5 0.00000000 114.30180000 0.00000000 # c1         c2          n         cp  WARNING: zero fallback
+6 -4.63370000 114.30180000 113.86830000 # c1         c2          n         h*  via equivalence: c-c-n-h*
+7 0.00000000 111.27000000 102.96950000 # c1         c2         oc         cp  WARNING: zero fallback
+8 -20.20060000 110.77000000 111.27000000 # hpan         c2         c1         oh  via equivalence: h-c-c-o
+9 0.00000000 114.30180000 111.27000000 # n         c2         c1         oh  via equivalence: n-c-c-o
+10 -14.04840000 111.27000000 111.27000000 # oc         c2         c1         oh  via equivalence: o-c-c-o
+11 -1.06310000 112.67000000 114.30180000 # c2         c1         c2          n  via equivalence: c-c-c-n
+12 0.00000000 0.00000000 102.96950000 # c1         cp         oc         c2  WARNING: zero fallback
+13 -20.20060000 110.77000000 111.27000000 # hpan         c1         c2         oc  via equivalence: h-c-c-o
+14 0.00000000 108.40000000 0.00000000 # c1         c1         cp         oc  WARNING: zero fallback
+15 0.00000000 111.00000000 0.00000000 # hpan         c1         cp         oc  WARNING: zero fallback
+16 0.00000000 102.96950000 108.72800000 # cp         oc         c2       hpan  WARNING: zero fallback
+17 0.00000000 108.40000000 108.40000000 # cp         c1         c1         cp  WARNING: zero fallback
+18 0.00000000 108.40000000 110.77000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+19 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c1  WARNING: zero fallback
+20 0.00000000 0.00000000 111.00000000 # c1         cp         c1       hpan  WARNING: zero fallback
+21 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c2  WARNING: zero fallback
+22 0.00000000 0.00000000 111.00000000 # c1         cp         c2         cp  WARNING: zero fallback
+23 0.00000000 0.00000000 111.00000000 # c1         cp         c2       hpan  WARNING: zero fallback
+24 0.00000000 0.00000000 111.00000000 # c2         cp         c1       hpan  WARNING: zero fallback
+25 0.00000000 111.27000000 102.96950000 # c3h         c2         oc         cp  WARNING: zero fallback
+26 -29.04200000 112.67000000 111.27000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+27 -14.04840000 111.27000000 111.27000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+28 -20.20060000 110.77000000 111.27000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+29 -29.04200000 112.67000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+30 -16.16400000 112.67000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+31 -19.00590000 111.27000000 104.50000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+32 -16.44380000 104.50000000 108.72800000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+33 -16.16400000 112.67000000 110.77000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+34 -20.20060000 110.77000000 111.27000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+35 -20.20060000 110.77000000 111.27000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+36 -12.56400000 110.77000000 110.77000000 # hpan         c1         c2       hpan  via equivalence: h-c-c-h
+37 0.00000000 0.00000000 108.93720000 # cp          n         c2       hpan  WARNING: zero fallback
+38 -6.65900000 113.86830000 108.93720000 # h*          n         c2       hpan  via equivalence: h-c-n-h*
+39 -12.79740000 110.77000000 114.30180000 # hpan         c1         c2          n  via equivalence: h-c-c-n
+40 -10.50930000 105.80000000 108.72800000 # ho         oh         c1       hpan  via equivalence: h-c-o-h*
+41 -12.56400000 110.77000000 110.77000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+42 -12.56400000 110.77000000 110.77000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+43 -12.56400000 110.77000000 110.77000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+44 0.00000000 108.40000000 120.05000000 # c3         c2         cp         cp  via equivalence: c-c-cp-cp
+45 0.00000000 0.00000000 108.40000000 # c1         cp         c2         c3  WARNING: zero fallback
+46 -14.40970000 120.05000000 118.90000000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 120.05000000 112.59000000 # c2         cp         cp        npc  via equivalence: c-cp-cp-nh
+48 0.00000000 0.00000000 111.00000000 # c2         cp         c1         cp  WARNING: zero fallback
+49 0.00000000 108.40000000 110.77000000 # cp         c2         c3       hpan  via equivalence: cp-c-c-h
+50 0.00000000 118.90000000 118.90000000 # cp         cp         cp         cp
+51 0.17780000 112.59000000 109.38000000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 0.00000000 111.00000000 120.05000000 # cp         c1         cp         cp  WARNING: zero fallback
+53 0.00000000 0.00000000 111.00000000 # c3         cp         c1         cp  WARNING: zero fallback
+54 -5.88880000 120.05000000 111.00000000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 -5.88880000 120.05000000 111.00000000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 118.90000000 0.00000000 # cp         cp         cp          n  WARNING: zero fallback
+57 -14.40970000 120.05000000 118.90000000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 -14.40970000 120.05000000 118.90000000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 0.00000000 0.00000000 # cp         cp          n         h*  WARNING: zero fallback
+60 0.00000000 118.90000000 112.59000000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 -5.88880000 120.05000000 111.00000000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 120.05000000 112.59000000 # c1         cp         cp        npc  via equivalence: c-cp-cp-nh
+63 0.00000000 120.05000000 0.00000000 # c1         cp         cp          n  WARNING: zero fallback
+64 0.00000000 0.00000000 111.00000000 # c1         cp         c3       hpan  WARNING: zero fallback
+65 0.00000000 120.05000000 0.00000000 # c3         cp         cp          n  WARNING: zero fallback
+66 0.00000000 0.00000000 111.00000000 # c3         cp         c1       hpan  WARNING: zero fallback
+67 0.00000000 120.05000000 0.00000000 # c2         cp         cp          n  WARNING: zero fallback
+68 -12.56400000 110.77000000 110.77000000 # hpan         c2         c3       hpan  via equivalence: h-c-c-h
+69 0.00000000 0.00000000 111.00000000 # c1         cp         c1       hpan  WARNING: zero fallback
+70 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c1  WARNING: zero fallback
+71 0.00000000 0.00000000 102.96950000 # c1         cp         oc         c2  WARNING: zero fallback
+72 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c2  WARNING: zero fallback
+73 0.00000000 108.40000000 108.40000000 # cp         c1         c1         cp  WARNING: zero fallback
+74 0.00000000 108.40000000 110.77000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+75 0.00000000 111.27000000 102.96950000 # c3h         c2         oc         cp  WARNING: zero fallback
+76 0.00000000 102.96950000 108.72800000 # cp         oc         c2       hpan  WARNING: zero fallback
+77 0.00000000 111.00000000 0.00000000 # hpan         c1         cp         oc  WARNING: zero fallback
+78 -12.56400000 110.77000000 110.77000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+79 0.00000000 0.00000000 111.00000000 # c1         cp         c2         cp  WARNING: zero fallback
+80 0.00000000 0.00000000 111.00000000 # c2         cp         c1       hpan  WARNING: zero fallback
+81 0.00000000 0.00000000 111.00000000 # c1         cp         c2       hpan  WARNING: zero fallback
+82 0.00000000 108.40000000 0.00000000 # c1         c1         cp         oc  WARNING: zero fallback
+83 -14.04840000 111.27000000 111.27000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+84 -29.04200000 112.67000000 111.27000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+85 -20.20060000 110.77000000 111.27000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+86 -19.00590000 111.27000000 104.50000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+87 -29.04200000 112.67000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+88 -16.16400000 112.67000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+89 -20.20060000 110.77000000 111.27000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+90 -20.20060000 110.77000000 111.27000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+91 -16.44380000 104.50000000 108.72800000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+92 -12.56400000 110.77000000 110.77000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+93 -16.16400000 112.67000000 110.77000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+94 -12.56400000 110.77000000 110.77000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+
+EndBondTorsion Coeffs
+
+1 -0.58000000 0.90040000 0.00000000 0.00000000 0.53430000 0.90250000 1.53000000 0.96500000 # c2         c1         oh         ho  via equivalence: c-c-o-h*
+2 -0.31900000 0.44110000 -0.71740000 1.15380000 0.84090000 -0.91380000 1.53000000 1.42000000 # c2         c1         c2         oc  via equivalence: c-c-c-o
+3 0.24860000 0.24220000 -0.09250000 0.08140000 0.05910000 0.22190000 1.53000000 1.10100000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.45200000 1.41700000 # c2          n         cp         cp  WARNING: zero fallback
+5 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 0.00000000 # c1         c2          n         cp  WARNING: zero fallback
+6 0.13200000 0.00150000 0.13240000 -0.09920000 -0.07270000 -0.41390000 1.53000000 1.01000000 # c1         c2          n         h*  via equivalence: c-c-n-h*
+7 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.37680000 # c1         c2         oc         cp  WARNING: zero fallback
+8 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan         c2         c1         oh  via equivalence: h-c-c-o
+9 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.45200000 1.42000000 # n         c2         c1         oh  via equivalence: n-c-c-o
+10 1.01650000 0.75530000 -0.46090000 1.01650000 0.75530000 -0.46090000 1.42000000 1.42000000 # oc         c2         c1         oh  via equivalence: o-c-c-o
+11 0.07420000 0.01050000 0.05180000 -0.07970000 -0.04060000 0.02550000 1.53000000 1.45200000 # c2         c1         c2          n  via equivalence: c-c-c-n
+12 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.42000000 # c1         cp         oc         c2  WARNING: zero fallback
+13 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan         c1         c2         oc  via equivalence: h-c-c-o
+14 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.37680000 # c1         c1         cp         oc  WARNING: zero fallback
+15 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.10100000 1.37680000 # hpan         c1         cp         oc  WARNING: zero fallback
+16 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.37680000 1.10100000 # cp         oc         c2       hpan  WARNING: zero fallback
+17 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # cp         c1         c1         cp  WARNING: zero fallback
+18 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+19 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+20 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c1         cp         c1       hpan  WARNING: zero fallback
+21 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+22 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+23 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c1         cp         c2       hpan  WARNING: zero fallback
+24 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c2         cp         c1       hpan  WARNING: zero fallback
+25 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.37680000 # c3h         c2         oc         cp  WARNING: zero fallback
+26 -0.31900000 0.44110000 -0.71740000 1.15380000 0.84090000 -0.91380000 1.53000000 1.42000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+27 1.01650000 0.75530000 -0.46090000 1.01650000 0.75530000 -0.46090000 1.42000000 1.42000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+28 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+29 -0.31900000 0.44110000 -0.71740000 1.15380000 0.84090000 -0.91380000 1.53000000 1.42000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+30 0.24860000 0.24220000 -0.09250000 0.08140000 0.05910000 0.22190000 1.53000000 1.10100000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+31 -0.24560000 1.05170000 -0.77950000 0.47410000 1.26350000 0.55760000 1.53000000 1.42000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+32 -0.60540000 1.33390000 0.96480000 -0.16200000 0.15640000 -1.14080000 1.42000000 1.10100000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+33 0.24860000 0.24220000 -0.09250000 0.08140000 0.05910000 0.22190000 1.53000000 1.10100000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+34 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+35 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+36 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c1         c2       hpan  via equivalence: h-c-c-h
+37 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.10100000 # cp          n         c2       hpan  WARNING: zero fallback
+38 -0.89830000 0.28260000 0.08810000 -0.48940000 0.16440000 0.31050000 1.01000000 1.10100000 # h*          n         c2       hpan  via equivalence: h-c-n-h*
+39 -0.06010000 -0.37630000 -0.18760000 0.30220000 0.25130000 0.46410000 1.10100000 1.45200000 # hpan         c1         c2          n  via equivalence: h-c-c-n
+40 -1.75540000 1.31450000 0.22630000 0.24930000 0.68030000 0.00000000 0.96500000 1.10100000 # ho         oh         c1       hpan  via equivalence: h-c-o-h*
+41 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+42 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+43 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+44 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.41700000 # c3         c2         cp         cp  via equivalence: c-c-cp-cp
+45 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.53000000 # c1         cp         c2         c3  WARNING: zero fallback
+46 0.00000000 0.24210000 0.00000000 0.00000000 -0.69180000 0.00000000 1.50100000 1.41700000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.37490000 # c2         cp         cp        npc  via equivalence: c-cp-cp-nh
+48 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # c2         cp         c1         cp  WARNING: zero fallback
+49 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # cp         c2         c3       hpan  via equivalence: cp-c-c-h
+50 -0.11850000 6.32040000 0.00000000 -0.11850000 6.32040000 0.00000000 1.41700000 1.41700000 # cp         cp         cp         cp
+51 0.00000000 0.55290000 0.00000000 0.00000000 1.48270000 0.00000000 1.41700000 1.00530000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.41700000 # cp         c1         cp         cp  WARNING: zero fallback
+53 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # c3         cp         c1         cp  WARNING: zero fallback
+54 1.39970000 0.77560000 0.00000000 -0.58350000 1.12200000 0.39780000 1.41700000 1.10100000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 1.39970000 0.77560000 0.00000000 -0.58350000 1.12200000 0.39780000 1.41700000 1.10100000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.41700000 0.00000000 # cp         cp         cp          n  WARNING: zero fallback
+57 0.00000000 0.24210000 0.00000000 0.00000000 -0.69180000 0.00000000 1.50100000 1.41700000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 0.00000000 0.24210000 0.00000000 0.00000000 -0.69180000 0.00000000 1.50100000 1.41700000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.41700000 1.01000000 # cp         cp          n         h*  WARNING: zero fallback
+60 -10.51960000 -4.06420000 0.00000000 24.24130000 -1.81130000 0.00000000 1.41700000 1.37490000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 1.39970000 0.77560000 0.00000000 -0.58350000 1.12200000 0.39780000 1.41700000 1.10100000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.37490000 # c1         cp         cp        npc  via equivalence: c-cp-cp-nh
+63 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 0.00000000 # c1         cp         cp          n  WARNING: zero fallback
+64 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c1         cp         c3       hpan  WARNING: zero fallback
+65 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 0.00000000 # c3         cp         cp          n  WARNING: zero fallback
+66 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c3         cp         c1       hpan  WARNING: zero fallback
+67 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 0.00000000 # c2         cp         cp          n  WARNING: zero fallback
+68 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c2         c3       hpan  via equivalence: h-c-c-h
+69 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c1         cp         c1       hpan  WARNING: zero fallback
+70 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+71 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.42000000 # c1         cp         oc         c2  WARNING: zero fallback
+72 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+73 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # cp         c1         c1         cp  WARNING: zero fallback
+74 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+75 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.37680000 # c3h         c2         oc         cp  WARNING: zero fallback
+76 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.37680000 1.10100000 # cp         oc         c2       hpan  WARNING: zero fallback
+77 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.10100000 1.37680000 # hpan         c1         cp         oc  WARNING: zero fallback
+78 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+79 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+80 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c2         cp         c1       hpan  WARNING: zero fallback
+81 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.50100000 1.10100000 # c1         cp         c2       hpan  WARNING: zero fallback
+82 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 1.53000000 1.37680000 # c1         c1         cp         oc  WARNING: zero fallback
+83 1.01650000 0.75530000 -0.46090000 1.01650000 0.75530000 -0.46090000 1.42000000 1.42000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+84 -0.31900000 0.44110000 -0.71740000 1.15380000 0.84090000 -0.91380000 1.53000000 1.42000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+85 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+86 -0.24560000 1.05170000 -0.77950000 0.47410000 1.26350000 0.55760000 1.53000000 1.42000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+87 -0.31900000 0.44110000 -0.71740000 1.15380000 0.84090000 -0.91380000 1.53000000 1.42000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+88 0.24860000 0.24220000 -0.09250000 0.08140000 0.05910000 0.22190000 1.53000000 1.10100000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+89 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+90 0.96810000 0.95510000 0.04360000 0.59030000 0.66690000 0.85840000 1.10100000 1.42000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+91 -0.60540000 1.33390000 0.96480000 -0.16200000 0.15640000 -1.14080000 1.42000000 1.10100000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+92 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+93 0.24860000 0.24220000 -0.09250000 0.08140000 0.05910000 0.22190000 1.53000000 1.10100000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+94 0.21300000 0.31200000 0.07770000 0.21300000 0.31200000 0.07770000 1.10100000 1.10100000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+
+MiddleBondTorsion Coeffs
+
+1 1.24720000 0.00000000 0.74850000 1.42000000 # c2         c1         oh         ho  via equivalence: c-c-o-h*
+2 -21.88420000 -7.67640000 -0.68680000 1.53000000 # c2         c1         c2         oc  via equivalence: c-c-c-o
+3 -14.87900000 -3.65810000 -0.31380000 1.53000000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 0.00000000 0.00000000 # c2          n         cp         cp  WARNING: zero fallback
+5 0.00000000 0.00000000 0.00000000 1.45200000 # c1         c2          n         cp  WARNING: zero fallback
+6 -3.54060000 -3.38660000 0.03520000 1.45200000 # c1         c2          n         h*  via equivalence: c-c-n-h*
+7 0.00000000 0.00000000 0.00000000 1.42000000 # c1         c2         oc         cp  WARNING: zero fallback
+8 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan         c2         c1         oh  via equivalence: h-c-c-o
+9 0.00000000 0.00000000 0.00000000 1.53000000 # n         c2         c1         oh  via equivalence: n-c-c-o
+10 -17.25850000 -3.61570000 -0.83640000 1.53000000 # oc         c2         c1         oh  via equivalence: o-c-c-o
+11 -4.23240000 -3.30230000 -1.32440000 1.53000000 # c2         c1         c2          n  via equivalence: c-c-c-n
+12 0.00000000 0.00000000 0.00000000 1.37680000 # c1         cp         oc         c2  WARNING: zero fallback
+13 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan         c1         c2         oc  via equivalence: h-c-c-o
+14 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         oc  WARNING: zero fallback
+15 0.00000000 0.00000000 0.00000000 1.50100000 # hpan         c1         cp         oc  WARNING: zero fallback
+16 0.00000000 0.00000000 0.00000000 1.42000000 # cp         oc         c2       hpan  WARNING: zero fallback
+17 0.00000000 0.00000000 0.00000000 1.53000000 # cp         c1         c1         cp  WARNING: zero fallback
+18 0.00000000 0.00000000 0.00000000 1.53000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+19 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+20 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c1       hpan  WARNING: zero fallback
+21 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+22 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+23 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c2       hpan  WARNING: zero fallback
+24 0.00000000 0.00000000 0.00000000 1.50100000 # c2         cp         c1       hpan  WARNING: zero fallback
+25 0.00000000 0.00000000 0.00000000 1.42000000 # c3h         c2         oc         cp  WARNING: zero fallback
+26 -21.88420000 -7.67640000 -0.68680000 1.53000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+27 -17.25850000 -3.61570000 -0.83640000 1.53000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+28 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+29 -21.88420000 -7.67640000 -0.68680000 1.53000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+30 -14.87900000 -3.65810000 -0.31380000 1.53000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+31 -5.92880000 -2.70070000 -0.31750000 1.42000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+32 -6.80070000 -4.65460000 -1.41010000 1.42000000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+33 -14.87900000 -3.65810000 -0.31380000 1.53000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+34 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+35 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+36 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c1         c2       hpan  via equivalence: h-c-c-h
+37 0.00000000 0.00000000 0.00000000 1.45200000 # cp          n         c2       hpan  WARNING: zero fallback
+38 -1.17520000 2.80580000 0.80830000 1.45200000 # h*          n         c2       hpan  via equivalence: h-c-n-h*
+39 -4.10280000 -0.59410000 -0.04700000 1.53000000 # hpan         c1         c2          n  via equivalence: h-c-c-n
+40 0.00000000 0.92410000 -0.58890000 1.42000000 # ho         oh         c1       hpan  via equivalence: h-c-o-h*
+41 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+42 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+43 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+44 0.00000000 0.00000000 0.00000000 1.50100000 # c3         c2         cp         cp  via equivalence: c-c-cp-cp
+45 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c2         c3  WARNING: zero fallback
+46 0.00000000 9.17920000 0.00000000 1.41700000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 0.00000000 0.00000000 1.41700000 # c2         cp         cp        npc  via equivalence: c-cp-cp-nh
+48 0.00000000 0.00000000 0.00000000 1.50100000 # c2         cp         c1         cp  WARNING: zero fallback
+49 0.00000000 0.00000000 0.00000000 1.53000000 # cp         c2         c3       hpan  via equivalence: cp-c-c-h
+50 27.59890000 -2.31200000 0.00000000 1.41700000 # cp         cp         cp         cp
+51 0.00000000 4.98090000 0.00000000 1.37490000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 0.00000000 0.00000000 0.00000000 1.50100000 # cp         c1         cp         cp  WARNING: zero fallback
+53 0.00000000 0.00000000 0.00000000 1.50100000 # c3         cp         c1         cp  WARNING: zero fallback
+54 -5.56790000 1.40830000 0.30100000 1.50100000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 -5.56790000 1.40830000 0.30100000 1.50100000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 0.00000000 0.00000000 1.41700000 # cp         cp         cp          n  WARNING: zero fallback
+57 0.00000000 9.17920000 0.00000000 1.41700000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 0.00000000 9.17920000 0.00000000 1.41700000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 0.00000000 0.00000000 0.00000000 # cp         cp          n         h*  WARNING: zero fallback
+60 26.80150000 0.96130000 0.00000000 1.41700000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 -5.56790000 1.40830000 0.30100000 1.50100000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 0.00000000 0.00000000 1.41700000 # c1         cp         cp        npc  via equivalence: c-cp-cp-nh
+63 0.00000000 0.00000000 0.00000000 1.41700000 # c1         cp         cp          n  WARNING: zero fallback
+64 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c3       hpan  WARNING: zero fallback
+65 0.00000000 0.00000000 0.00000000 1.41700000 # c3         cp         cp          n  WARNING: zero fallback
+66 0.00000000 0.00000000 0.00000000 1.50100000 # c3         cp         c1       hpan  WARNING: zero fallback
+67 0.00000000 0.00000000 0.00000000 1.41700000 # c2         cp         cp          n  WARNING: zero fallback
+68 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c2         c3       hpan  via equivalence: h-c-c-h
+69 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c1       hpan  WARNING: zero fallback
+70 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+71 0.00000000 0.00000000 0.00000000 1.37680000 # c1         cp         oc         c2  WARNING: zero fallback
+72 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+73 0.00000000 0.00000000 0.00000000 1.53000000 # cp         c1         c1         cp  WARNING: zero fallback
+74 0.00000000 0.00000000 0.00000000 1.53000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+75 0.00000000 0.00000000 0.00000000 1.42000000 # c3h         c2         oc         cp  WARNING: zero fallback
+76 0.00000000 0.00000000 0.00000000 1.42000000 # cp         oc         c2       hpan  WARNING: zero fallback
+77 0.00000000 0.00000000 0.00000000 1.50100000 # hpan         c1         cp         oc  WARNING: zero fallback
+78 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+79 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+80 0.00000000 0.00000000 0.00000000 1.50100000 # c2         cp         c1       hpan  WARNING: zero fallback
+81 0.00000000 0.00000000 0.00000000 1.50100000 # c1         cp         c2       hpan  WARNING: zero fallback
+82 0.00000000 0.00000000 0.00000000 1.50100000 # c1         c1         cp         oc  WARNING: zero fallback
+83 -17.25850000 -3.61570000 -0.83640000 1.53000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+84 -21.88420000 -7.67640000 -0.68680000 1.53000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+85 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+86 -5.92880000 -2.70070000 -0.31750000 1.42000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+87 -21.88420000 -7.67640000 -0.68680000 1.53000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+88 -14.87900000 -3.65810000 -0.31380000 1.53000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+89 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+90 -16.79750000 -1.22960000 -0.27500000 1.53000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+91 -6.80070000 -4.65460000 -1.41010000 1.42000000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+92 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+93 -14.87900000 -3.65810000 -0.31380000 1.53000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+94 -14.26100000 -0.53220000 -0.48640000 1.53000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+
+BondBond13 Coeffs
+
+1 0.00000000 1.53000000 0.96500000 # c2         c1         oh         ho  WARNING: zero fallback
+2 0.00000000 1.53000000 1.42000000 # c2         c1         c2         oc  WARNING: zero fallback
+3 0.00000000 1.53000000 1.10100000 # c2         c1         c2       hpan  WARNING: zero fallback
+4 0.00000000 1.45200000 1.41700000 # c2          n         cp         cp  WARNING: zero fallback
+5 0.00000000 1.53000000 0.00000000 # c1         c2          n         cp  WARNING: zero fallback
+6 0.00000000 1.53000000 1.01000000 # c1         c2          n         h*  WARNING: zero fallback
+7 0.00000000 1.53000000 1.37680000 # c1         c2         oc         cp  WARNING: zero fallback
+8 0.00000000 1.10100000 1.42000000 # hpan         c2         c1         oh  WARNING: zero fallback
+9 0.00000000 1.45200000 1.42000000 # n         c2         c1         oh  WARNING: zero fallback
+10 0.00000000 1.42000000 1.42000000 # oc         c2         c1         oh  WARNING: zero fallback
+11 0.00000000 1.53000000 1.45200000 # c2         c1         c2          n  WARNING: zero fallback
+12 0.00000000 1.50100000 1.42000000 # c1         cp         oc         c2  WARNING: zero fallback
+13 0.00000000 1.10100000 1.42000000 # hpan         c1         c2         oc  WARNING: zero fallback
+14 0.00000000 1.53000000 1.37680000 # c1         c1         cp         oc  WARNING: zero fallback
+15 0.00000000 1.10100000 1.37680000 # hpan         c1         cp         oc  WARNING: zero fallback
+16 0.00000000 1.37680000 1.10100000 # cp         oc         c2       hpan  WARNING: zero fallback
+17 0.00000000 1.50100000 1.50100000 # cp         c1         c1         cp  WARNING: zero fallback
+18 0.00000000 1.50100000 1.10100000 # cp         c1         c1       hpan  WARNING: zero fallback
+19 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+20 0.00000000 1.50100000 1.10100000 # c1         cp         c1       hpan  WARNING: zero fallback
+21 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+22 0.00000000 1.50100000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+23 0.00000000 1.50100000 1.10100000 # c1         cp         c2       hpan  WARNING: zero fallback
+24 0.00000000 1.50100000 1.10100000 # c2         cp         c1       hpan  WARNING: zero fallback
+25 0.00000000 1.53000000 1.37680000 # c3h         c2         oc         cp  WARNING: zero fallback
+26 0.00000000 1.53000000 1.42000000 # c3h        c3h         c2         oc  WARNING: zero fallback
+27 0.00000000 1.42000000 1.42000000 # o3e        c3h         c2         oc  WARNING: zero fallback
+28 0.00000000 1.10100000 1.42000000 # hpan        c3h         c2         oc  WARNING: zero fallback
+29 0.00000000 1.53000000 1.42000000 # c2        c3h        c3h        o3e  WARNING: zero fallback
+30 0.00000000 1.53000000 1.10100000 # c2        c3h        c3h       hpan  WARNING: zero fallback
+31 0.00000000 1.53000000 1.42000000 # c2        c3h        o3e        c3h  WARNING: zero fallback
+32 0.00000000 1.42000000 1.10100000 # c3h        o3e        c3h       hpan  WARNING: zero fallback
+33 0.00000000 1.53000000 1.10100000 # c3h        c3h         c2       hpan  WARNING: zero fallback
+34 0.00000000 1.10100000 1.42000000 # hpan         c2        c3h        o3e  WARNING: zero fallback
+35 0.00000000 1.10100000 1.42000000 # hpan        c3h        c3h        o3e  WARNING: zero fallback
+36 0.00000000 1.10100000 1.10100000 # hpan         c1         c2       hpan  WARNING: zero fallback
+37 0.00000000 0.00000000 1.10100000 # cp          n         c2       hpan  WARNING: zero fallback
+38 0.00000000 1.01000000 1.10100000 # h*          n         c2       hpan  WARNING: zero fallback
+39 0.00000000 1.10100000 1.45200000 # hpan         c1         c2          n  WARNING: zero fallback
+40 0.00000000 0.96500000 1.10100000 # ho         oh         c1       hpan  WARNING: zero fallback
+41 0.00000000 1.10100000 1.10100000 # hpan         c1         c1       hpan  WARNING: zero fallback
+42 0.00000000 1.10100000 1.10100000 # hpan         c2        c3h       hpan  WARNING: zero fallback
+43 0.00000000 1.10100000 1.10100000 # hpan        c3h        c3h       hpan  WARNING: zero fallback
+44 0.00000000 1.53000000 1.41700000 # c3         c2         cp         cp  WARNING: zero fallback
+45 0.00000000 1.50100000 1.53000000 # c1         cp         c2         c3  WARNING: zero fallback
+46 2.50850000 1.50100000 1.41700000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 1.50100000 1.37490000 # c2         cp         cp        npc  WARNING: zero fallback
+48 0.00000000 1.50100000 1.50100000 # c2         cp         c1         cp  WARNING: zero fallback
+49 0.00000000 1.50100000 1.10100000 # cp         c2         c3       hpan  WARNING: zero fallback
+50 53.00000000 1.41700000 1.41700000 # cp         cp         cp         cp
+51 -23.43600000 1.41700000 1.00530000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 0.00000000 1.50100000 1.41700000 # cp         c1         cp         cp  WARNING: zero fallback
+53 0.00000000 1.50100000 1.50100000 # c3         cp         c1         cp  WARNING: zero fallback
+54 -3.48260000 1.41700000 1.10100000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 -3.48260000 1.41700000 1.10100000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 1.41700000 0.00000000 # cp         cp         cp          n  WARNING: zero fallback
+57 2.50850000 1.50100000 1.41700000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 2.50850000 1.50100000 1.41700000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 1.41700000 1.01000000 # cp         cp          n         h*  WARNING: zero fallback
+60 -40.39540000 1.41700000 1.37490000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 -3.48260000 1.41700000 1.10100000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 1.50100000 1.37490000 # c1         cp         cp        npc  WARNING: zero fallback
+63 0.00000000 1.50100000 0.00000000 # c1         cp         cp          n  WARNING: zero fallback
+64 0.00000000 1.50100000 1.10100000 # c1         cp         c3       hpan  WARNING: zero fallback
+65 0.00000000 1.50100000 0.00000000 # c3         cp         cp          n  WARNING: zero fallback
+66 0.00000000 1.50100000 1.10100000 # c3         cp         c1       hpan  WARNING: zero fallback
+67 0.00000000 1.50100000 0.00000000 # c2         cp         cp          n  WARNING: zero fallback
+68 0.00000000 1.10100000 1.10100000 # hpan         c2         c3       hpan  WARNING: zero fallback
+69 0.00000000 1.50100000 1.10100000 # c1         cp         c1       hpan  WARNING: zero fallback
+70 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c1  WARNING: zero fallback
+71 0.00000000 1.50100000 1.42000000 # c1         cp         oc         c2  WARNING: zero fallback
+72 0.00000000 1.53000000 1.50100000 # c1         c1         cp         c2  WARNING: zero fallback
+73 0.00000000 1.50100000 1.50100000 # cp         c1         c1         cp  WARNING: zero fallback
+74 0.00000000 1.50100000 1.10100000 # cp         c1         c1       hpan  WARNING: zero fallback
+75 0.00000000 1.53000000 1.37680000 # c3h         c2         oc         cp  WARNING: zero fallback
+76 0.00000000 1.37680000 1.10100000 # cp         oc         c2       hpan  WARNING: zero fallback
+77 0.00000000 1.10100000 1.37680000 # hpan         c1         cp         oc  WARNING: zero fallback
+78 0.00000000 1.10100000 1.10100000 # hpan         c1         c1       hpan  WARNING: zero fallback
+79 0.00000000 1.50100000 1.50100000 # c1         cp         c2         cp  WARNING: zero fallback
+80 0.00000000 1.50100000 1.10100000 # c2         cp         c1       hpan  WARNING: zero fallback
+81 0.00000000 1.50100000 1.10100000 # c1         cp         c2       hpan  WARNING: zero fallback
+82 0.00000000 1.53000000 1.37680000 # c1         c1         cp         oc  WARNING: zero fallback
+83 0.00000000 1.42000000 1.42000000 # o3e        c3h         c2         oc  WARNING: zero fallback
+84 0.00000000 1.53000000 1.42000000 # c3h        c3h         c2         oc  WARNING: zero fallback
+85 0.00000000 1.10100000 1.42000000 # hpan        c3h         c2         oc  WARNING: zero fallback
+86 0.00000000 1.53000000 1.42000000 # c2        c3h        o3e        c3h  WARNING: zero fallback
+87 0.00000000 1.53000000 1.42000000 # c2        c3h        c3h        o3e  WARNING: zero fallback
+88 0.00000000 1.53000000 1.10100000 # c2        c3h        c3h       hpan  WARNING: zero fallback
+89 0.00000000 1.10100000 1.42000000 # hpan         c2        c3h        o3e  WARNING: zero fallback
+90 0.00000000 1.10100000 1.42000000 # hpan        c3h        c3h        o3e  WARNING: zero fallback
+91 0.00000000 1.42000000 1.10100000 # c3h        o3e        c3h       hpan  WARNING: zero fallback
+92 0.00000000 1.10100000 1.10100000 # hpan        c3h        c3h       hpan  WARNING: zero fallback
+93 0.00000000 1.53000000 1.10100000 # c3h        c3h         c2       hpan  WARNING: zero fallback
+94 0.00000000 1.10100000 1.10100000 # hpan         c2        c3h       hpan  WARNING: zero fallback
+
+AngleTorsion Coeffs
+
+1 -3.59030000 2.52250000 0.48880000 0.87260000 -0.35770000 0.38880000 111.27000000 105.80000000 # c2         c1         oh         ho  via equivalence: c-c-o-h*
+2 0.56230000 -0.30410000 -0.40150000 0.96720000 -0.75660000 -1.23310000 112.67000000 111.27000000 # c2         c1         c2         oc  via equivalence: c-c-c-o
+3 -0.24540000 0.00000000 -0.11360000 0.31130000 0.45160000 -0.19880000 112.67000000 110.77000000 # c2         c1         c2       hpan  via equivalence: c-c-c-h
+4 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # c2          n         cp         cp  WARNING: zero fallback
+5 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 114.30180000 0.00000000 # c1         c2          n         cp  WARNING: zero fallback
+6 -2.89670000 2.70840000 -0.03750000 -0.58070000 0.20410000 -0.13840000 114.30180000 113.86830000 # c1         c2          n         h*  via equivalence: c-c-n-h*
+7 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.27000000 102.96950000 # c1         c2         oc         cp  WARNING: zero fallback
+8 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan         c2         c1         oh  via equivalence: h-c-c-o
+9 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 114.30180000 111.27000000 # n         c2         c1         oh  via equivalence: n-c-c-o
+10 0.55110000 0.97370000 -0.66730000 0.55110000 0.97370000 -0.66730000 111.27000000 111.27000000 # oc         c2         c1         oh  via equivalence: o-c-c-o
+11 -0.55010000 -1.69820000 0.24850000 0.20390000 0.16020000 -0.79460000 112.67000000 114.30180000 # c2         c1         c2          n  via equivalence: c-c-c-n
+12 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 102.96950000 # c1         cp         oc         c2  WARNING: zero fallback
+13 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan         c1         c2         oc  via equivalence: h-c-c-o
+14 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         oc  WARNING: zero fallback
+15 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 0.00000000 # hpan         c1         cp         oc  WARNING: zero fallback
+16 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 102.96950000 108.72800000 # cp         oc         c2       hpan  WARNING: zero fallback
+17 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 108.40000000 # cp         c1         c1         cp  WARNING: zero fallback
+18 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 110.77000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+19 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c1  WARNING: zero fallback
+20 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c1       hpan  WARNING: zero fallback
+21 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c2  WARNING: zero fallback
+22 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c2         cp  WARNING: zero fallback
+23 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c2       hpan  WARNING: zero fallback
+24 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c2         cp         c1       hpan  WARNING: zero fallback
+25 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.27000000 102.96950000 # c3h         c2         oc         cp  WARNING: zero fallback
+26 0.56230000 -0.30410000 -0.40150000 0.96720000 -0.75660000 -1.23310000 112.67000000 111.27000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+27 0.55110000 0.97370000 -0.66730000 0.55110000 0.97370000 -0.66730000 111.27000000 111.27000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+28 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+29 0.56230000 -0.30410000 -0.40150000 0.96720000 -0.75660000 -1.23310000 112.67000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+30 -0.24540000 0.00000000 -0.11360000 0.31130000 0.45160000 -0.19880000 112.67000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+31 -2.74660000 1.48770000 -0.89550000 0.56760000 0.94500000 0.07030000 111.27000000 104.50000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+32 -1.82340000 1.63930000 0.51440000 -0.77770000 0.43400000 -0.66530000 104.50000000 108.72800000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+33 -0.24540000 0.00000000 -0.11360000 0.31130000 0.45160000 -0.19880000 112.67000000 110.77000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+34 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+35 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+36 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c1         c2       hpan  via equivalence: h-c-c-h
+37 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.93720000 # cp          n         c2       hpan  WARNING: zero fallback
+38 -3.70220000 1.38760000 0.23930000 -0.38680000 0.20410000 0.04450000 113.86830000 108.93720000 # h*          n         c2       hpan  via equivalence: h-c-n-h*
+39 -1.24690000 1.69330000 -1.20810000 -1.98200000 0.23250000 -0.39280000 110.77000000 114.30180000 # hpan         c1         c2          n  via equivalence: h-c-c-n
+40 -3.40600000 1.63960000 0.07370000 0.00000000 -0.28100000 -0.59440000 105.80000000 108.72800000 # ho         oh         c1       hpan  via equivalence: h-c-o-h*
+41 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+42 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+43 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+44 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 120.05000000 # c3         c2         cp         cp  via equivalence: c-c-cp-cp
+45 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 # c1         cp         c2         c3  WARNING: zero fallback
+46 0.00000000 -4.46830000 0.00000000 0.00000000 3.89870000 0.00000000 120.05000000 118.90000000 # c2         cp         cp         cp  via equivalence: c-cp-cp-cp
+47 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 112.59000000 # c2         cp         cp        npc  via equivalence: c-cp-cp-nh
+48 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c2         cp         c1         cp  WARNING: zero fallback
+49 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 110.77000000 # cp         c2         c3       hpan  via equivalence: cp-c-c-h
+50 1.97670000 1.02390000 0.00000000 1.97670000 1.02390000 0.00000000 118.90000000 118.90000000 # cp         cp         cp         cp
+51 0.00000000 2.31510000 0.00000000 0.00000000 1.05300000 0.00000000 112.59000000 109.38000000 # cp         cp        npc         h*  via equivalence: cp-cp-nh-h*
+52 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 120.05000000 # cp         c1         cp         cp  WARNING: zero fallback
+53 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c3         cp         c1         cp  WARNING: zero fallback
+54 4.62660000 0.16320000 0.04610000 0.22510000 0.65480000 0.12370000 120.05000000 111.00000000 # cp         cp         c2       hpan  via equivalence: h-c-cp-cp
+55 4.62660000 0.16320000 0.04610000 0.22510000 0.65480000 0.12370000 120.05000000 111.00000000 # cp         cp         c1       hpan  via equivalence: h-c-cp-cp
+56 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 118.90000000 0.00000000 # cp         cp         cp          n  WARNING: zero fallback
+57 0.00000000 -4.46830000 0.00000000 0.00000000 3.89870000 0.00000000 120.05000000 118.90000000 # c1         cp         cp         cp  via equivalence: c-cp-cp-cp
+58 0.00000000 -4.46830000 0.00000000 0.00000000 3.89870000 0.00000000 120.05000000 118.90000000 # c3         cp         cp         cp  via equivalence: c-cp-cp-cp
+59 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 # cp         cp          n         h*  WARNING: zero fallback
+60 -9.92780000 -5.34490000 0.00000000 -7.02960000 -6.36110000 0.00000000 118.90000000 112.59000000 # cp         cp         cp        npc  via equivalence: cp-cp-cp-nh
+61 4.62660000 0.16320000 0.04610000 0.22510000 0.65480000 0.12370000 120.05000000 111.00000000 # cp         cp         c3       hpan  via equivalence: h-c-cp-cp
+62 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 112.59000000 # c1         cp         cp        npc  via equivalence: c-cp-cp-nh
+63 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 0.00000000 # c1         cp         cp          n  WARNING: zero fallback
+64 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c3       hpan  WARNING: zero fallback
+65 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 0.00000000 # c3         cp         cp          n  WARNING: zero fallback
+66 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c3         cp         c1       hpan  WARNING: zero fallback
+67 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 120.05000000 0.00000000 # c2         cp         cp          n  WARNING: zero fallback
+68 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c2         c3       hpan  via equivalence: h-c-c-h
+69 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c1       hpan  WARNING: zero fallback
+70 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c1  WARNING: zero fallback
+71 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 102.96950000 # c1         cp         oc         c2  WARNING: zero fallback
+72 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         c2  WARNING: zero fallback
+73 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 108.40000000 # cp         c1         c1         cp  WARNING: zero fallback
+74 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 110.77000000 # cp         c1         c1       hpan  via equivalence: cp-c-c-h
+75 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.27000000 102.96950000 # c3h         c2         oc         cp  WARNING: zero fallback
+76 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 102.96950000 108.72800000 # cp         oc         c2       hpan  WARNING: zero fallback
+77 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 0.00000000 # hpan         c1         cp         oc  WARNING: zero fallback
+78 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c1         c1       hpan  via equivalence: h-c-c-h
+79 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c2         cp  WARNING: zero fallback
+80 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c2         cp         c1       hpan  WARNING: zero fallback
+81 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 111.00000000 # c1         cp         c2       hpan  WARNING: zero fallback
+82 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 108.40000000 0.00000000 # c1         c1         cp         oc  WARNING: zero fallback
+83 0.55110000 0.97370000 -0.66730000 0.55110000 0.97370000 -0.66730000 111.27000000 111.27000000 # o3e        c3h         c2         oc  via equivalence: o-c-c-o
+84 0.56230000 -0.30410000 -0.40150000 0.96720000 -0.75660000 -1.23310000 112.67000000 111.27000000 # c3h        c3h         c2         oc  via equivalence: c-c-c-o
+85 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan        c3h         c2         oc  via equivalence: h-c-c-o
+86 -2.74660000 1.48770000 -0.89550000 0.56760000 0.94500000 0.07030000 111.27000000 104.50000000 # c2        c3h        o3e        c3h  via equivalence: c-c-o-c
+87 0.56230000 -0.30410000 -0.40150000 0.96720000 -0.75660000 -1.23310000 112.67000000 111.27000000 # c2        c3h        c3h        o3e  via equivalence: c-c-c-o
+88 -0.24540000 0.00000000 -0.11360000 0.31130000 0.45160000 -0.19880000 112.67000000 110.77000000 # c2        c3h        c3h       hpan  via equivalence: c-c-c-h
+89 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan         c2        c3h        o3e  via equivalence: h-c-c-o
+90 2.36680000 2.49200000 -1.01220000 -0.18920000 0.49180000 0.72730000 110.77000000 111.27000000 # hpan        c3h        c3h        o3e  via equivalence: h-c-c-o
+91 -1.82340000 1.63930000 0.51440000 -0.77770000 0.43400000 -0.66530000 104.50000000 108.72800000 # c3h        o3e        c3h       hpan  via equivalence: h-c-o-c
+92 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan        c3h        c3h       hpan  via equivalence: h-c-c-h
+93 -0.24540000 0.00000000 -0.11360000 0.31130000 0.45160000 -0.19880000 112.67000000 110.77000000 # c3h        c3h         c2       hpan  via equivalence: c-c-c-h
+94 -0.80850000 0.55690000 -0.24660000 -0.80850000 0.55690000 -0.24660000 110.77000000 110.77000000 # hpan         c2        c3h       hpan  via equivalence: h-c-c-h
+
+Atoms # full
+
+1 1 1 0.104800 -1.723814530 0.590316239 0.102222222 0 0 0 # c2
+2 1 2 0.080000 -2.223114530 0.786816239 -1.348877778 0 0 0 # c1
+3 1 3 -0.557100 -3.416814530 1.527216239 -1.309477778 0 0 0 # oh
+4 1 1 0.027000 -2.474114530 -0.537483761 -2.087477778 0 0 0 # c2
+5 1 8 0.053000 -2.508314530 0.048216239 0.673622222 0 0 0 # hpan
+6 1 8 0.053000 -1.628714530 1.596316239 0.557122222 0 0 0 # hpan
+7 1 8 0.053000 -1.457914530 1.380916239 -1.897477778 0 0 0 # hpan
+8 1 5 -0.050000 -0.221214530 -2.482383761 3.173222222 0 0 0 # cp
+9 1 5 0.000000 -0.500614530 -1.965083761 1.872122222 0 0 0 # cp
+10 1 5 0.000000 -0.159414530 -0.617883761 1.552022222 0 0 0 # cp
+11 1 5 0.000000 0.426485470 0.208316239 2.550922222 0 0 0 # cp
+12 1 2 -0.053000 0.670285470 -0.315083761 3.822922222 0 0 0 # c1
+13 1 9 -0.159000 0.803685470 1.652116239 2.312722222 0 0 0 # c3
+14 1 10 -0.650300 -0.443314530 -0.115683761 0.231122222 0 0 0 # n
+15 1 1 -0.106000 -1.154914530 -2.847883761 0.816122222 0 0 0 # c2
+16 1 13 0.439500 2.225585470 -2.429583761 -0.120377778 0 0 0 # h*
+17 2 18 -0.159500 4.213585470 -0.794283761 -1.122977778 0 0 0 # oc
+18 2 17 0.027000 3.081485470 -0.023883761 -1.330177778 0 0 0 # c2
+19 2 19 -0.266000 1.667985470 -1.872483761 -0.724177778 0 0 0 # o3e
+20 2 16 0.053000 0.387485470 0.200216239 -1.688077778 0 0 0 # hpan
+21 2 20 0.080000 1.950985470 -0.527883761 -0.427577778 0 0 0 # c3h
+22 2 16 0.053000 3.256985470 1.049916239 -1.131977778 0 0 0 # hpan
+23 2 16 0.053000 2.787285470 -0.108383761 -2.398077778 0 0 0 # hpan
+24 2 20 0.027000 0.671985470 0.315516239 -0.622577778 0 0 0 # c3h
+25 2 16 0.053000 0.878085470 1.392816239 -0.463177778 0 0 0 # hpan
+26 2 16 0.053000 2.294585470 -0.421883761 0.627022222 0 0 0 # hpan
+
+Bonds
+
+      1     1       1       2
+      2     2       1       5
+      3     2       1       6
+      4     3       1      14
+      5     4       2       3
+      6     1       2       4
+      7     5       2       7
+      8    18       8       9
+      9    18       9      10
+     10    11       9      15
+     11    18      10      11
+     12    20      10      14
+     13     9      11      12
+     14    21      11      13
+     15    22      14      16
+     16    30      17      18
+     17    31      18      21
+     18    29      18      22
+     19    29      18      23
+     20    32      19      21
+     21    32      19      24
+     22    33      20      24
+     23    34      21      24
+     24    33      21      26
+     25    33      24      25
+
+Angles
+
+      1     1       1       2       3
+      2     2       1       2       4
+      3     3       1       2       7
+      4     4       1      14      10
+      5     5       1      14      16
+      6     6       2       1       5
+      7     6       2       1       6
+      8     7       2       1      14
+      9     1       3       2       4
+     10    10       3       2       7
+     11     3       4       2       7
+     12    30       5       1       6
+     13    31       5       1      14
+     14    31       6       1      14
+     15    37       8       9      10
+     16    36       8       9      15
+     17    37       9      10      11
+     18    42       9      10      14
+     19    36      10       9      15
+     20    40      10      11      12
+     21    43      10      11      13
+     22    44      10      14      16
+     23    42      11      10      14
+     24    46      12      11      13
+     25    58      17      18      21
+     26    59      17      18      22
+     27    59      17      18      23
+     28    61      18      21      19
+     29    62      18      21      24
+     30    63      18      21      26
+     31    64      19      21      24
+     32    65      19      21      26
+     33    65      19      24      20
+     34    64      19      24      21
+     35    65      19      24      25
+     36    66      20      24      21
+     37    67      20      24      25
+     38    68      21      18      22
+     39    68      21      18      23
+     40    69      21      19      24
+     41    66      21      24      25
+     42    60      22      18      23
+     43    66      24      21      26
+
+Dihedrals
+
+      1     4       1      14      10       9
+      2     4       1      14      10      11
+      3     5       2       1      14      10
+      4     6       2       1      14      16
+      5     8       3       2       1       5
+      6     8       3       2       1       6
+      7     9       3       2       1      14
+      8     3       4       2       1       5
+      9     3       4       2       1       6
+     10    11       4       2       1      14
+     11    36       5       1       2       7
+     12    37       5       1      14      10
+     13    38       5       1      14      16
+     14    36       6       1       2       7
+     15    37       6       1      14      10
+     16    38       6       1      14      16
+     17    39       7       2       1      14
+     18    50       8       9      10      11
+     19    56       8       9      10      14
+     20    57       9      10      11      12
+     21    58       9      10      11      13
+     22    59       9      10      14      16
+     23    46      11      10       9      15
+     24    59      11      10      14      16
+     25    63      12      11      10      14
+     26    65      13      11      10      14
+     27    67      14      10       9      15
+     28    83      17      18      21      19
+     29    84      17      18      21      24
+     30    85      17      18      21      26
+     31    86      18      21      19      24
+     32    87      18      21      24      19
+     33    88      18      21      24      20
+     34    88      18      21      24      25
+     35    89      19      21      18      22
+     36    89      19      21      18      23
+     37    90      19      21      24      20
+     38    90      19      21      24      25
+     39    90      19      24      21      26
+     40    91      20      24      19      21
+     41    92      20      24      21      26
+     42    91      21      19      24      25
+     43    93      22      18      21      24
+     44    94      22      18      21      26
+     45    93      23      18      21      24
+     46    94      23      18      21      26
+     47    91      24      19      21      26
+     48    92      25      24      21      26
+
+Impropers
+
+      1     1       1       2       3       4
+      2     2       1       2       3       7
+      3     3       1       2       4       7
+      4     4       1      14      10      16
+      5     5       2       1       5       6
+      6     6       2       1       5      14
+      7     6       2       1       6      14
+      8     2       3       2       4       7
+      9    22       5       1       6      14
+     10    29       8       9      10      15
+     11    31       9      10      11      14
+     12    32      10      11      12      13
+     13    40      17      18      21      22
+     14    40      17      18      21      23
+     15    41      17      18      22      23
+     16    42      18      21      19      24
+     17    43      18      21      19      26
+     18    44      18      21      24      26
+     19    45      19      21      24      26
+     20    45      19      24      20      21
+     21    46      19      24      20      25
+     22    45      19      24      21      25
+     23    47      20      24      21      25
+     24    48      21      18      22      23

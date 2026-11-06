@@ -1,0 +1,312 @@
+# Atom-type scoring and force-field parameter coverage
+# Force field: pcff_iff_v1_5_CNT_poly_solv_hpan_hc_mod.frc
+# Chemical eligibility window: best score - 6
+# Only chemically eligible candidates are listed.
+# primary/cross are counts for local interactions containing the atom
+atom_id	atom_name	sybyl	candidate	chemical_score	specificity	primary_coeffs	cross_coeffs	eligible	selected
+1	C	C.3	c3	40	2	24	65	yes	yes
+1	C	C.3	c4o	40	2	9	0	yes	no
+1	C	C.3	c_a	40	2	24	65	yes	no
+1	C	C.3	cg	40	2	24	65	yes	no
+1	C	C.3	co	40	2	24	65	yes	no
+1	C	C.3	coh	40	2	24	65	yes	no
+1	C	C.3	c	37	2	24	65	yes	no
+1	C	C.3	c4	37	2	9	0	yes	no
+
+2	C	C.3	c2	65	5	35	82	yes	yes
+
+3	C	C.ar	cp	-5	1	38	68	yes	yes
+3	C	C.ar	ci	-10	1	38	68	yes	no
+
+4	C	C.ar	cp	-5	1	38	69	yes	yes
+4	C	C.ar	ci	-10	1	38	69	yes	no
+
+5	C	C.ar	cp	-5	1	41	100	yes	yes
+5	C	C.ar	ci	-10	1	41	100	yes	no
+
+6	C	C.ar	cp	-5	1	38	70	yes	yes
+6	C	C.ar	ci	-10	1	38	70	yes	no
+
+7	C	C.ar	cp	-5	1	35	57	yes	yes
+7	C	C.ar	ci	-10	1	35	57	yes	no
+
+8	C	C.ar	c1	5	3	30	28	yes	yes
+
+9	C	C.3	c3	40	2	23	38	yes	yes
+9	C	C.3	c4o	40	2	11	0	yes	no
+9	C	C.3	c_a	40	2	23	38	yes	no
+9	C	C.3	cg	40	2	23	38	yes	no
+9	C	C.3	co	40	2	23	38	yes	no
+9	C	C.3	coh	40	2	23	38	yes	no
+9	C	C.3	c	37	2	23	38	yes	no
+9	C	C.3	c4	37	2	11	0	yes	no
+
+10	N	N.pl3	n2	40	2	18	2	yes	no
+10	N	N.pl3	nb	40	2	18	37	yes	no
+10	N	N.pl3	nn	40	2	18	37	yes	no
+10	N	N.pl3	np	40	2	18	9	yes	no
+10	N	N.pl3	npc	40	2	18	46	yes	yes
+10	N	N.pl3	nr	40	2	18	2	yes	no
+10	N	N.pl3	n	37	2	18	2	yes	no
+10	N	N.pl3	n1	35	2	18	2	yes	no
+10	N	N.pl3	nh	35	2	18	46	yes	no
+10	N	N.pl3	nho	35	2	18	46	yes	no
+
+11	C	C.3	c2	65	5	35	108	yes	yes
+
+12	C	C.3	c3	40	2	24	69	yes	yes
+12	C	C.3	c4o	40	2	9	0	yes	no
+12	C	C.3	c_a	40	2	24	69	yes	no
+12	C	C.3	cg	40	2	24	69	yes	no
+12	C	C.3	co	40	2	24	69	yes	no
+12	C	C.3	coh	40	2	24	69	yes	no
+12	C	C.3	c	37	2	24	69	yes	no
+12	C	C.3	c4	37	2	9	0	yes	no
+
+13	N	N.pl3	n2	40	2	18	2	yes	no
+13	N	N.pl3	nb	40	2	18	37	yes	no
+13	N	N.pl3	nn	40	2	18	37	yes	no
+13	N	N.pl3	np	40	2	18	9	yes	no
+13	N	N.pl3	npc	40	2	18	46	yes	yes
+13	N	N.pl3	nr	40	2	18	2	yes	no
+13	N	N.pl3	n	37	2	18	2	yes	no
+13	N	N.pl3	n1	35	2	18	2	yes	no
+13	N	N.pl3	nh	35	2	18	46	yes	no
+13	N	N.pl3	nho	35	2	18	46	yes	no
+
+14	H	H	cge	30	1	7	0	yes	no
+14	H	H	h1	30	1	7	0	yes	no
+14	H	H	ha1	30	1	7	0	yes	no
+14	H	H	hdm	30	1	7	21	yes	no
+14	H	H	he1	30	1	7	0	yes	no
+14	H	H	hn2	30	1	7	0	yes	no
+14	H	H	hok	30	1	7	0	yes	no
+14	H	H	hoy	30	1	7	0	yes	no
+14	H	H	hpan	30	1	7	21	yes	yes
+14	H	H	hsi	30	1	7	21	yes	no
+14	H	H	h	27	1	7	21	yes	no
+14	H	H	h+	25	1	7	0	yes	no
+14	H	H	hi	25	1	7	0	yes	no
+14	H	H	hoc	25	1	7	0	yes	no
+14	H	H	hop	25	1	7	0	yes	no
+
+15	H	H	cge	30	1	7	0	yes	no
+15	H	H	h1	30	1	7	0	yes	no
+15	H	H	ha1	30	1	7	0	yes	no
+15	H	H	hdm	30	1	7	21	yes	no
+15	H	H	he1	30	1	7	0	yes	no
+15	H	H	hn2	30	1	7	0	yes	no
+15	H	H	hok	30	1	7	0	yes	no
+15	H	H	hoy	30	1	7	0	yes	no
+15	H	H	hpan	30	1	7	21	yes	yes
+15	H	H	hsi	30	1	7	21	yes	no
+15	H	H	h	27	1	7	21	yes	no
+15	H	H	h+	25	1	7	0	yes	no
+15	H	H	hi	25	1	7	0	yes	no
+15	H	H	hoc	25	1	7	0	yes	no
+15	H	H	hop	25	1	7	0	yes	no
+
+16	H	H	cge	30	1	7	0	yes	no
+16	H	H	h1	30	1	7	0	yes	no
+16	H	H	ha1	30	1	7	0	yes	no
+16	H	H	hdm	30	1	7	21	yes	no
+16	H	H	he1	30	1	7	0	yes	no
+16	H	H	hn2	30	1	7	0	yes	no
+16	H	H	hok	30	1	7	0	yes	no
+16	H	H	hoy	30	1	7	0	yes	no
+16	H	H	hpan	30	1	7	21	yes	yes
+16	H	H	hsi	30	1	7	21	yes	no
+16	H	H	h	27	1	7	21	yes	no
+16	H	H	h+	25	1	7	0	yes	no
+16	H	H	hi	25	1	7	0	yes	no
+16	H	H	hoc	25	1	7	0	yes	no
+16	H	H	hop	25	1	7	0	yes	no
+
+17	H	H	cge	30	1	9	0	yes	no
+17	H	H	h1	30	1	9	0	yes	no
+17	H	H	ha1	30	1	9	0	yes	no
+17	H	H	hdm	30	1	9	26	yes	no
+17	H	H	he1	30	1	9	0	yes	no
+17	H	H	hn2	30	1	9	0	yes	no
+17	H	H	hok	30	1	9	0	yes	no
+17	H	H	hoy	30	1	9	0	yes	no
+17	H	H	hpan	30	1	9	26	yes	yes
+17	H	H	hsi	30	1	9	26	yes	no
+17	H	H	h	27	1	9	26	yes	no
+17	H	H	h+	25	1	9	0	yes	no
+17	H	H	hi	25	1	9	0	yes	no
+17	H	H	hoc	25	1	9	0	yes	no
+17	H	H	hop	25	1	9	0	yes	no
+
+18	H	H	cge	30	1	9	0	yes	no
+18	H	H	h1	30	1	9	0	yes	no
+18	H	H	ha1	30	1	9	0	yes	no
+18	H	H	hdm	30	1	9	26	yes	no
+18	H	H	he1	30	1	9	0	yes	no
+18	H	H	hn2	30	1	9	0	yes	no
+18	H	H	hok	30	1	9	0	yes	no
+18	H	H	hoy	30	1	9	0	yes	no
+18	H	H	hpan	30	1	9	26	yes	yes
+18	H	H	hsi	30	1	9	26	yes	no
+18	H	H	h	27	1	9	26	yes	no
+18	H	H	h+	25	1	9	0	yes	no
+18	H	H	hi	25	1	9	0	yes	no
+18	H	H	hoc	25	1	9	0	yes	no
+18	H	H	hop	25	1	9	0	yes	no
+
+19	H	H	cge	30	1	7	0	yes	no
+19	H	H	h1	30	1	7	0	yes	no
+19	H	H	ha1	30	1	7	0	yes	no
+19	H	H	hdm	30	1	7	14	yes	no
+19	H	H	he1	30	1	7	0	yes	no
+19	H	H	hn2	30	1	7	0	yes	no
+19	H	H	hok	30	1	7	0	yes	no
+19	H	H	hoy	30	1	7	0	yes	no
+19	H	H	hpan	30	1	7	14	yes	yes
+19	H	H	hsi	30	1	7	14	yes	no
+19	H	H	h	27	1	7	14	yes	no
+19	H	H	h+	25	1	7	0	yes	no
+19	H	H	hi	25	1	7	0	yes	no
+19	H	H	hoc	25	1	7	0	yes	no
+19	H	H	hop	25	1	7	0	yes	no
+
+20	H	H	cge	30	1	6	0	yes	no
+20	H	H	h1	30	1	6	0	yes	no
+20	H	H	ha1	30	1	6	0	yes	no
+20	H	H	hdm	30	1	6	14	yes	no
+20	H	H	he1	30	1	6	0	yes	no
+20	H	H	hn2	30	1	6	0	yes	no
+20	H	H	hok	30	1	6	0	yes	no
+20	H	H	hoy	30	1	6	0	yes	no
+20	H	H	hpan	30	1	6	14	yes	yes
+20	H	H	hsi	30	1	6	14	yes	no
+20	H	H	h	27	1	6	14	yes	no
+20	H	H	h+	25	1	6	0	yes	no
+20	H	H	hi	25	1	6	0	yes	no
+20	H	H	hoc	25	1	6	0	yes	no
+20	H	H	hop	25	1	6	0	yes	no
+
+21	H	H	cge	30	1	6	0	yes	no
+21	H	H	h1	30	1	6	0	yes	no
+21	H	H	ha1	30	1	6	0	yes	no
+21	H	H	hdm	30	1	6	14	yes	no
+21	H	H	he1	30	1	6	0	yes	no
+21	H	H	hn2	30	1	6	0	yes	no
+21	H	H	hok	30	1	6	0	yes	no
+21	H	H	hoy	30	1	6	0	yes	no
+21	H	H	hpan	30	1	6	14	yes	yes
+21	H	H	hsi	30	1	6	14	yes	no
+21	H	H	h	27	1	6	14	yes	no
+21	H	H	h+	25	1	6	0	yes	no
+21	H	H	hi	25	1	6	0	yes	no
+21	H	H	hoc	25	1	6	0	yes	no
+21	H	H	hop	25	1	6	0	yes	no
+
+22	H	H	cge	30	1	6	0	yes	no
+22	H	H	h1	30	1	6	0	yes	no
+22	H	H	ha1	30	1	6	0	yes	no
+22	H	H	hdm	30	1	6	14	yes	no
+22	H	H	he1	30	1	6	0	yes	no
+22	H	H	hn2	30	1	6	0	yes	no
+22	H	H	hok	30	1	6	0	yes	no
+22	H	H	hoy	30	1	6	0	yes	no
+22	H	H	hpan	30	1	6	14	yes	yes
+22	H	H	hsi	30	1	6	14	yes	no
+22	H	H	h	27	1	6	14	yes	no
+22	H	H	h+	25	1	6	0	yes	no
+22	H	H	hi	25	1	6	0	yes	no
+22	H	H	hoc	25	1	6	0	yes	no
+22	H	H	hop	25	1	6	0	yes	no
+
+23	H	H	h*	65	3	6	12	yes	yes
+23	H	H	hn	65	3	6	12	yes	no
+
+24	H	H	h*	65	3	6	12	yes	yes
+24	H	H	hn	65	3	6	12	yes	no
+
+25	H	H	cge	30	1	9	0	yes	no
+25	H	H	h1	30	1	9	0	yes	no
+25	H	H	ha1	30	1	9	0	yes	no
+25	H	H	hdm	30	1	9	31	yes	no
+25	H	H	he1	30	1	9	0	yes	no
+25	H	H	hn2	30	1	9	0	yes	no
+25	H	H	hok	30	1	9	0	yes	no
+25	H	H	hoy	30	1	9	0	yes	no
+25	H	H	hpan	30	1	9	31	yes	yes
+25	H	H	hsi	30	1	9	31	yes	no
+25	H	H	h	27	1	9	31	yes	no
+25	H	H	h+	25	1	9	0	yes	no
+25	H	H	hi	25	1	9	0	yes	no
+25	H	H	hoc	25	1	9	0	yes	no
+25	H	H	hop	25	1	9	0	yes	no
+
+26	H	H	cge	30	1	9	0	yes	no
+26	H	H	h1	30	1	9	0	yes	no
+26	H	H	ha1	30	1	9	0	yes	no
+26	H	H	hdm	30	1	9	31	yes	no
+26	H	H	he1	30	1	9	0	yes	no
+26	H	H	hn2	30	1	9	0	yes	no
+26	H	H	hok	30	1	9	0	yes	no
+26	H	H	hoy	30	1	9	0	yes	no
+26	H	H	hpan	30	1	9	31	yes	yes
+26	H	H	hsi	30	1	9	31	yes	no
+26	H	H	h	27	1	9	31	yes	no
+26	H	H	h+	25	1	9	0	yes	no
+26	H	H	hi	25	1	9	0	yes	no
+26	H	H	hoc	25	1	9	0	yes	no
+26	H	H	hop	25	1	9	0	yes	no
+
+27	H	H	cge	30	1	7	0	yes	no
+27	H	H	h1	30	1	7	0	yes	no
+27	H	H	ha1	30	1	7	0	yes	no
+27	H	H	hdm	30	1	7	21	yes	no
+27	H	H	he1	30	1	7	0	yes	no
+27	H	H	hn2	30	1	7	0	yes	no
+27	H	H	hok	30	1	7	0	yes	no
+27	H	H	hoy	30	1	7	0	yes	no
+27	H	H	hpan	30	1	7	21	yes	yes
+27	H	H	hsi	30	1	7	21	yes	no
+27	H	H	h	27	1	7	21	yes	no
+27	H	H	h+	25	1	7	0	yes	no
+27	H	H	hi	25	1	7	0	yes	no
+27	H	H	hoc	25	1	7	0	yes	no
+27	H	H	hop	25	1	7	0	yes	no
+
+28	H	H	cge	30	1	7	0	yes	no
+28	H	H	h1	30	1	7	0	yes	no
+28	H	H	ha1	30	1	7	0	yes	no
+28	H	H	hdm	30	1	7	21	yes	no
+28	H	H	he1	30	1	7	0	yes	no
+28	H	H	hn2	30	1	7	0	yes	no
+28	H	H	hok	30	1	7	0	yes	no
+28	H	H	hoy	30	1	7	0	yes	no
+28	H	H	hpan	30	1	7	21	yes	yes
+28	H	H	hsi	30	1	7	21	yes	no
+28	H	H	h	27	1	7	21	yes	no
+28	H	H	h+	25	1	7	0	yes	no
+28	H	H	hi	25	1	7	0	yes	no
+28	H	H	hoc	25	1	7	0	yes	no
+28	H	H	hop	25	1	7	0	yes	no
+
+29	H	H	cge	30	1	7	0	yes	no
+29	H	H	h1	30	1	7	0	yes	no
+29	H	H	ha1	30	1	7	0	yes	no
+29	H	H	hdm	30	1	7	21	yes	no
+29	H	H	he1	30	1	7	0	yes	no
+29	H	H	hn2	30	1	7	0	yes	no
+29	H	H	hok	30	1	7	0	yes	no
+29	H	H	hoy	30	1	7	0	yes	no
+29	H	H	hpan	30	1	7	21	yes	yes
+29	H	H	hsi	30	1	7	21	yes	no
+29	H	H	h	27	1	7	21	yes	no
+29	H	H	h+	25	1	7	0	yes	no
+29	H	H	hi	25	1	7	0	yes	no
+29	H	H	hoc	25	1	7	0	yes	no
+29	H	H	hop	25	1	7	0	yes	no
+
+30	H	H	h*	65	3	6	12	yes	yes
+30	H	H	hn	65	3	6	12	yes	no
+
+31	H	H	h*	65	3	6	12	yes	yes
+31	H	H	hn	65	3	6	12	yes	no
+

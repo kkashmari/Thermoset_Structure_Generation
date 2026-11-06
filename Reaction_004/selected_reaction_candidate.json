@@ -1,0 +1,102 @@
+{
+  "rule_id": "secondary_amine_epoxide_opening",
+  "rule_name": "Secondary-amine\u2013epoxide ring opening",
+  "description": "Opens the selected epoxide C\u2013O bond, forms N\u2013C, and transfers the explicit N\u2013H hydrogen to oxygen.",
+  "sites": [
+    {
+      "role": "nucleophile",
+      "group": "Secondary amine",
+      "monomer": 1,
+      "match_number": 1,
+      "atom_options": [
+        "1:53"
+      ]
+    },
+    {
+      "role": "electrophile",
+      "group": "Epoxide",
+      "monomer": 2,
+      "match_number": 1,
+      "atom_options": [
+        "2:37"
+      ]
+    }
+  ],
+  "role_atoms": {
+    "electrophile": "2:37",
+    "nucleophile": "1:53",
+    "oxygen": "2:28",
+    "transfer_hydrogen": "1:67"
+  },
+  "initiator_source_refs": [
+    "1:53",
+    "2:37"
+  ],
+  "commands": [
+    "remove 1:53 1:67",
+    "remove 2:28 2:37",
+    "add 1:53 2:37 1",
+    "add 2:28 1:67 1"
+  ],
+  "action_summary": [
+    "remove 1:53\u20131:67",
+    "remove 2:28\u20132:37",
+    "add 1:53\u20132:37 (1)",
+    "add 2:28\u20131:67 (1)"
+  ],
+  "topology_identity": {
+    "preliminary_key": "22d4e6889267630d82f8",
+    "radius": 3,
+    "pre_signature": "[H]-[C](-[H])(-[O])-[C@]1(-[H])-[C:1](-[H])(-[H])-[O:3]-1.[H]-[C](-[H])(-[C@@](-[H])(-[C])-[O])-[N:2](-[c](:[c](-[C]):[c]):[c](-[C]):[c])-[H:4]",
+    "post_signature": "[H]-[C](-[H])(-[O])-[C@](-[H])(-[C:1](-[H])(-[H])-[N:2](-[c](:[c](-[C]):[c]):[c](-[C]):[c])-[C](-[H])(-[H])-[C@@](-[H])(-[C])-[O])-[O:3]-[H:4]",
+    "removed_bonds": [
+      [
+        "1:53",
+        "1:67"
+      ],
+      [
+        "2:28",
+        "2:37"
+      ]
+    ],
+    "added_bonds": [
+      [
+        "1:53",
+        "2:37",
+        "1"
+      ],
+      [
+        "2:28",
+        "1:67",
+        "1"
+      ]
+    ],
+    "bond_order_changes": [],
+    "formal_charge_changes": []
+  },
+  "prior_reaction_participation": [
+    {
+      "atom_ref": "1:53",
+      "current_roles": [
+        "nucleophile"
+      ],
+      "prior_events": [
+        {
+          "reaction": "Reaction_003",
+          "source_ref": "2:10",
+          "roles": [
+            "nucleophile"
+          ]
+        }
+      ]
+    }
+  ],
+  "history_priority": {
+    "previously_reacted_initiator_count": 1,
+    "previously_reacted_role_atom_count": 1,
+    "prior_event_count": 1,
+    "is_prioritized": true,
+    "reason": "Includes one or more atoms that participated in an earlier reaction.",
+    "rank": 1
+  }
+}

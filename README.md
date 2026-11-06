@@ -4,13 +4,22 @@ Launch by double-clicking `launch_reaction_workflow_gui.command`.
 
 The GUI has exactly two user inputs:
 
-1. one or more monomer `.mol2` files;
+1. one or more monomer `.mol2` files, SMILES strings, or a mixture of both;
 2. one force-field `.frc` file.
 
-The initial monomer files must be in the same directory. The GUI creates a new
+Enter one molecular input per line. A line containing an existing `.mol2` path
+is used directly. Any other line is parsed as SMILES. For SMILES, RDKit adds
+explicit hydrogens, generates deterministic ETKDG 3D coordinates, minimizes
+with MMFF94 or UFF when parameters are available, and Open Babel writes MOL2.
+The generated structures and original SMILES are recorded in
+`input_monomers/` and `molecular_inputs.json` inside the reaction folder.
+
+Initial MOL2 files must be in the same directory. The GUI creates a new
 `Reaction_001`, `Reaction_002`, ... directory there for every reaction, so no
 reaction template overwrites an earlier one. Charge selection is automatic and
-the reaction-template graph radius is 3 bonds.
+the reaction-template graph radius is 3 bonds. For SMILES-only input, the
+numbered reaction folder is created beside the GUI. Follow-up reactions can use
+either additional MOL2 files or additional SMILES strings.
 
 ## Automated sequence
 
@@ -43,9 +52,10 @@ the reaction-template graph radius is 3 bonds.
     signature decides whether a previous template can be reused or a new
     template is required.
 11. The GUI asks whether another reaction is required. If yes, select the
-    previous reacted-product MOL2 and one or more additional monomer MOL2 files.
-    The same force field is reused, RDKit perception starts again, and all new
-    results are written to the next numbered reaction directory.
+    previous reacted-product MOL2 and provide additional monomers as MOL2 files
+    or SMILES strings. The same force field is reused, RDKit perception starts
+    again, and all new results are written to the next numbered reaction
+    directory.
 
 RDKit never chooses a mechanism and never decides fix bond/react template
 reuse. It provides element, bond-order, aromaticity,
@@ -57,6 +67,7 @@ and approves the complete topology change.
 ## Files created in each `Reaction_###` directory
 
 - `chemistry_perception_report.html` and `.json`
+- `molecular_inputs.json` and generated `input_monomers/*.mol2` for SMILES input
 - `reaction_graph.html`
 - `reacted_product.mol2`
 - `reacted_product_minimized.mol2`

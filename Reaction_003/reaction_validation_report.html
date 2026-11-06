@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reaction validation report</title><style>
+body{font:15px system-ui;background:#eef3f8;color:#17324d;margin:0}main{max-width:1400px;margin:auto;padding:22px}
+.head,.card{background:white;border-radius:12px;padding:18px;margin-bottom:14px;box-shadow:0 1px 4px #0002}
+.status{display:inline-block;background:#16803c;color:white;border-radius:999px;padding:6px 12px;font-weight:700}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}iframe{width:100%;height:650px;border:1px solid #ccd6e0;border-radius:9px}
+table{border-collapse:collapse;width:100%}td,th{padding:8px;border-bottom:1px solid #dde5ec;text-align:left}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}</style></head><body><main>
+<section class="head"><span class="status">VALID</span><h1>Reaction validation report</h1>
+<p>This report verifies topology and structural consistency. Chemical intent still requires your approval.</p></section>
+<section class="card"><h2>Checks</h2><table>
+<tr><th>Atoms</th><td>74</td></tr>
+<tr><th>Bonds before / after</th><td>77 / 77</td></tr>
+<tr><th>Charge before / after</th><td>-0.000400 / -0.000400 e</td></tr>
+<tr><th>Changed atoms</th><td>1:1, 1:3, 2:10, 2:23</td></tr></table>
+<h3>Coordination changes</h3><ul><li>1:1 (C): degree 4 → 4</li><li>1:3 (O): degree 2 → 2</li><li>2:10 (N): degree 3 → 3</li><li>2:23 (H): degree 1 → 1</li></ul></section>
+<div class="grid"><section class="card"><h2>Removed bonds</h2><ul><li>1:1 — 1:3 (product atoms 1–3)</li><li>2:10 — 2:23 (product atoms 53–66)</li></ul></section>
+<section class="card"><h2>Added bonds</h2><ul><li>1:1 — 2:10 (product atoms 1–53)</li><li>1:3 — 2:23 (product atoms 3–66)</li></ul></section></div>
+<section class="card"><h2>Bond-order changes</h2><p>None</p></section>
+<div class="grid"><section class="card"><h2>Errors</h2><p>None</p></section>
+<section class="card"><h2>Warnings</h2><p>None</p></section></div>
+<div class="grid"><section class="card"><h2>Before reaction</h2><iframe src="reaction_graph.html"></iframe></section>
+<section class="card"><h2>Final minimized product</h2><iframe src="final_product_graph.html"></iframe></section></div>
+</main></body></html>
