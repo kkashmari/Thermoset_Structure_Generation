@@ -20,7 +20,7 @@ import reaction_history
 
 
 AUTOMATION_ROOT = Path(__file__).resolve().parent
-ROOT = AUTOMATION_ROOT.parent
+ROOT = AUTOMATION_ROOT
 GUI_PYTHON = sys.executable
 WORKFLOW_PYTHON = os.environ.get(
     "REACTION_WORKFLOW_PYTHON",

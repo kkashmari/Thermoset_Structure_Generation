@@ -1,2 +1,7 @@
 # Project exclude paths
 /.rdkit_env/
+.DS_Store
+__pycache__/
+*.pyc
+Reaction_[0-9][0-9][0-9]/
+reaction_template_registry.json
