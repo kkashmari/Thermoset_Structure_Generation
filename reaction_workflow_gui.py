@@ -13,7 +13,7 @@ import tempfile
 import threading
 from pathlib import Path
 import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
+from tkinter import filedialog, messagebox, simpledialog, ttk
 from tkinter.scrolledtext import ScrolledText
 
 import reaction_history
@@ -109,16 +109,19 @@ class ReactionWorkflowGUI(tk.Tk):
         inputs = ttk.LabelFrame(self.content, text="Reaction inputs", style="Card.TLabelframe")
         inputs.pack(fill="x", pady=5)
         inputs.columnconfigure(1, weight=1)
-        ttk.Label(inputs, text="Monomer MOL2 files", style="Card.TLabel").grid(row=0, column=0, sticky="nw", padx=(0, 8))
+        ttk.Label(inputs, text="Monomer MOL2 or SMILES", style="Card.TLabel").grid(row=0, column=0, sticky="nw", padx=(0, 8))
         self.monomer_text = tk.Text(inputs, height=4, wrap="none", font=("Menlo", 10))
         self.monomer_text.grid(row=0, column=1, sticky="ew")
         button_column = ttk.Frame(inputs)
         button_column.grid(row=0, column=2, sticky="n", padx=(8, 0))
-        ttk.Button(button_column, text="Add files…", command=self._add_monomers).pack(fill="x")
+        ttk.Button(button_column, text="Add MOL2 files…", command=self._add_monomers).pack(fill="x")
+        ttk.Button(button_column, text="Add SMILES…", command=self._add_smiles).pack(fill="x", pady=(5, 0))
         ttk.Button(button_column, text="Clear", command=lambda: self.monomer_text.delete("1.0", "end")).pack(fill="x", pady=5)
         self._path_row(inputs, 1, "Force-field .frc", self.forcefield_var,
                        save=False, extension=".frc")
         ttk.Label(inputs, text=(
+            "Enter one MOL2 path or one SMILES string per line. Inputs may be mixed. "
+            "SMILES are converted to explicit-hydrogen 3D MOL2 structures. "
             "All reports, intermediate files, parameterized monomers, products, templates, "
             "LMPMOL files, and reaction.map are created in a separate Reaction_### folder. "
             "The editable SMARTS library stays beside this GUI."),
@@ -167,6 +170,18 @@ class ReactionWorkflowGUI(tk.Tk):
             self.monomer_text.delete("1.0", "end")
             self.monomer_text.insert("1.0", "\n".join(([existing] if existing else []) + list(paths)))
 
+    def _add_smiles(self):
+        value = simpledialog.askstring(
+            "Add SMILES",
+            "Enter one or more SMILES strings, one per line:", parent=self)
+        if not value:
+            return
+        new_values = [line.strip() for line in value.splitlines() if line.strip()]
+        existing = self.monomer_text.get("1.0", "end").strip()
+        self.monomer_text.delete("1.0", "end")
+        self.monomer_text.insert(
+            "1.0", "\n".join(([existing] if existing else []) + new_values))
+
     def _choose_file(self, variable, extension):
         path = filedialog.askopenfilename(initialdir=Path(variable.get()).parent if variable.get() else ROOT,
                                           filetypes=[(f"{extension} files", f"*{extension}"), ("All files", "*")])
@@ -187,16 +202,18 @@ class ReactionWorkflowGUI(tk.Tk):
             variable.set(path)
 
     def _start(self):
-        monomers = [line.strip() for line in self.monomer_text.get("1.0", "end").splitlines() if line.strip()]
-        if not self._validate_monomers(monomers):
+        molecular_inputs = [line.strip() for line in self.monomer_text.get("1.0", "end").splitlines() if line.strip()]
+        if not self._validate_molecular_inputs(molecular_inputs):
             return
-        monomer_parents = {Path(path).expanduser().resolve().parent for path in monomers}
-        if len(monomer_parents) != 1:
+        mol2_paths = [Path(value).expanduser().resolve() for value in molecular_inputs
+                      if self._existing_mol2(value)]
+        monomer_parents = {path.parent for path in mol2_paths}
+        if len(monomer_parents) > 1:
             messagebox.showerror(
                 "Monomers must share one folder",
                 "Place the initial monomer MOL2 files in the same folder. Numbered reaction-output folders will be created there.")
             return
-        self.session_root = next(iter(monomer_parents))
+        self.session_root = next(iter(monomer_parents), AUTOMATION_ROOT)
         forcefield = Path(self.forcefield_var.get()).expanduser().resolve()
         if not forcefield.is_file() or forcefield.suffix.lower() != ".frc":
             messagebox.showerror("Missing force field", "Choose an existing .frc force-field file.")
@@ -208,22 +225,30 @@ class ReactionWorkflowGUI(tk.Tk):
             return
         self.current_forcefield = forcefield
         output_dir = self._next_reaction_directory()
-        self._launch_reaction(monomers, forcefield, output_dir, clear_log=True)
+        self._launch_reaction(molecular_inputs, forcefield, output_dir, clear_log=True)
 
-    def _validate_monomers(self, monomers, minimum=1):
-        if len(monomers) < minimum:
+    @staticmethod
+    def _existing_mol2(value):
+        try:
+            path = Path(value).expanduser()
+            return path.is_file() and path.suffix.lower() == ".mol2"
+        except OSError:
+            return False
+
+    def _validate_molecular_inputs(self, inputs, minimum=1):
+        if len(inputs) < minimum:
             messagebox.showerror(
                 "Missing molecular inputs",
                 "Select the previous reacted-product MOL2 and at least one other monomer."
                 if minimum > 1 else "Add the source monomer files used by the reaction.")
             return False
-        invalid = [path for path in monomers
-                   if Path(path).suffix.lower() != ".mol2" or not Path(path).is_file()]
-        if invalid:
+        missing_mol2 = [value for value in inputs
+                        if value.lower().endswith(".mol2") and not self._existing_mol2(value)]
+        if missing_mol2:
             messagebox.showerror(
                 "Invalid molecular input",
-                "RDKit mode requires existing MOL2 files with chemical bond orders:\n\n"
-                + "\n".join(invalid))
+                "These entries look like MOL2 paths but do not exist:\n\n"
+                + "\n".join(missing_mol2))
             return False
         return True
 
@@ -238,7 +263,7 @@ class ReactionWorkflowGUI(tk.Tk):
                 return candidate
             index += 1
 
-    def _launch_reaction(self, monomers, forcefield, output_dir, clear_log=False):
+    def _launch_reaction(self, molecular_inputs, forcefield, output_dir, clear_log=False):
         self.current_output_dir = output_dir
         raw = output_dir / "reacted_product.mol2"
         minimized = output_dir / "reacted_product_minimized.mol2"
@@ -258,7 +283,7 @@ class ReactionWorkflowGUI(tk.Tk):
         self.stop_button.configure(state="normal")
         self.status_var.set("Running")
         config = {
-            "stages": [1, 2, 3, 4], "monomers": monomers,
+            "stages": [1, 2, 3, 4], "molecular_inputs": molecular_inputs,
             "output_dir": str(output_dir),
             "raw": str(raw), "minimized": str(minimized),
             "forcefield": str(forcefield),
@@ -291,25 +316,53 @@ class ReactionWorkflowGUI(tk.Tk):
         )
         additional = ()
         if needs_additional:
-            additional = filedialog.askopenfilenames(
-                title="Select the additional monomer MOL2 file(s)",
-                initialdir=self.session_root or ROOT,
-                filetypes=[("MOL2 structures", "*.mol2"), ("All files", "*")],
-            )
+            use_files = messagebox.askyesnocancel(
+                "Additional monomer format",
+                "Choose Yes to select MOL2 files.\n"
+                "Choose No to enter one or more SMILES strings.", parent=self)
+            if use_files is None:
+                return False
+            if use_files:
+                additional = filedialog.askopenfilenames(
+                    title="Select the additional monomer MOL2 file(s)",
+                    initialdir=self.session_root or ROOT,
+                    filetypes=[("MOL2 structures", "*.mol2"), ("All files", "*")],
+                )
+            else:
+                smiles = simpledialog.askstring(
+                    "Additional monomer SMILES",
+                    "Enter one or more SMILES strings, one per line:", parent=self)
+                additional = tuple(
+                    line.strip() for line in (smiles or "").splitlines() if line.strip())
             if not additional:
                 return False
-        monomers = [previous_product, *additional]
-        if not self._validate_monomers(monomers, minimum=1):
+        molecular_inputs = [previous_product, *additional]
+        if not self._validate_molecular_inputs(molecular_inputs, minimum=1):
             return False
         self.monomer_text.delete("1.0", "end")
-        self.monomer_text.insert("1.0", "\n".join(monomers))
+        self.monomer_text.insert("1.0", "\n".join(molecular_inputs))
         output_dir = self._next_reaction_directory()
         self._launch_reaction(
-            monomers, self.current_forcefield, output_dir, clear_log=False)
+            molecular_inputs, self.current_forcefield, output_dir, clear_log=False)
         return True
 
     def _run_workflow(self, config):
         try:
+            input_dir = Path(config["output_dir"]) / "input_monomers"
+            input_manifest = Path(config["output_dir"]) / "molecular_inputs.json"
+            prepare_command = [
+                str(RDKIT_PYTHON), "-u",
+                str(AUTOMATION_ROOT / "prepare_molecular_inputs.py")]
+            for molecular_input in config["molecular_inputs"]:
+                prepare_command.extend(["--input", molecular_input])
+            prepare_command.extend([
+                "--output-dir", str(input_dir), "--manifest", str(input_manifest)])
+            self._run_process(0, "Prepare MOL2 and SMILES inputs", prepare_command)
+            input_data = json.loads(input_manifest.read_text(encoding="utf-8"))
+            config["monomers"] = input_data["resolved_mol2"]
+            self.events.put(("line", (
+                "Resolved molecular inputs:\n  "
+                + "\n  ".join(config["monomers"]) + "\n\n")))
             for stage in config["stages"]:
                 if self.stop_requested:
                     raise RuntimeError("Workflow stopped by user")
